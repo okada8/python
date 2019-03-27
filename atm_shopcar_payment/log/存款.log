@@ -1,0 +1,5 @@
+[2019-01-28 16:44:46,521][MainThread:12944][task_id:cunkuan][cunkuan.py:49][ERROR][apple输入错误]
+[2019-01-28 16:44:51,526][MainThread:12944][task_id:cunkuan][cunkuan.py:42][INFO][apple存入了10000]
+[2019-01-28 16:45:29,376][MainThread:14092][task_id:cunkuan][cunkuan.py:43][INFO][apple存入了100000]
+[2019-01-28 17:30:11,634][MainThread:13492][task_id:cunkuan][cunkuan.py:43][INFO][apple存入了1000000000]
+[2019-03-21 16:24:18,835][MainThread:17064][task_id:cunkuan][cunkuan.py:43][INFO][apple存入了20000]

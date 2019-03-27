@@ -1,0 +1,6 @@
+[2019-02-15 14:20:38,077][MainThread:8440][task_id:admin][start.py:29][INFO][pear登陆成功]
+[2019-02-15 14:29:14,493][MainThread:12472][task_id:admin][start.py:29][INFO][pear登陆成功]
+[2019-02-15 14:41:46,990][MainThread:12368][task_id:admin][admin.py:28][INFO][pear成功发布了新闻sdafsdfa]
+[2019-02-15 14:42:06,525][MainThread:12368][task_id:admin][start.py:29][INFO][pear登陆成功]
+[2019-02-15 14:44:33,102][MainThread:364][task_id:admin][admin.py:41][INFO][pear成功删除了新闻sdafsdfa]
+[2019-02-15 14:44:46,940][MainThread:364][task_id:admin][start.py:29][INFO][pear登陆成功]
