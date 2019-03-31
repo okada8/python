@@ -1,6 +1,6 @@
 import os
 host = "127.0.0.1"
-port = 8848
+port = 9998
 
 BASE_DIR  = os.path.dirname(os.path.dirname(__file__))
 
