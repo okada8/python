@@ -5,8 +5,10 @@ class Config(object):
     DEBUG=True
     SECRET_KEY="ucpM5PASrY/TwTE3lP2yGf8pB2IGy+4O1nSFyAq2PGo6EqxpAl7rdtoZZ0sYqtLG"
     #为数据库添加配置
-    SQLALCHEMY_DATABASE_URI="mysql://root:mysql@127.0.0.1:3306/my_information"
+    SQLALCHEMY_DATABASE_URI="mysql://root:qwer1234@127.0.0.1:3306/my_new_web"
     SQLALCHEMY_TRACK_MODIFICATIONS=False
+    #如果配置为ture，会自动执行db.session.commit()
+    SQLALCHEMY_COMMIT_ON_TEARDOWN=True
     #设置redis
     REDIS_HOST="127.0.0.1"
     REDIS_PORT=6379

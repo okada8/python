@@ -1,0 +1,122 @@
+{% extends 'news/base.html' %}
+
+{# 四个部分 #}
+{# 标题部分 #}
+{% block titleBlock %}
+    文章详情页
+{% endblock %}
+
+{% block categoryBlock %}
+{% endblock %}
+
+
+{# scirpt部分 #}
+{% block scriptBlock %}
+    <script type="text/javascript" src="../../static/news/js/detail.js"></script>
+{% endblock %}
+
+
+{# 正文部分 #}
+{% block contentBlock %}
+    <div class="detail_con fl">
+            <h3>{{ data.news.title }}</h3>
+            <div class="detail_about clearfix">
+                <span class="time_souce fl">{{ data.news.create_time }} 来源: {{ data.news.source }}</span>
+                <span class="comment fr">{{ data.news.comments_count }}</span>
+            </div>
+
+            {{ data.news.content | safe }}
+
+        <a href="javascript:;" class="collection block-center" data-newid="{{ data.news.id }}" style="display: {% if data.is_collected %}none{% else %}block{% endif %};">收藏</a>
+        <a href="javascript:;" class="collected block-center" data-newid="{{ data.news.id }}" style="display: {% if data.is_collected %}block{% else %}none{% endif %}; margin: 0px auto;"><span class="out">已收藏</span><span class="over">取消收藏</span></a>
+
+
+        {# 判断用户是否有登陆 #}
+        {% if data.user %}
+            <form action="" class="comment_form" data-newsid="{{ data.news.id }}">
+                <div class="person_pic">
+                    <img src="{% if data.user.avatar_url %}">
+                        {{ data.user.avatar_url}}
+                    {% else %}
+                        ../../static/news/images/cat.jpg
+                    {% endif %}" alt="用户图标">
+                </div>
+                <textarea placeholder="请发表您的评论" class="comment_input"></textarea>
+                <input type="submit" name="" value="评 论" class="comment_sub">
+            </form>
+        {% else %}
+            <div class="comment_form_logout">
+                登录发表你的评论
+            </div>
+        {% endif %}
+
+        <div class="comment_count">
+            {{ data.news.comments_count }}条评论
+        </div>
+        <div class="comment_list_con">
+
+            {# 遍历所有的评论 #}
+            {% for comment in data.comments %}
+                <div class="comment_list">
+                    <div class="person_pic fl">
+                        {# 判断评论的用户是否有头像 #}
+
+                            <img src="{% if comment.user.avatar_url %}">
+                                {{  comment.user.avatar_url }}
+                            {% else %}
+                                ../../static/news/images/worm.jpg
+                            {% endif %}" alt="用户图标">
+
+                    </div>
+                    <div class="user_name fl">{{ comment.user.nick_name }}</div>
+                    <div class="comment_text fl">
+                        {{ comment.content }}
+                    </div>
+                    {# 判断是否有父评论 #}
+                    {% if comment.parent %}
+                        <div class="reply_text_con fl">
+                            <div class="user_name2">{{ comment.parent.user.nick_name }}</div>
+                            <div class="reply_text">
+                                {{ comment.parent.content }}
+                            </div>
+                        </div>
+                    {% endif %}
+
+                    <div class="comment_time fl">{{ comment.create_time }}</div>
+                    {# 点赞处理 #}
+                    <a href="javascript:;" class="comment_up {% if comment.is_like %}has_comment_up{% endif %} fr"
+                       data-commentid="{{ comment.id }}" data-likecount="{{ comment.like_count }}">
+                        {% if comment.like_count > 0 %}
+                            {{ comment.like_count }}
+                        {% else %}
+                            赞
+                        {% endif %}
+                    </a>
+                    <a href="javascript:;" class="comment_reply fr">回复</a>>
+                    <from class="reply_form fl" data-newsid="{{ data.news.id }}" data-commentid="{{ comment.id }}">
+                        <textarea  class="reply_input"></textarea>
+                        <input type="button" value="回复" class="reply_sub fr">
+                        <input type="reset" name="" value="取消" class="reply_cancel fr">
+                    </from>
+                </div>
+            {% endfor %}
+
+        </div>
+
+
+        </div>
+{% endblock %}
+
+{# 作者部分 #}
+{% block authorBlock %}
+    <div class="author_card">
+        <a href="#" class="author_pic"><img src="../../static/news/images/user_pic.png" alt="author_pic"></a>
+        <a href="#" class="author_name">张大山</a>
+        <div class="author_resume">张大山的简介,张大山</div>
+        <div class="writings"><span>总篇数</span><b>23</b></div>
+        <div class="follows"><span>粉丝</span><b>36</b></div>
+        <a href="javascript:;" class="focus fr">关注</a>
+        <a href="javascript:;" class="focused fr"><span class="out">已关注</span><span class="over">取消关注</span></a>
+    </div>
+{% endblock %}
+

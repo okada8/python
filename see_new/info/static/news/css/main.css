@@ -1,5 +1,6 @@
 body{
-    background:#f1f2f6;
+    /*background:#f1f2f6;*/
+    background:url("../images/bg01.jpg");
     font-family:'Microsoft YaHei';
 }
 .header_con{
@@ -68,7 +69,7 @@ body{
     height:30px;
     overflow: hidden;
     margin-top:15px;
-    display:block;    
+    display:block;
 }
 
 .user_login img{
@@ -93,7 +94,7 @@ body{
 }
 
 .list_con{
-    width:820px;    
+    width:820px;
 }
 
 .list_con li{
@@ -186,7 +187,7 @@ body{
 .card_list_con{
     width:760px;
     overflow:hidden;
-    margin-left:10px;    
+    margin-left:10px;
 }
 
 .card_list{
@@ -205,7 +206,7 @@ body{
 .author_pic{
     float:left;
     width:60px;
-    height:60px;    
+    height:60px;
 }
 .author_pic img{
     width:60px;
@@ -239,14 +240,14 @@ body{
 .writings span,.follows span{
     display: block;
     font-size:12px;
-    color:#999;    
+    color:#999;
 }
 
 .writings b,.follows b{
     display: block;
     font-weight:normal;
     font-size:18px;
-    color:#333;    
+    color:#333;
 }
 
 .rank_title{
@@ -655,7 +656,7 @@ body{
 
 
 .collected{
-    display:inline-block;
+    /*display:inline-block;*/
     width:100px;
     height:36px;
     color:#666;
