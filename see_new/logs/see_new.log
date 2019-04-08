@@ -5450,3 +5450,6 @@ INFO _internal.py:88 127.0.0.1 - - [08/Apr/2019 15:03:05] "GET /static/news/imag
 INFO _internal.py:88 127.0.0.1 - - [08/Apr/2019 15:03:06] "GET /new_list?cid=1&page=1 HTTP/1.1" 200 -
 INFO _internal.py:88 127.0.0.1 - - [08/Apr/2019 15:03:06] "GET /static/news/images/clock.png HTTP/1.1" 200 -
 INFO _internal.py:88 127.0.0.1 - - [08/Apr/2019 15:03:06] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Apr/2019 15:09:37] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Apr/2019 15:09:37] "GET /new_list?cid=1&page=1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Apr/2019 15:09:39] "GET /static/news/images/shutoff.png HTTP/1.1" 200 -
