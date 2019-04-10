@@ -2,7 +2,7 @@ from redis import StrictRedis
 from flask_sqlalchemy import SQLAlchemy
 from config import config_dict
 from flask_wtf.csrf import CSRFProtect,generate_csrf
-from flask import Flask
+from flask import Flask,render_template,g
 from flask_session import Session
 from logging.handlers import RotatingFileHandler
 
@@ -32,6 +32,14 @@ def create_app(config_name):
     #添加自定义过滤器
     from info.utils.common import do_index_class
     app.add_template_filter(do_index_class,"index_class")
+    #同一处里404界面
+    from info.utils.common import user_login_data
+    @app.errorhandler(404)
+    @user_login_data
+    def page_not_fond(e):
+        data={"user":g.user.to_dict() if g.user else None}
+        return render_template('news/404.html',data=data)
+
     #当开启了csrf防护后，返回响应时添加一个tocken，用到after_request这个装饰器
     @app.after_request
     def after_request(response):
@@ -47,6 +55,10 @@ def create_app(config_name):
     app.register_blueprint(passport_blu)
     from info.modules.news import news_blu
     app.register_blueprint(news_blu)
+    from info.modules.profile import profile_blu
+    app.register_blueprint(profile_blu)
+    from info.modules.admin import admin_blu
+    app.register_blueprint(admin_blu,url_prefix='/admin')
     return app
 
 

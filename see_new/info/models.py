@@ -13,21 +13,55 @@ class BaseModel(object):
 
 # 用户收藏表，建立用户与其收藏新闻多对多的关系
 tb_user_collection = db.Table(
+    #用户收藏表有"user_id用户id，news_id新闻id,create_time收藏时间"
     "info_user_collection",
     db.Column("user_id", db.Integer, db.ForeignKey("info_user.id"), primary_key=True),  # 新闻编号
     db.Column("news_id", db.Integer, db.ForeignKey("info_news.id"), primary_key=True),  # 分类编号
     db.Column("create_time", db.DateTime, default=datetime.now)  # 收藏创建时间
 )
-
+#用户关注表
 tb_user_follows = db.Table(
+    #有follower_id我关注了谁，followed_id谁关注了我
     "info_user_fans",
     db.Column('follower_id', db.Integer, db.ForeignKey('info_user.id'), primary_key=True),  # 粉丝id
     db.Column('followed_id', db.Integer, db.ForeignKey('info_user.id'), primary_key=True)  # 被关注人的id
 )
 
-
+#当新注册用户时：
 class User(BaseModel, db.Model):
-    """用户"""
+    """用户模型
+    表名：info_user
+    字段：1.id，用户主键，自增长，唯一
+         2.nick_name，用户的姓名，唯一
+         3.password_hash，用户密码，已经加密过的密码
+         4.mobile，电话，唯一
+         5.avatar_url，用户头像
+         6.last_login,用户最后一次登录时间，当前时间
+         7.is_admin是否是管理员，默认值为不是
+         8.signature用户的签名
+         9.gender性别，enum枚举
+
+创建表的sql：
+SET FOREIGN_KEY_CHECKS=0;
+DROP TABLE IF EXISTS `info_user`;
+CREATE TABLE `info_user` (
+  `create_time` datetime DEFAULT NULL,
+  `update_time` datetime DEFAULT NULL,
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `nick_name` varchar(32) NOT NULL,
+  `password_hash` varchar(128) NOT NULL,
+  `mobile` varchar(11) NOT NULL,
+  `avatar_url` varchar(256) DEFAULT NULL,
+  `last_login` datetime DEFAULT NULL,
+  `is_admin` tinyint(1) DEFAULT NULL,
+  `signature` varchar(512) DEFAULT NULL,
+  `gender` enum('MAN','WOMAN') DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `mobile` (`mobile`),
+  UNIQUE KEY `nick_name` (`nick_name`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+
+    """
     __tablename__ = "info_user"
 
     id = db.Column(db.Integer, primary_key=True)  # 用户编号

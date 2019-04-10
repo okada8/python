@@ -9,6 +9,7 @@ body{
     border-bottom:1px solid #ccc;
 }
 .header{
+    font-weight:bolder;
     width:1200px;
     height:59px;
     margin:0px auto;
@@ -1044,6 +1045,7 @@ body{
     margin:20px auto;
     overflow:hidden;
     position:relative;
+
 }
 
 .form-group label{
