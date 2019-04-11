@@ -14,10 +14,17 @@ def storge(data):
     try:
         # 生成上传 Token，可以指定过期时间等
         token = q.upload_token(bucket_name, None, 3600)
+        # print(token)
         # 要上传文件的本地路径
         # localfile = './11.jpg'
         # ret, info = put_file(token, None, localfile)
         ret, info = put_data(token, None, data)
+
+
+        # if info.status_code == 200:
+        #     return ret.get("key")
+        # else:
+        #     return "aa"
         # 上传成功,返回图片名称,失败返回空
         return ret.get("key")
     except Exception as e:

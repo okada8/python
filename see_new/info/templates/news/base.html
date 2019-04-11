@@ -5,6 +5,8 @@
     <title>{% block titleBlock %}
     {% endblock %}</title>
     <link rel="stylesheet" type="text/css" href="../../static/news/css/reset.css">
+    {% block cssBlock %}
+    {% endblock %}
     <link rel="stylesheet" type="text/css" href="../../static/news/css/main.css">
     <script type="text/javascript" src="../../static/news/js/jquery-1.12.4.min.js"></script>
     <script type="text/javascript" src="../../static/news/js/main.js"></script>
@@ -64,7 +66,7 @@
 
             <ul class="rank_list">
                 {% for news in data.news_dict_li %}
-                <li><span class="{{ loop.index0|index_class }}">{{ loop.index }}</span><a href="#">{{ news.title }}</a></li>
+                <li><span class="{{ loop.index0|index_class }}">{{ loop.index }}</span><a href="/news/{{ news.id }}">{{ news.title }} </a></li>
                 {% endfor %}
 
             </ul>

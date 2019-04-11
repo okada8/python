@@ -1,11 +1,141 @@
 from . import profile_blu
 from flask import render_template,current_app
-from flask import g,redirect,request,jsonify
+from flask import g,redirect,request,jsonify,abort
 from info.utils.common import user_login_data
 from info.utils.response_code import RET
 from info.utils.image_storage import storge
 from info import constants,db
-from info.models import Category,News
+from info.models import Category,News,User
+
+
+@profile_blu.route('/other_new_list')
+def other_new_list():
+    """
+    返回指定用户发布的新闻
+    :return:
+    """
+    #先拿到指定用户的id
+    other_id=request.args.get("user_id")
+    current_app.logger.error(other_id)
+    page = request.args.get("p",1)
+    current_app.logger.error(page)
+
+    try:
+        page=int(page)
+    except Exception as e:
+        current_app.logger.error(e)
+        return jsonify(error=RET.PARAMERR, errmsg='参数错误')
+    #去当前用户所发布的新闻
+    try:
+        other=User.query.get(other_id)
+    except Exception as e:
+        current_app.logger.error(e)
+        return jsonify(error=RET.PARAMERR, errmsg='数据查询错误')
+    if not other:
+        return jsonify(error=RET.NODATA, errmsg='当前用户不存在')
+    #去用户的新闻
+    try:
+        paginat=other.news_list.paginate(page,constants.USER_COLLECTION_MAX_NEWS,False)
+        # 4.获取分页对象属性,总页数,当前页,当前页对象
+        total_page = paginat.pages
+        current_page = paginat.page
+        news_li = paginat.items
+    except Exception as e:
+        current_app.logger.error(e)
+        return jsonify(error=RET.PARAMERR, errmsg='数据查询错误')
+    news_dic_li=[]
+    for news in news_li:
+        news_dic_li.append(news.to_basic_dict())
+    current_app.logger.error(news_dic_li)
+    if not news_dic_li:
+        return jsonify(error=RET.OK, errmsg='该用户未发布新闻',)
+
+    data = {
+        "total_page": total_page,
+        "current_page": current_page,
+        "collection": news_dic_li
+    }
+    return jsonify(error=RET.OK, errmsg='OK',data=data)
+
+
+@profile_blu.route('/other_info')
+@user_login_data
+def other_info():
+    #取出其他人用户信息id
+    other_id=request.args.get("user_id")
+    if not other_id:
+        abort(404)
+        # return render_template('news/other.html', errmsg="参数错误")
+    #根据id查询出其他用户信息
+    try:
+        other_id=int(other_id)
+        others=User.query.get(other_id)
+    except Exception as e:
+        current_app.logger.error(e)
+        return render_template('news/other.html', errmsg="数据查询失败")
+    if not others:
+        abort(404)
+
+    is_followed = False
+    if others and g.user.followed:
+        if others in g.user.followed:
+            is_followed = True
+
+
+    data={"user":g.user.to_dict() if g.user else None,
+          "other":others.to_dict(),
+          "is_followed ":is_followed
+          }
+    return render_template('news/other.html',data=data)
+
+
+
+
+
+
+@profile_blu.route('/user_follow')
+@user_login_data
+def user_follow():
+    user=g.user
+    #获取页数
+    page=request.args.get("p",1)
+    try:
+        page=int(page)
+    except Exception as e:
+        current_app.logger.error(e)
+        page=1
+    follows=[]
+    current_page=1
+    total_page=1
+
+
+    # 3.分页查询数据
+    try:
+        paginate = g.user.followed.paginate(page, 4, False)
+    except Exception as e:
+        current_app.logger.error(e)
+        return jsonify(errno=RET.DBERR, errmsg="获取用户失败")
+
+    # 4.获取分页对象属性,总页数,当前页,当前页对象
+    totalPage = paginate.pages
+    currentPage = paginate.page
+    items = paginate.items
+
+    # 5.对象列表转字典列表
+    user_list = []
+    for item in items:
+        user_list.append(item.to_dict())
+
+    # 6.拼接数据返回页面渲染
+    data = {
+        "total_page": totalPage,
+        "current_page": currentPage,
+        "user_list": user_list
+    }
+    return render_template('news/user_follow.html', data=data)
+
+
+
 
 
 
@@ -25,7 +155,7 @@ def user_news_list():
         current_app.logger.error(e)
     news_dic_list=[]
     for news in news_list:
-        news_dic_list.append(news.to_review_dict())
+        news_dic_list.append(news.to_basic_dict())
     data={"news_list":news_dic_list,
           "total_page": total_page,
           "current_page": current_page

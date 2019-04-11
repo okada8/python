@@ -300,6 +300,10 @@ function logout() {
     })
 }
 
+
+
+
+
 // 调用该函数模拟点击左侧按钮
 function fnChangeMenu(n) {
     var $li = $('.option_list li');
