@@ -54,7 +54,7 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/info/modules/profile/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
+            <state relative-caret-position="1650">
               <caret line="50" column="49" selection-start-line="50" selection-start-column="49" selection-end-line="50" selection-end-column="49" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
@@ -66,8 +66,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/info/modules/admin/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5008">
-              <caret line="211" lean-forward="true" selection-start-line="211" selection-end-line="211" />
+            <state relative-caret-position="6666">
+              <caret line="211" selection-start-line="211" selection-end-line="211" />
             </state>
           </provider>
         </entry>
@@ -75,11 +75,8 @@
       <file leaf-file-name="other.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/info/templates/news/other.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1307">
+            <state relative-caret-position="1914">
               <caret line="58" column="37" selection-start-line="58" selection-start-column="37" selection-end-line="58" selection-end-column="37" />
-              <folding>
-                <element signature="n#style#0;n#a#1;n#div#2;n#div#0;n#!!top" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -87,7 +84,7 @@
       <file leaf-file-name="other.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/info/static/news/js/other.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
+            <state relative-caret-position="3003">
               <caret line="91" column="31" selection-start-line="91" selection-start-column="31" selection-end-line="91" selection-end-column="31" />
             </state>
           </provider>
@@ -96,7 +93,7 @@
       <file leaf-file-name="user_follow.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/info/templates/news/user_follow.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
+            <state relative-caret-position="726">
               <caret line="22" column="69" selection-start-line="22" selection-start-column="69" selection-end-line="22" selection-end-column="69" />
             </state>
           </provider>
@@ -199,10 +196,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-320" />
-    <option name="y" value="16" />
-    <option name="width" value="2425" />
-    <option name="height" value="1313" />
+    <option name="x" value="-748" />
+    <option name="y" value="302" />
+    <option name="width" value="3032" />
+    <option name="height" value="1378" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -452,6 +449,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.37758112" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.35723862" side_tool="true" weight="0.52421653" />
@@ -461,7 +459,7 @@
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6427614" weight="0.1994302" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.8005698" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49852508" visible="true" weight="0.24664879" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49852508" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="5" weight="0.28273615" />
       <window_info anchor="right" id="SciView" order="3" weight="0.3264075" />
@@ -472,36 +470,36 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Statistic" order="11" />
+      <window_info anchor="bottom" id="Database Console" order="14" weight="0.44490933" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Database Console" order="14" weight="0.44490933" />
+      <window_info anchor="bottom" id="Statistic" order="11" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49934897" weight="0.5875862" />
     </layout>
     <layout-to-restore>
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Statistic" order="11" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="Favorites" order="2" sideWeight="0.5014749" side_tool="true" weight="0.16085792" />
+      <window_info anchor="right" id="Redis Servers" order="4" show_stripe_button="false" weight="0.15817694" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.58702064" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49852508" visible="true" weight="0.21983914" />
       <window_info id="Structure" order="1" sideWeight="0.50109893" side_tool="true" weight="0.16085792" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.37758112" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.58702064" />
-      <window_info anchor="right" id="Redis Servers" order="4" show_stripe_button="false" weight="0.15817694" />
+      <window_info anchor="bottom" id="Statistic" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Database" order="5" visible="true" weight="0.12868632" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.5545723" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" weight="0.32890856" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" weight="0.3264075" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info id="Favorites" order="2" sideWeight="0.5014749" side_tool="true" weight="0.16085792" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -775,46 +773,40 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8613">
           <caret line="261" column="1" selection-start-line="261" selection-start-column="1" selection-end-line="264" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/info/templates/news/user_follow.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
+        <state relative-caret-position="726">
           <caret line="22" column="69" selection-start-line="22" selection-start-column="69" selection-end-line="22" selection-end-column="69" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/info/templates/news/other.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1307">
+        <state relative-caret-position="1914">
           <caret line="58" column="37" selection-start-line="58" selection-start-column="37" selection-end-line="58" selection-end-column="37" />
-          <folding>
-            <element signature="n#style#0;n#a#1;n#div#2;n#div#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/info/modules/admin/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5008">
-          <caret line="211" lean-forward="true" selection-start-line="211" selection-end-line="211" />
+        <state relative-caret-position="6666">
+          <caret line="211" selection-start-line="211" selection-end-line="211" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/info/static/news/js/other.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
+        <state relative-caret-position="3003">
           <caret line="91" column="31" selection-start-line="91" selection-start-column="31" selection-end-line="91" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/info/modules/profile/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
+        <state relative-caret-position="1650">
           <caret line="50" column="49" selection-start-line="50" selection-start-column="49" selection-end-line="50" selection-end-column="49" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
