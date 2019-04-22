@@ -198,11 +198,8 @@ def news_detail(news_id):
     :param news_id:
     :return:
     """
-
     # 如果用户已经登录 将用户登录数据传入模板
-
     user = g.user
-
     # 右侧新闻排行逻辑
     news_list = []
     try:

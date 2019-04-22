@@ -21,9 +21,6 @@ def logout():
     session.pop('is_admin', None)
     return jsonify(errno=RET.OK, errmsg="退出成功")
 
-
-
-
 #登录逻辑
 @passport_blu.route('/login',methods=['POST'])
 def login():
@@ -76,9 +73,6 @@ def login():
     #     current_app.logger.error(e)
     # 响应
     return jsonify(errno=RET.OK, errmsg="用户登录成功")
-
-
-
 
 
 #注册逻辑

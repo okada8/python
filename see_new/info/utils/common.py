@@ -1,12 +1,8 @@
 #公用工具
-
 from flask import session
 from info.models import User
 from flask import current_app,g
 import functools
-
-
-
 
 def do_index_class(index):
     """

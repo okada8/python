@@ -1,4 +1,3 @@
-
 from . import index_blu
 from flask import render_template,g,abort
 from flask import current_app,request,jsonify
