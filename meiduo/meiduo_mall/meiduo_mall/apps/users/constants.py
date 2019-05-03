@@ -1,0 +1,5 @@
+# 发送短信token有效期: s
+SEND_SMS_CODE_TOKEN_EXPIRES = 300
+#生成修改密码token的有效期
+SET_PASSWORD_TOKEN_EXPIRES= 300
+

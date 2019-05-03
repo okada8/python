@@ -4,8 +4,9 @@ from django_redis import get_redis_connection
 from rest_framework import serializers
 from rest_framework_jwt.settings import api_settings
 from users.models import User
+from .utils import get_user_by_account
 
-
+#注册的时候用
 class CreateUserSerializer(serializers.ModelSerializer):
     """创建用户序列化器类"""
     password2 = serializers.CharField(label='重复密码', write_only=True)
@@ -77,14 +78,14 @@ class CreateUserSerializer(serializers.ModelSerializer):
         # 获取真实的短信验证码内容
         mobile = attrs['mobile']
         redis_conn = get_redis_connection('verify_codes')
-        real_sms_code = redis_conn.get('sms_%s' % mobile) # bytes
+        real_sms_code = redis_conn.get('sms_%s' % mobile) # type:bytes
 
         if not real_sms_code:
             raise serializers.ValidationError('短信验证码已过期')
 
         # 对比
-        sms_code = attrs['sms_code'] # str
-        real_sms_code = real_sms_code.decode() # str
+        sms_code = attrs['sms_code'] # type:str
+        real_sms_code = real_sms_code.decode() # type:str
         if sms_code != real_sms_code:
             raise serializers.ValidationError('短信验证码错误')
 
@@ -110,11 +111,8 @@ class CreateUserSerializer(serializers.ModelSerializer):
 
         # 注册成功就让用户处于登录状态
         # 由服务器签发一个jwt token，保存用户身份信息
-
-
         jwt_payload_handler = api_settings.JWT_PAYLOAD_HANDLER
         jwt_encode_handler = api_settings.JWT_ENCODE_HANDLER
-
         # 生成载荷信息(payload)
         payload = jwt_payload_handler(user)
         # 生成jwt token
@@ -125,3 +123,70 @@ class CreateUserSerializer(serializers.ModelSerializer):
 
         # 返回user
         return user
+
+
+
+
+#用户忘记密码当他把短信验证码发送到后段的时候需要校验
+class CheckSMSCodeSerializer(serializers.Serializer):
+    #检验sms_code是否时6位
+    sms_code=serializers.CharField(min_length=6,max_length=6)
+    #value就是sms_code
+    def validate_sms_code(self,value):
+        account=self.context['view'].kwargs['account']
+        #获取user
+        user=get_user_by_account(account)
+        if user is None:
+            raise serializers.ValidationError('用户不存在')
+        #把user对象保存到序列化器对象当中
+        self.user=user
+        #从redis中拿出真实短信验证码
+        redis_conn = get_redis_connection('verify_codes')
+        real_sms_code=redis_conn.get("sms_%s" % user.mobile)
+        #如果拿出来的值不存在
+        if real_sms_code is None:
+            raise serializers.ValidationError('无效的短信验证码')
+        #客户输入的值和真实值不相等
+        if value != real_sms_code.decode():
+            raise serializers.ValidationError('短信验证码错误')
+        return value
+#用户忘记密码后更改密码
+class RestePasswordSerializer(serializers.ModelSerializer):
+    """重至密码序列花器"""
+    password2=serializers.CharField(label="确认密码",write_only=True)
+    access_token=serializers.CharField(label='操作token',write_only=True)
+
+    class Meta:
+        model=User
+        fields=("id","password","password2","access_token")
+        extra_kwargs = {
+            'password': {
+                'write_only': True,
+                'min_length': 8,
+                'max_length': 20,
+                'error_messages': {
+                    'min_length': '仅允许8-20个字符的密码',
+                    'max_length': '仅允许8-20个字符的密码',
+                }
+            }
+        }
+
+    def validate(self, attrs):
+        """校验数据"""
+        #判断两次密码
+        if attrs['password'] != attrs['password2']:
+            raise serializers.ValidationError('两次密码不一致')
+        #判断access_token
+        pk=self.context['view'].kwargs['pk']#type:str
+        allow=User.check_set_password_token(attrs['access_token'],pk)#返回的是ture和false
+        if not allow:
+            raise serializers.ValidationError('无效的access token')
+        return attrs
+
+    def update(self, instance, validated_data):#instance是user对象，validated_data是attrs
+        """跟新密码"""
+        #调用django用户模型的设置密码方法
+        instance.set_password(validated_data['password'])
+        instance.save()
+        return instance
+

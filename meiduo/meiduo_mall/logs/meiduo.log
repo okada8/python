@@ -701,3 +701,680 @@ INFO 2019-04-26 11:58:16,610 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
 INFO 2019-04-26 11:58:17,371 basehttp 124 "GET /admin/users/user/ HTTP/1.1" 200 4443
 INFO 2019-04-26 11:58:17,462 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
 INFO 2019-04-26 11:58:19,817 basehttp 124 "GET /admin/ HTTP/1.1" 200 3274
+INFO 2019-04-26 18:35:51,138 basehttp 124 "GET /authorizations HTTP/1.1" 301 0
+WARNING 2019-04-26 18:35:51,303 basehttp 124 "GET /authorizations/ HTTP/1.1" 405 7709
+INFO 2019-04-26 18:35:51,362 basehttp 124 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+INFO 2019-04-26 18:35:51,365 basehttp 124 "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+INFO 2019-04-26 18:35:51,372 basehttp 124 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2019-04-26 18:35:51,373 basehttp 124 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+INFO 2019-04-26 18:35:51,381 basehttp 124 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+INFO 2019-04-26 18:35:51,406 basehttp 124 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+INFO 2019-04-26 18:35:51,407 basehttp 124 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+INFO 2019-04-26 18:35:51,420 basehttp 124 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2019-04-26 18:35:51,432 basehttp 124 "GET /static/rest_framework/js/jquery-3.3.1.min.js HTTP/1.1" 304 0
+INFO 2019-04-26 18:35:51,464 basehttp 124 "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+INFO 2019-04-26 18:35:51,485 basehttp 124 "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+WARNING 2019-04-26 18:36:00,808 basehttp 124 "POST /authorizations/ HTTP/1.1" 400 7752
+INFO 2019-04-26 18:36:09,280 basehttp 124 "GET /admin/users/user/ HTTP/1.1" 302 0
+INFO 2019-04-26 18:36:09,320 basehttp 124 "GET /admin/login/?next=/admin/users/user/ HTTP/1.1" 200 1674
+INFO 2019-04-26 18:36:09,356 basehttp 124 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2019-04-26 18:36:09,366 basehttp 124 "GET /static/admin/css/login.css HTTP/1.1" 304 0
+INFO 2019-04-26 18:36:09,376 basehttp 124 "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2019-04-26 18:36:09,397 basehttp 124 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+INFO 2019-04-26 18:36:09,404 basehttp 124 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+INFO 2019-04-26 18:36:15,376 basehttp 124 "POST /admin/login/?next=/admin/users/user/ HTTP/1.1" 302 0
+INFO 2019-04-26 18:36:15,517 basehttp 124 "GET /admin/users/user/ HTTP/1.1" 200 4443
+INFO 2019-04-26 18:36:15,547 basehttp 124 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2019-04-26 18:36:15,548 basehttp 124 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2019-04-26 18:36:15,555 basehttp 124 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2019-04-26 18:36:15,556 basehttp 124 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2019-04-26 18:36:15,565 basehttp 124 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2019-04-26 18:36:15,574 basehttp 124 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2019-04-26 18:36:15,577 basehttp 124 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2019-04-26 18:36:15,588 basehttp 124 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2019-04-26 18:36:15,589 basehttp 124 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2019-04-26 18:36:15,687 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2019-04-26 18:36:15,764 basehttp 124 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2019-04-26 18:36:15,772 basehttp 124 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+INFO 2019-04-26 18:36:25,234 basehttp 124 "POST /authorizations/ HTTP/1.1" 200 7950
+INFO 2019-04-26 18:36:57,391 basehttp 124 "GET /admin/users/user/6/change/ HTTP/1.1" 200 13067
+INFO 2019-04-26 18:36:57,431 basehttp 124 "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2019-04-26 18:36:57,439 basehttp 124 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+INFO 2019-04-26 18:36:57,447 basehttp 124 "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2019-04-26 18:36:57,448 basehttp 124 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2019-04-26 18:36:57,449 basehttp 124 "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+INFO 2019-04-26 18:36:57,459 basehttp 124 "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+INFO 2019-04-26 18:36:57,467 basehttp 124 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2019-04-26 18:36:57,520 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2019-04-26 18:36:57,655 basehttp 124 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+INFO 2019-04-26 18:36:57,658 basehttp 124 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+INFO 2019-04-26 18:37:24,034 basehttp 124 "POST /authorizations/ HTTP/1.1" 200 7950
+WARNING 2019-04-26 18:38:08,639 basehttp 124 "POST /authorizations/ HTTP/1.1" 400 7759
+INFO 2019-04-26 18:38:16,517 basehttp 124 "POST /authorizations/ HTTP/1.1" 200 7950
+INFO 2019-04-26 19:07:01,884 views 28 图片验证码是BIOA
+INFO 2019-04-26 19:07:01,886 basehttp 124 "GET /image_codes/226493b3-a87a-4fcb-8d53-f92cd5f8967b/ HTTP/1.1" 200 3120
+INFO 2019-04-26 19:07:22,597 basehttp 124 "OPTIONS /authorizations/ HTTP/1.1" 200 0
+INFO 2019-04-26 19:07:22,682 basehttp 124 "POST /authorizations/ HTTP/1.1" 200 259
+INFO 2019-04-26 19:17:17,228 basehttp 124 "POST /authorizations/ HTTP/1.1" 200 259
+INFO 2019-04-26 19:18:08,726 basehttp 124 "OPTIONS /authorizations/ HTTP/1.1" 200 0
+INFO 2019-04-26 19:18:08,832 basehttp 124 "POST /authorizations/ HTTP/1.1" 200 259
+INFO 2019-04-27 12:49:28,411 views 28 图片验证码是HO3G
+INFO 2019-04-27 12:49:28,441 basehttp 124 "GET /image_codes/50d5409d-1628-4341-936b-bb2190d85d9c/ HTTP/1.1" 200 3418
+INFO 2019-04-27 12:49:41,090 views 28 图片验证码是JZWQ
+INFO 2019-04-27 12:49:41,091 basehttp 124 "GET /image_codes/7da3e023-4a0c-4370-8698-e697cb975130/ HTTP/1.1" 200 3685
+INFO 2019-04-28 16:18:51,002 basehttp 124 "GET /users HTTP/1.1" 301 0
+WARNING 2019-04-28 16:18:51,506 basehttp 124 "GET /users/ HTTP/1.1" 405 8691
+INFO 2019-04-28 16:18:51,564 basehttp 124 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2019-04-28 16:18:51,586 basehttp 124 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+INFO 2019-04-28 16:18:51,587 basehttp 124 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+INFO 2019-04-28 16:18:51,592 basehttp 124 "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+INFO 2019-04-28 16:18:51,593 basehttp 124 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+INFO 2019-04-28 16:18:51,602 basehttp 124 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+INFO 2019-04-28 16:18:51,603 basehttp 124 "GET /static/rest_framework/js/jquery-3.3.1.min.js HTTP/1.1" 304 0
+INFO 2019-04-28 16:18:51,606 basehttp 124 "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+INFO 2019-04-28 16:18:51,608 basehttp 124 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2019-04-28 16:18:51,613 basehttp 124 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+INFO 2019-04-28 16:18:51,657 basehttp 124 "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+WARNING 2019-04-28 16:18:51,993 base 152 Not Found: /favicon.ico
+WARNING 2019-04-28 16:18:51,994 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 3253
+INFO 2019-04-28 16:20:06,214 basehttp 124 "GET /mobiles/16602190828/count HTTP/1.1" 301 0
+INFO 2019-04-28 16:20:06,273 basehttp 124 "GET /mobiles/16602190828/count/ HTTP/1.1" 200 5375
+WARNING 2019-04-28 16:21:00,637 base 152 Not Found: /authorizations】
+WARNING 2019-04-28 16:21:00,639 basehttp 124 "GET /authorizations%E3%80%91 HTTP/1.1" 404 3277
+INFO 2019-04-28 16:21:03,617 basehttp 124 "GET /authorizations HTTP/1.1" 301 0
+WARNING 2019-04-28 16:21:03,682 basehttp 124 "GET /authorizations/ HTTP/1.1" 405 7709
+INFO 2019-04-28 19:06:41,666 views 31 图片验证码是R72I
+INFO 2019-04-28 19:06:41,667 basehttp 124 "GET /image_codes/f5c74cdd-2a9d-41d3-b509-74c31496f285/ HTTP/1.1" 200 2803
+INFO 2019-04-28 19:06:56,039 basehttp 124 "GET /accounts/16602190828/sms/token/?text=R72I&image_code_id=f5c74cdd-2a9d-41d3-b509-74c31496f285 HTTP/1.1" 200 228
+INFO 2019-04-28 19:07:01,056 views 31 图片验证码是OBMX
+INFO 2019-04-28 19:07:01,057 basehttp 124 "GET /image_codes/5bea5659-8bf7-412d-bffd-57de2b76c6ca/ HTTP/1.1" 200 3424
+INFO 2019-04-28 19:07:08,834 views 31 图片验证码是JXGR
+INFO 2019-04-28 19:07:08,835 basehttp 124 "GET /image_codes/95e5736a-4aca-422b-814f-fb0dba0bbd2b/ HTTP/1.1" 200 3411
+INFO 2019-04-28 19:07:15,525 basehttp 124 "GET /accounts/%E5%A4%A7%E5%BC%A0%E4%B8%BA%E5%A4%A7%E5%BC%A0%E4%B8%BA/sms/token/?text=jxgr&image_code_id=95e5736a-4aca-422b-814f-fb0dba0bbd2b HTTP/1.1" 200 228
+INFO 2019-04-28 19:07:45,917 views 100 16602190828的验证码是:444861
+INFO 2019-04-28 19:07:46,704 basehttp 124 "GET /sms_codes/?access_token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTU1NjQ0OTYzNSwiZXhwIjoxNTU2NDQ5OTM1fQ.eyJtb2JpbGUiOiIxNjYwMjE5MDgyOCJ9.9JkA_Yq9UK3k5n1Lubt1DjdFuG4F_6nYsX0jZWLpXhhXfu0n6NOZkkVXm1fCGcDAeo8ZCU56fn6JvEd-5Z1hVw HTTP/1.1" 200 16
+WARNING 2019-04-28 19:08:03,934 base 152 Not Found: /accounts/大张为大张为/password/token/
+WARNING 2019-04-28 19:08:03,935 basehttp 124 "GET /accounts/%E5%A4%A7%E5%BC%A0%E4%B8%BA%E5%A4%A7%E5%BC%A0%E4%B8%BA/password/token/?sms_code=444861 HTTP/1.1" 404 3566
+INFO 2019-04-29 09:54:32,175 basehttp 124 "OPTIONS /authorizations/ HTTP/1.1" 200 0
+WARNING 2019-04-29 09:54:32,440 basehttp 124 "POST /authorizations/ HTTP/1.1" 400 67
+INFO 2019-04-29 09:54:37,563 basehttp 124 "POST /authorizations/ HTTP/1.1" 200 259
+INFO 2019-04-29 09:54:42,825 views 31 图片验证码是JQMX
+INFO 2019-04-29 09:54:42,826 basehttp 124 "GET /image_codes/ec91004b-dd0a-4fed-b4dd-33bbf0a5848d/ HTTP/1.1" 200 3690
+INFO 2019-04-29 09:54:56,581 basehttp 124 "GET /accounts/16602190828/sms/token/?text=JQMX&image_code_id=ec91004b-dd0a-4fed-b4dd-33bbf0a5848d HTTP/1.1" 200 228
+INFO 2019-04-29 09:54:58,448 views 100 16602190828的验证码是:586956
+INFO 2019-04-29 09:54:59,154 basehttp 124 "GET /sms_codes/?access_token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTU1NjUwMjg5NiwiZXhwIjoxNTU2NTAzMTk2fQ.eyJtb2JpbGUiOiIxNjYwMjE5MDgyOCJ9.aBxoCJILffuz2761p-2eTTkY7-RDJcJfmjyd2yWdZyezpMRyHnGaOmV8kjWwEeXNBe4bL07IKcKApGk0eLazWA HTTP/1.1" 200 16
+INFO 2019-04-29 09:58:07,131 views 100 16602190828的验证码是:677825
+INFO 2019-04-29 09:58:07,134 basehttp 124 "GET /sms_codes/?access_token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTU1NjUwMjg5NiwiZXhwIjoxNTU2NTAzMTk2fQ.eyJtb2JpbGUiOiIxNjYwMjE5MDgyOCJ9.aBxoCJILffuz2761p-2eTTkY7-RDJcJfmjyd2yWdZyezpMRyHnGaOmV8kjWwEeXNBe4bL07IKcKApGk0eLazWA HTTP/1.1" 200 16
+INFO 2019-04-29 09:58:36,392 basehttp 124 "GET /accounts/16602190828/password/token/?sms_code=677825 HTTP/1.1" 200 203
+INFO 2019-04-29 09:58:49,620 basehttp 124 "OPTIONS /users/6/password/ HTTP/1.1" 200 0
+ERROR 2019-04-29 09:58:49,654 exception 135 Internal Server Error: /users/6/password/
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/etc/my_object/meiduo/meiduo_mall/meiduo_mall/apps/users/views.py", line 110, in post
+    return self.update(request,pk)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/mixins.py", line 69, in update
+    serializer.is_valid(raise_exception=True)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 236, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 437, in run_validation
+    value = self.validate(value)
+  File "/etc/my_object/meiduo/meiduo_mall/meiduo_mall/apps/users/serializers.py", line 183, in validate
+    allow=User.check_set_password_token(attrs['access_token'],attrs['pk'])#返回的是ture和false
+KeyError: 'pk'
+ERROR 2019-04-29 09:58:49,805 basehttp 124 "POST /users/6/password/ HTTP/1.1" 500 17772
+ERROR 2019-04-29 09:58:53,525 exception 135 Internal Server Error: /users/6/password/
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/etc/my_object/meiduo/meiduo_mall/meiduo_mall/apps/users/views.py", line 110, in post
+    return self.update(request,pk)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/mixins.py", line 69, in update
+    serializer.is_valid(raise_exception=True)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 236, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 437, in run_validation
+    value = self.validate(value)
+  File "/etc/my_object/meiduo/meiduo_mall/meiduo_mall/apps/users/serializers.py", line 183, in validate
+    allow=User.check_set_password_token(attrs['access_token'],attrs['pk'])#返回的是ture和false
+KeyError: 'pk'
+ERROR 2019-04-29 09:58:53,547 basehttp 124 "POST /users/6/password/ HTTP/1.1" 500 17772
+ERROR 2019-04-29 09:59:23,508 exception 135 Internal Server Error: /users/6/password/
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/etc/my_object/meiduo/meiduo_mall/meiduo_mall/apps/users/views.py", line 110, in post
+    return self.update(request,pk)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/mixins.py", line 69, in update
+    serializer.is_valid(raise_exception=True)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 236, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 437, in run_validation
+    value = self.validate(value)
+  File "/etc/my_object/meiduo/meiduo_mall/meiduo_mall/apps/users/serializers.py", line 183, in validate
+    allow=User.check_set_password_token(attrs['access_token'],attrs['pk'])#返回的是ture和false
+KeyError: 'pk'
+ERROR 2019-04-29 09:59:23,538 basehttp 124 "POST /users/6/password/ HTTP/1.1" 500 17772
+ERROR 2019-04-29 10:01:20,759 exception 135 Internal Server Error: /users/6/password/
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/etc/my_object/meiduo/meiduo_mall/meiduo_mall/apps/users/views.py", line 110, in post
+    return self.update(request,pk)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/mixins.py", line 69, in update
+    serializer.is_valid(raise_exception=True)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 236, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 437, in run_validation
+    value = self.validate(value)
+  File "/etc/my_object/meiduo/meiduo_mall/meiduo_mall/apps/users/serializers.py", line 183, in validate
+    allow=User.check_set_password_token(attrs['access_token'],attrs['pk'])#返回的是ture和false
+KeyError: 'pk'
+ERROR 2019-04-29 10:01:20,790 basehttp 124 "POST /users/6/password/ HTTP/1.1" 500 17772
+ERROR 2019-04-29 10:01:21,690 exception 135 Internal Server Error: /users/6/password/
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/etc/my_object/meiduo/meiduo_mall/meiduo_mall/apps/users/views.py", line 110, in post
+    return self.update(request,pk)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/mixins.py", line 69, in update
+    serializer.is_valid(raise_exception=True)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 236, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 437, in run_validation
+    value = self.validate(value)
+  File "/etc/my_object/meiduo/meiduo_mall/meiduo_mall/apps/users/serializers.py", line 183, in validate
+    allow=User.check_set_password_token(attrs['access_token'],attrs['pk'])#返回的是ture和false
+KeyError: 'pk'
+ERROR 2019-04-29 10:01:21,709 basehttp 124 "POST /users/6/password/ HTTP/1.1" 500 17772
+ERROR 2019-04-29 10:01:21,932 exception 135 Internal Server Error: /users/6/password/
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/etc/my_object/meiduo/meiduo_mall/meiduo_mall/apps/users/views.py", line 110, in post
+    return self.update(request,pk)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/mixins.py", line 69, in update
+    serializer.is_valid(raise_exception=True)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 236, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 437, in run_validation
+    value = self.validate(value)
+  File "/etc/my_object/meiduo/meiduo_mall/meiduo_mall/apps/users/serializers.py", line 183, in validate
+    allow=User.check_set_password_token(attrs['access_token'],attrs['pk'])#返回的是ture和false
+KeyError: 'pk'
+ERROR 2019-04-29 10:01:21,947 basehttp 124 "POST /users/6/password/ HTTP/1.1" 500 17772
+ERROR 2019-04-29 10:01:22,145 exception 135 Internal Server Error: /users/6/password/
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/etc/my_object/meiduo/meiduo_mall/meiduo_mall/apps/users/views.py", line 110, in post
+    return self.update(request,pk)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/mixins.py", line 69, in update
+    serializer.is_valid(raise_exception=True)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 236, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 437, in run_validation
+    value = self.validate(value)
+  File "/etc/my_object/meiduo/meiduo_mall/meiduo_mall/apps/users/serializers.py", line 183, in validate
+    allow=User.check_set_password_token(attrs['access_token'],attrs['pk'])#返回的是ture和false
+KeyError: 'pk'
+ERROR 2019-04-29 10:01:22,199 basehttp 124 "POST /users/6/password/ HTTP/1.1" 500 17772
+ERROR 2019-04-29 10:01:22,360 exception 135 Internal Server Error: /users/6/password/
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/etc/my_object/meiduo/meiduo_mall/meiduo_mall/apps/users/views.py", line 110, in post
+    return self.update(request,pk)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/mixins.py", line 69, in update
+    serializer.is_valid(raise_exception=True)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 236, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 437, in run_validation
+    value = self.validate(value)
+  File "/etc/my_object/meiduo/meiduo_mall/meiduo_mall/apps/users/serializers.py", line 183, in validate
+    allow=User.check_set_password_token(attrs['access_token'],attrs['pk'])#返回的是ture和false
+KeyError: 'pk'
+ERROR 2019-04-29 10:01:22,394 basehttp 124 "POST /users/6/password/ HTTP/1.1" 500 17772
+INFO 2019-04-29 10:12:04,022 basehttp 124 "OPTIONS /users/6/password/ HTTP/1.1" 200 0
+INFO 2019-04-29 10:19:36,750 views 31 图片验证码是TVYP
+INFO 2019-04-29 10:19:36,756 basehttp 124 "GET /image_codes/b81c5a3c-937e-4eb4-ba0a-45a7af075a86/ HTTP/1.1" 200 2664
+INFO 2019-04-29 10:21:27,027 views 31 图片验证码是PALO
+INFO 2019-04-29 10:21:27,029 basehttp 124 "GET /image_codes/b0199361-28e3-449d-9cc4-8063d201b483/ HTTP/1.1" 200 2926
+INFO 2019-04-29 10:21:39,984 basehttp 124 "GET /accounts/16602190828/sms/token/?text=PALO&image_code_id=b0199361-28e3-449d-9cc4-8063d201b483 HTTP/1.1" 200 228
+INFO 2019-04-29 10:21:41,980 views 100 16602190828的验证码是:294257
+INFO 2019-04-29 10:21:42,067 basehttp 124 "GET /sms_codes/?access_token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTU1NjUwNDQ5OSwiZXhwIjoxNTU2NTA0Nzk5fQ.eyJtb2JpbGUiOiIxNjYwMjE5MDgyOCJ9.7-mnq7Fbg3tkY06nVLit1ukOygpoJbBs98T6FjE9RKfmJj0Zf4U4ZlCnOL8Hia3eqhNmA2HfCe21FKwR5Ki8dA HTTP/1.1" 200 16
+INFO 2019-04-29 10:21:50,684 basehttp 124 "GET /accounts/16602190828/password/token/?sms_code=294257 HTTP/1.1" 200 203
+INFO 2019-04-29 10:21:58,235 basehttp 124 "POST /users/6/password/ HTTP/1.1" 200 8
+INFO 2019-04-29 10:22:23,181 views 31 图片验证码是GDKM
+INFO 2019-04-29 10:22:23,184 basehttp 124 "GET /image_codes/a0104bdf-9d1e-4033-8575-5320182ac629/ HTTP/1.1" 200 3304
+INFO 2019-04-29 10:22:37,764 basehttp 124 "GET /accounts/16602190828/sms/token/?text=GDKM&image_code_id=a0104bdf-9d1e-4033-8575-5320182ac629 HTTP/1.1" 200 228
+WARNING 2019-04-29 10:22:38,967 basehttp 124 "GET /sms_codes/?access_token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTU1NjUwNDU1NywiZXhwIjoxNTU2NTA0ODU3fQ.eyJtb2JpbGUiOiIxNjYwMjE5MDgyOCJ9.sa3To6IFOiC7h-cpeB0xswYZwaNl-Hz6nJU15e1VkUOLwNELwedILT5SAMxuIyUzN-5YL2BEmv_5ItnwmAj0Ew HTTP/1.1" 429 38
+INFO 2019-04-29 10:22:42,355 views 100 16602190828的验证码是:595305
+INFO 2019-04-29 10:22:42,569 basehttp 124 "GET /sms_codes/?access_token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTU1NjUwNDU1NywiZXhwIjoxNTU2NTA0ODU3fQ.eyJtb2JpbGUiOiIxNjYwMjE5MDgyOCJ9.sa3To6IFOiC7h-cpeB0xswYZwaNl-Hz6nJU15e1VkUOLwNELwedILT5SAMxuIyUzN-5YL2BEmv_5ItnwmAj0Ew HTTP/1.1" 200 16
+INFO 2019-04-29 10:22:54,213 basehttp 124 "GET /accounts/16602190828/password/token/?sms_code=595305 HTTP/1.1" 200 203
+INFO 2019-04-29 10:23:12,499 basehttp 124 "OPTIONS /users/6/password/ HTTP/1.1" 200 0
+INFO 2019-04-29 10:26:14,527 basehttp 124 "POST /users/6/password/ HTTP/1.1" 200 8
+INFO 2019-04-29 10:28:48,171 basehttp 124 "OPTIONS /authorizations/ HTTP/1.1" 200 0
+INFO 2019-04-29 10:28:48,331 basehttp 124 "POST /authorizations/ HTTP/1.1" 200 259
+INFO 2019-04-29 10:29:24,390 basehttp 124 "POST /authorizations/ HTTP/1.1" 200 259
+WARNING 2019-04-29 21:58:09,994 base 152 Not Found: /index
+WARNING 2019-04-29 21:58:09,997 basehttp 124 "GET /index HTTP/1.1" 404 3779
+WARNING 2019-04-29 21:58:10,075 base 152 Not Found: /favicon.ico
+WARNING 2019-04-29 21:58:10,077 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 3797
+WARNING 2019-04-29 21:58:16,752 basehttp 124 "GET /users/ HTTP/1.1" 405 8691
+INFO 2019-04-29 21:58:16,782 basehttp 124 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2019-04-29 21:58:16,802 basehttp 124 "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+INFO 2019-04-29 21:58:16,804 basehttp 124 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+INFO 2019-04-29 21:58:16,830 basehttp 124 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+INFO 2019-04-29 21:58:16,836 basehttp 124 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+INFO 2019-04-29 21:58:16,838 basehttp 124 "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+INFO 2019-04-29 21:58:16,838 basehttp 124 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+INFO 2019-04-29 21:58:16,848 basehttp 124 "GET /static/rest_framework/js/jquery-3.3.1.min.js HTTP/1.1" 304 0
+INFO 2019-04-29 21:58:16,872 basehttp 124 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+INFO 2019-04-29 21:58:16,877 basehttp 124 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2019-04-29 21:58:16,912 basehttp 124 "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+ERROR 2019-04-29 22:11:53,650 exception 80 Invalid HTTP_HOST header: 'www.ilikefood.cn'. You may need to add 'www.ilikefood.cn' to ALLOWED_HOSTS.
+WARNING 2019-04-29 22:11:53,754 basehttp 124 "GET / HTTP/1.0" 400 69045
+ERROR 2019-04-29 22:11:54,167 exception 80 Invalid HTTP_HOST header: 'www.ilikefood.cn'. You may need to add 'www.ilikefood.cn' to ALLOWED_HOSTS.
+WARNING 2019-04-29 22:11:54,227 basehttp 124 "GET /favicon.ico HTTP/1.0" 400 69251
+WARNING 2019-04-29 22:12:26,950 base 152 Not Found: /
+WARNING 2019-04-29 22:12:26,952 basehttp 124 "GET / HTTP/1.0" 404 3748
+WARNING 2019-04-29 22:12:27,080 base 152 Not Found: /favicon.ico
+WARNING 2019-04-29 22:12:27,081 basehttp 124 "GET /favicon.ico HTTP/1.0" 404 3799
+INFO 2019-04-29 22:12:38,881 basehttp 124 "GET /users HTTP/1.0" 301 0
+WARNING 2019-04-29 22:12:38,957 basehttp 124 "GET /users/ HTTP/1.0" 405 8691
+INFO 2019-04-29 22:12:39,029 basehttp 124 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.0" 200 3385
+INFO 2019-04-29 22:12:39,030 basehttp 124 "GET /static/rest_framework/css/prettify.css HTTP/1.0" 200 817
+INFO 2019-04-29 22:12:39,039 basehttp 124 "GET /static/rest_framework/css/default.css HTTP/1.0" 200 1131
+INFO 2019-04-29 22:12:39,053 basehttp 124 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.0" 200 121457
+INFO 2019-04-29 22:12:39,075 basehttp 124 "GET /static/rest_framework/js/csrf.js HTTP/1.0" 200 1719
+INFO 2019-04-29 22:12:39,077 basehttp 124 "GET /static/rest_framework/js/prettify-min.js HTTP/1.0" 200 13632
+INFO 2019-04-29 22:12:39,083 basehttp 124 "GET /static/rest_framework/js/default.js HTTP/1.0" 200 1268
+INFO 2019-04-29 22:12:39,086 basehttp 124 "GET /static/rest_framework/js/jquery-3.3.1.min.js HTTP/1.0" 200 86927
+INFO 2019-04-29 22:12:39,088 basehttp 124 "GET /static/rest_framework/js/ajax-form.js HTTP/1.0" 200 3597
+INFO 2019-04-29 22:12:39,107 basehttp 124 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.0" 200 37608
+INFO 2019-04-29 22:12:39,108 basehttp 124 "GET /static/rest_framework/img/grid.png HTTP/1.0" 200 1458
+WARNING 2019-04-29 22:20:36,210 basehttp 124 "GET /users/ HTTP/1.0" 405 8691
+ERROR 2019-04-29 22:30:46,870 exception 80 Invalid HTTP_HOST header: '192.168.88.129'. You may need to add '192.168.88.129' to ALLOWED_HOSTS.
+WARNING 2019-04-29 22:30:46,933 basehttp 124 "GET / HTTP/1.0" 400 69197
+WARNING 2019-04-29 22:31:20,821 base 152 Not Found: /
+WARNING 2019-04-29 22:31:20,823 basehttp 124 "GET / HTTP/1.0" 404 3746
+WARNING 2019-04-29 22:31:33,143 base 152 Not Found: /user
+WARNING 2019-04-29 22:31:33,144 basehttp 124 "GET /user HTTP/1.0" 404 3776
+INFO 2019-04-29 22:31:36,471 basehttp 124 "GET /users HTTP/1.0" 301 0
+WARNING 2019-04-29 22:31:36,535 basehttp 124 "GET /users/ HTTP/1.0" 405 8691
+INFO 2019-04-29 22:31:36,565 basehttp 124 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.0" 200 121457
+INFO 2019-04-29 22:31:36,587 basehttp 124 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.0" 200 3385
+INFO 2019-04-29 22:31:36,588 basehttp 124 "GET /static/rest_framework/css/prettify.css HTTP/1.0" 200 817
+INFO 2019-04-29 22:31:36,589 basehttp 124 "GET /static/rest_framework/css/default.css HTTP/1.0" 200 1131
+INFO 2019-04-29 22:31:36,597 basehttp 124 "GET /static/rest_framework/js/ajax-form.js HTTP/1.0" 200 3597
+INFO 2019-04-29 22:31:36,605 basehttp 124 "GET /static/rest_framework/js/jquery-3.3.1.min.js HTTP/1.0" 200 86927
+INFO 2019-04-29 22:31:36,607 basehttp 124 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.0" 200 37608
+INFO 2019-04-29 22:31:36,610 basehttp 124 "GET /static/rest_framework/js/csrf.js HTTP/1.0" 200 1719
+INFO 2019-04-29 22:31:36,611 basehttp 124 "GET /static/rest_framework/js/prettify-min.js HTTP/1.0" 200 13632
+INFO 2019-04-29 22:31:36,613 basehttp 124 "GET /static/rest_framework/img/grid.png HTTP/1.0" 200 1458
+INFO 2019-04-29 22:31:36,614 basehttp 124 "GET /static/rest_framework/js/default.js HTTP/1.0" 200 1268
+WARNING 2019-04-29 22:38:49,389 base 152 Not Found: /
+WARNING 2019-04-29 22:38:49,390 basehttp 124 "GET / HTTP/1.0" 404 3746
+WARNING 2019-04-29 22:46:51,959 base 152 Not Found: /
+WARNING 2019-04-29 22:46:51,961 basehttp 124 "GET / HTTP/1.0" 404 3746
+WARNING 2019-04-29 22:53:26,568 base 152 Not Found: /
+WARNING 2019-04-29 22:53:26,569 basehttp 124 "GET / HTTP/1.0" 404 3746
+WARNING 2019-04-29 22:53:26,729 base 152 Not Found: /favicon.ico
+WARNING 2019-04-29 22:53:26,730 basehttp 124 "GET /favicon.ico HTTP/1.0" 404 3797
+WARNING 2019-04-29 22:53:33,664 base 152 Not Found: /user
+WARNING 2019-04-29 22:53:33,665 basehttp 124 "GET /user HTTP/1.0" 404 3776
+INFO 2019-04-29 22:53:37,661 basehttp 124 "GET /users HTTP/1.0" 301 0
+WARNING 2019-04-29 22:53:37,718 basehttp 124 "GET /users/ HTTP/1.0" 405 8691
+INFO 2019-04-29 22:53:37,737 basehttp 124 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.0" 200 121457
+INFO 2019-04-29 22:53:37,754 basehttp 124 "GET /static/rest_framework/css/prettify.css HTTP/1.0" 200 817
+INFO 2019-04-29 22:53:37,754 basehttp 124 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.0" 200 3385
+INFO 2019-04-29 22:53:37,765 basehttp 124 "GET /static/rest_framework/css/default.css HTTP/1.0" 200 1131
+INFO 2019-04-29 22:53:37,769 basehttp 124 "GET /static/rest_framework/js/ajax-form.js HTTP/1.0" 200 3597
+INFO 2019-04-29 22:53:37,771 basehttp 124 "GET /static/rest_framework/js/csrf.js HTTP/1.0" 200 1719
+INFO 2019-04-29 22:53:37,773 basehttp 124 "GET /static/rest_framework/js/jquery-3.3.1.min.js HTTP/1.0" 200 86927
+INFO 2019-04-29 22:53:37,774 basehttp 124 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.0" 200 37608
+INFO 2019-04-29 22:53:37,784 basehttp 124 "GET /static/rest_framework/js/prettify-min.js HTTP/1.0" 200 13632
+INFO 2019-04-29 22:53:37,785 basehttp 124 "GET /static/rest_framework/js/default.js HTTP/1.0" 200 1268
+INFO 2019-04-29 22:53:37,785 basehttp 124 "GET /static/rest_framework/img/grid.png HTTP/1.0" 200 1458
+WARNING 2019-04-29 22:56:56,436 base 152 Not Found: /
+WARNING 2019-04-29 22:56:56,436 basehttp 124 "GET / HTTP/1.0" 404 3746
+WARNING 2019-04-29 22:56:56,621 base 152 Not Found: /favicon.ico
+WARNING 2019-04-29 22:56:56,622 basehttp 124 "GET /favicon.ico HTTP/1.0" 404 3797
+WARNING 2019-04-29 22:57:45,155 base 152 Not Found: /
+WARNING 2019-04-29 22:57:45,156 basehttp 124 "GET / HTTP/1.0" 404 3746
+WARNING 2019-04-29 23:12:37,446 base 152 Not Found: /
+WARNING 2019-04-29 23:12:37,447 basehttp 124 "GET / HTTP/1.0" 404 3746
+WARNING 2019-04-29 23:12:39,057 base 152 Not Found: /
+WARNING 2019-04-29 23:12:39,058 basehttp 124 "GET / HTTP/1.0" 404 3746
+WARNING 2019-04-29 23:12:43,635 base 152 Not Found: /
+WARNING 2019-04-29 23:12:43,636 basehttp 124 "GET / HTTP/1.0" 404 3746
+WARNING 2019-04-30 08:49:45,815 basehttp 124 "GET /users/ HTTP/1.0" 405 8691
+WARNING 2019-04-30 08:49:46,300 base 152 Not Found: /favicon.ico
+WARNING 2019-04-30 08:49:46,301 basehttp 124 "GET /favicon.ico HTTP/1.0" 404 3797
+ERROR 2019-04-30 08:50:13,608 exception 80 Invalid HTTP_HOST header: '246856ih33.wicp.vip'. You may need to add '246856ih33.wicp.vip' to ALLOWED_HOSTS.
+WARNING 2019-04-30 08:50:13,768 basehttp 124 "GET / HTTP/1.0" 400 68869
+ERROR 2019-04-30 08:50:21,344 exception 80 Invalid HTTP_HOST header: '246856ih33.wicp.vip'. You may need to add '246856ih33.wicp.vip' to ALLOWED_HOSTS.
+WARNING 2019-04-30 08:50:21,400 basehttp 124 "GET / HTTP/1.0" 400 68958
+ERROR 2019-04-30 08:50:37,400 exception 80 Invalid HTTP_HOST header: '246856ih33.wicp.vip'. You may need to add '246856ih33.wicp.vip' to ALLOWED_HOSTS.
+WARNING 2019-04-30 08:50:37,458 basehttp 124 "GET / HTTP/1.0" 400 68958
+WARNING 2019-04-30 08:53:34,330 base 152 Not Found: /
+WARNING 2019-04-30 08:53:34,331 basehttp 124 "GET / HTTP/1.0" 404 3751
+INFO 2019-04-30 08:53:43,881 basehttp 124 "GET /users HTTP/1.0" 301 0
+WARNING 2019-04-30 08:53:44,071 basehttp 124 "GET /users/ HTTP/1.0" 405 8691
+INFO 2019-04-30 08:53:44,252 basehttp 124 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.0" 200 121457
+INFO 2019-04-30 08:53:44,306 basehttp 124 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.0" 200 3385
+INFO 2019-04-30 08:53:44,307 basehttp 124 "GET /static/rest_framework/css/prettify.css HTTP/1.0" 200 817
+INFO 2019-04-30 08:53:44,341 basehttp 124 "GET /static/rest_framework/css/default.css HTTP/1.0" 200 1131
+INFO 2019-04-30 08:53:44,347 basehttp 124 "GET /static/rest_framework/js/jquery-3.3.1.min.js HTTP/1.0" 200 86927
+INFO 2019-04-30 08:53:44,352 basehttp 124 "GET /static/rest_framework/js/ajax-form.js HTTP/1.0" 200 3597
+INFO 2019-04-30 08:53:44,499 basehttp 124 "GET /static/rest_framework/js/csrf.js HTTP/1.0" 200 1719
+INFO 2019-04-30 08:53:44,500 basehttp 124 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.0" 200 37608
+INFO 2019-04-30 08:53:45,201 basehttp 124 "GET /static/rest_framework/js/default.js HTTP/1.0" 200 1268
+INFO 2019-04-30 08:53:45,201 basehttp 124 "GET /static/rest_framework/js/prettify-min.js HTTP/1.0" 200 13632
+INFO 2019-04-30 08:53:45,272 basehttp 124 "GET /static/rest_framework/img/grid.png HTTP/1.0" 200 1458
+WARNING 2019-04-30 08:53:46,537 base 152 Not Found: /favicon.ico
+WARNING 2019-04-30 08:53:46,537 basehttp 124 "GET /favicon.ico HTTP/1.0" 404 3802
+ERROR 2019-04-30 09:03:06,553 exception 80 Invalid HTTP_HOST header: 'api.meiduo.site:8000'. You may need to add 'api.meiduo.site' to ALLOWED_HOSTS.
+WARNING 2019-04-30 09:03:06,731 basehttp 124 "GET /image_codes/b49a425a-d3b4-4845-af5d-bfe5756f4ff3/ HTTP/1.1" 400 69649
+ERROR 2019-04-30 09:03:09,942 exception 80 Invalid HTTP_HOST header: 'api.meiduo.site:8000'. You may need to add 'api.meiduo.site' to ALLOWED_HOSTS.
+WARNING 2019-04-30 09:03:09,994 basehttp 124 "GET /image_codes/d4f1e62e-97cc-4180-a1f3-45b0e8bfcf73/ HTTP/1.1" 400 69649
+ERROR 2019-04-30 09:03:15,047 exception 80 Invalid HTTP_HOST header: 'api.meiduo.site:8000'. You may need to add 'api.meiduo.site' to ALLOWED_HOSTS.
+WARNING 2019-04-30 09:03:15,119 basehttp 124 "GET /image_codes/57217499-542f-4b4c-8543-493a3c2dcd20/ HTTP/1.1" 400 69649
+ERROR 2019-04-30 09:03:16,491 exception 80 Invalid HTTP_HOST header: 'api.meiduo.site:8000'. You may need to add 'api.meiduo.site' to ALLOWED_HOSTS.
+WARNING 2019-04-30 09:03:16,530 basehttp 124 "GET /image_codes/87cdbf34-b2d5-4610-ad37-fc6d5b2894fe/ HTTP/1.1" 400 69649
+ERROR 2019-04-30 09:04:46,511 exception 80 Invalid HTTP_HOST header: 'api.meiduo.site:8000'. You may need to add 'api.meiduo.site' to ALLOWED_HOSTS.
+WARNING 2019-04-30 09:04:46,605 basehttp 124 "GET /image_codes/253cbb48-3b75-479f-8a4b-36b58cd72cea/ HTTP/1.1" 400 69721
+ERROR 2019-04-30 09:04:47,859 exception 80 Invalid HTTP_HOST header: 'api.meiduo.site:8000'. You may need to add 'api.meiduo.site' to ALLOWED_HOSTS.
+WARNING 2019-04-30 09:04:47,954 basehttp 124 "GET /image_codes/387b9224-ac0c-4a45-9fba-3012a72dc1f9/ HTTP/1.1" 400 69721
+INFO 2019-04-30 09:05:17,196 views 31 图片验证码是U6R1
+INFO 2019-04-30 09:05:17,197 basehttp 124 "GET /image_codes/95d54287-5405-4234-86a1-43765de9ecb7/ HTTP/1.1" 200 3121
+WARNING 2019-04-30 09:51:50,657 base 152 Not Found: /
+WARNING 2019-04-30 09:51:50,659 basehttp 124 "GET / HTTP/1.0" 404 3746
+WARNING 2019-04-30 09:51:50,745 base 152 Not Found: /favicon.ico
+WARNING 2019-04-30 09:51:50,745 basehttp 124 "GET /favicon.ico HTTP/1.0" 404 3797
+INFO 2019-04-30 09:54:34,994 views 31 图片验证码是SGBM
+INFO 2019-04-30 09:54:34,995 basehttp 124 "GET /image_codes/f9001f0c-d565-4a23-8a05-6078590a38f8/ HTTP/1.0" 200 3351
+INFO 2019-04-30 09:54:36,434 views 31 图片验证码是A4D5
+INFO 2019-04-30 09:54:36,435 basehttp 124 "GET /image_codes/09da3df1-b035-4f5f-9efc-009e94ddb552/ HTTP/1.0" 200 3266
+INFO 2019-04-30 09:54:46,364 views 31 图片验证码是Q8NE
+INFO 2019-04-30 09:54:46,364 basehttp 124 "GET /image_codes/9b5c02f7-23b8-46a0-bc54-5bc02c54ec6e/ HTTP/1.0" 200 3106
+INFO 2019-04-30 09:54:47,569 views 31 图片验证码是VEAW
+INFO 2019-04-30 09:54:47,569 basehttp 124 "GET /image_codes/b71fb07a-458c-4836-8b02-1b6fe880b3b5/ HTTP/1.0" 200 3341
+INFO 2019-04-30 09:55:32,142 views 31 图片验证码是IJV6
+INFO 2019-04-30 09:55:32,143 basehttp 124 "GET /image_codes/0eb4533c-4809-4788-8c62-e2dd47bf4712/ HTTP/1.0" 200 3485
+INFO 2019-04-30 09:56:18,635 basehttp 124 "OPTIONS /authorizations/ HTTP/1.0" 200 0
+INFO 2019-04-30 09:56:18,687 basehttp 124 "POST /authorizations/ HTTP/1.0" 200 259
+WARNING 2019-04-30 11:32:55,127 base 152 Not Found: /
+WARNING 2019-04-30 11:32:55,129 basehttp 124 "GET / HTTP/1.1" 404 3853
+WARNING 2019-04-30 11:32:55,338 base 152 Not Found: /favicon.ico
+WARNING 2019-04-30 11:32:55,339 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 3904
+INFO 2019-04-30 11:34:05,954 basehttp 124 "GET /oauth/qq/authorization/?state=/user/user_center_info.html HTTP/1.1" 200 5964
+WARNING 2019-04-30 11:34:44,132 base 152 Not Found: /oauth/qq/user/
+WARNING 2019-04-30 11:34:44,133 basehttp 124 "GET /oauth/qq/user/?code=DAF3EF171CDC9D3D524A886D77210E39 HTTP/1.0" 404 4017
+INFO 2019-04-30 11:48:38,201 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.0" 200 192
+INFO 2019-04-30 11:48:39,287 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.0" 200 192
+INFO 2019-04-30 11:48:39,498 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.0" 200 192
+INFO 2019-04-30 11:48:39,702 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.0" 200 192
+INFO 2019-04-30 11:48:39,895 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.0" 200 192
+INFO 2019-04-30 11:48:40,095 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.0" 200 192
+INFO 2019-04-30 11:48:40,295 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.0" 200 192
+INFO 2019-04-30 11:48:50,240 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.0" 200 192
+INFO 2019-04-30 11:48:50,476 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.0" 200 192
+INFO 2019-04-30 11:48:50,701 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.0" 200 192
+INFO 2019-04-30 11:48:50,926 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.0" 200 192
+INFO 2019-04-30 11:49:01,518 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.0" 200 192
+INFO 2019-04-30 11:50:21,420 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.0" 200 192
+INFO 2019-04-30 11:51:00,567 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.0" 200 192
+INFO 2019-04-30 11:51:09,422 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.0" 200 192
+INFO 2019-04-30 11:55:33,794 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.0" 200 192
+INFO 2019-04-30 11:56:17,285 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.0" 200 192
+INFO 2019-04-30 11:58:10,801 basehttp 124 "GET /oauth/qq/authorization/?state=/index.html HTTP/1.0" 200 202
+INFO 2019-04-30 11:58:29,861 basehttp 124 "GET /oauth/qq/authorization/?state=/index.html HTTP/1.0" 200 202
+WARNING 2019-04-30 11:58:34,521 base 152 Not Found: /oauth/qq/user/
+WARNING 2019-04-30 11:58:34,522 basehttp 124 "GET /oauth/qq/user/?code=F9C1F363449B44D80C2994C6595BABD0 HTTP/1.0" 404 4017
+INFO 2019-04-30 12:01:32,238 basehttp 124 "GET /oauth/qq/authorization/?state=/index.html HTTP/1.0" 200 202
+INFO 2019-04-30 12:01:41,605 views 31 图片验证码是6B1K
+INFO 2019-04-30 12:01:41,606 basehttp 124 "GET /image_codes/c7591cbd-e4f3-4fa9-bef0-b4deef97d99c/ HTTP/1.0" 200 2998
+INFO 2019-04-30 12:05:06,451 views 31 图片验证码是OYNH
+INFO 2019-04-30 12:05:06,452 basehttp 124 "GET /image_codes/31c76671-063c-4ddb-8302-8383c4dfdd4e/ HTTP/1.0" 200 3663
+INFO 2019-05-03 10:25:39,081 basehttp 124 "GET /oauth/qq/authorization/?state=/index.html HTTP/1.0" 200 202
+WARNING 2019-05-03 10:26:09,127 base 152 Not Found: /oauth/qq/user/
+WARNING 2019-05-03 10:26:09,129 basehttp 124 "GET /oauth/qq/user/?code=9F924BFB368AD2491E6992CCA3B9B59F HTTP/1.0" 404 4017
+INFO 2019-05-03 10:27:26,290 basehttp 124 "GET /oauth/qq/authorization/?state=/index.html HTTP/1.0" 200 202
+INFO 2019-05-03 10:27:26,737 basehttp 124 "GET /oauth/qq/authorization/?state=/index.html HTTP/1.0" 200 202
+WARNING 2019-05-03 10:27:46,330 base 152 Not Found: /oauth/qq/user/
+WARNING 2019-05-03 10:27:46,332 basehttp 124 "GET /oauth/qq/user/?code=B60CED2020A0C01C5CB584CD08B2E8A5 HTTP/1.0" 404 4017
+WARNING 2019-05-03 12:30:59,960 basehttp 124 "GET /oauth/qq/user/?code=B60CED2020A0C01C5CB584CD08B2E8A5 HTTP/1.0" 400 26
+WARNING 2019-05-03 12:31:05,244 basehttp 124 "GET /oauth/qq/user/?code=33F474FDD67B43C03E37B04A073266DC HTTP/1.0" 400 26
+ERROR 2019-05-03 12:32:59,123 exception 135 Internal Server Error: /oauth/qq/user/
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/etc/my_object/meiduo/meiduo_mall/meiduo_mall/apps/oauth/views.py", line 36, in get
+    oauth_qq=OAuthQQ()
+  File "/etc/my_object/meiduo/meiduo_mall/meiduo_mall/apps/oauth/utils.py", line 18, in __init__
+    self.state=state or settings.QQ.STATE
+  File "/usr/local/python3/lib/python3.6/site-packages/django/conf/__init__.py", line 57, in __getattr__
+    val = getattr(self._wrapped, name)
+AttributeError: 'Settings' object has no attribute 'QQ'
+ERROR 2019-05-03 12:32:59,279 basehttp 124 "GET /oauth/qq/user/?code=9F924BFB368AD2491E6992CCA3B9B59F HTTP/1.0" 500 17866
+ERROR 2019-05-03 12:33:19,797 exception 135 Internal Server Error: /oauth/qq/user/
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/etc/my_object/meiduo/meiduo_mall/meiduo_mall/apps/oauth/views.py", line 36, in get
+    oauth_qq=OAuthQQ()
+  File "/etc/my_object/meiduo/meiduo_mall/meiduo_mall/apps/oauth/utils.py", line 18, in __init__
+    self.state=state or settings.QQ.STATE
+  File "/usr/local/python3/lib/python3.6/site-packages/django/conf/__init__.py", line 57, in __getattr__
+    val = getattr(self._wrapped, name)
+AttributeError: 'Settings' object has no attribute 'QQ'
+ERROR 2019-05-03 12:33:19,823 basehttp 124 "GET /oauth/qq/user/?code=33F474FDD67B43C03E37B04A073266DC HTTP/1.0" 500 17871
+INFO 2019-05-03 12:33:29,532 basehttp 124 "GET /oauth/qq/authorization/?state=/index.html HTTP/1.0" 200 202
+ERROR 2019-05-03 12:33:32,298 exception 135 Internal Server Error: /oauth/qq/user/
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/etc/my_object/meiduo/meiduo_mall/meiduo_mall/apps/oauth/views.py", line 36, in get
+    oauth_qq=OAuthQQ()
+  File "/etc/my_object/meiduo/meiduo_mall/meiduo_mall/apps/oauth/utils.py", line 18, in __init__
+    self.state=state or settings.QQ.STATE
+  File "/usr/local/python3/lib/python3.6/site-packages/django/conf/__init__.py", line 57, in __getattr__
+    val = getattr(self._wrapped, name)
+AttributeError: 'Settings' object has no attribute 'QQ'
+ERROR 2019-05-03 12:33:32,322 basehttp 124 "GET /oauth/qq/user/?code=266300BE99626A66AC9D3F480FE5D818 HTTP/1.0" 500 17871
+ERROR 2019-05-03 12:34:42,118 exception 135 Internal Server Error: /oauth/qq/user/
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/etc/my_object/meiduo/meiduo_mall/meiduo_mall/apps/oauth/views.py", line 40, in get
+    openid=oauth_qq.get_openid(access_token)
+  File "/etc/my_object/meiduo/meiduo_mall/meiduo_mall/apps/oauth/utils.py", line 65, in get_openid
+    url='https://graph.qq.com/oauth2.0/me?access_token='+token
+TypeError: must be str, not NoneType
+ERROR 2019-05-03 12:34:42,167 basehttp 124 "GET /oauth/qq/user/?code=9F924BFB368AD2491E6992CCA3B9B59F HTTP/1.0" 500 17734
+ERROR 2019-05-03 12:38:32,546 utils 59 'NoneType' object is not subscriptable
+ERROR 2019-05-03 12:38:32,548 basehttp 124 "GET /oauth/qq/user/?code=9F924BFB368AD2491E6992CCA3B9B59F HTTP/1.0" 503 40
+INFO 2019-05-03 12:39:10,972 basehttp 124 "GET /oauth/qq/authorization/?state=/index.html HTTP/1.0" 200 202
+INFO 2019-05-03 12:39:13,788 basehttp 124 "GET /oauth/qq/user/?code=6443CDB784C6E2D25DF9013D6B5CDC4D HTTP/1.0" 200 233
+ERROR 2019-05-03 12:45:55,448 utils 59 'NoneType' object is not subscriptable
+ERROR 2019-05-03 12:45:55,449 basehttp 124 "GET /oauth/qq/user/?code=9F924BFB368AD2491E6992CCA3B9B59F HTTP/1.0" 503 40
+ERROR 2019-05-03 12:45:55,459 utils 59 'NoneType' object is not subscriptable
+ERROR 2019-05-03 12:45:55,461 basehttp 124 "GET /oauth/qq/user/?code=6443CDB784C6E2D25DF9013D6B5CDC4D HTTP/1.0" 503 40
+ERROR 2019-05-03 12:47:10,231 utils 59 'NoneType' object is not subscriptable
+ERROR 2019-05-03 12:47:10,232 basehttp 124 "GET /oauth/qq/user/?code=6443CDB784C6E2D25DF9013D6B5CDC4D HTTP/1.0" 503 40
+ERROR 2019-05-03 12:47:10,260 utils 59 'NoneType' object is not subscriptable
+ERROR 2019-05-03 12:47:10,262 basehttp 124 "GET /oauth/qq/user/?code=9F924BFB368AD2491E6992CCA3B9B59F HTTP/1.0" 503 40
+INFO 2019-05-03 12:47:17,993 basehttp 124 "GET /oauth/qq/authorization/?state=/index.html HTTP/1.0" 200 202
+INFO 2019-05-03 12:47:27,401 basehttp 124 "GET /oauth/qq/user/?code=C57FE6CD95630D64316F23EFE87166B1 HTTP/1.0" 200 233
+INFO 2019-05-03 12:47:27,511 views 31 图片验证码是NJ4K
+INFO 2019-05-03 12:47:27,512 basehttp 124 "GET /image_codes/be8cfae6-46ca-4b38-a672-b82f0c484fa0/ HTTP/1.0" 200 3093

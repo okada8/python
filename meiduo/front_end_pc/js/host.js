@@ -1,1 +1,1 @@
-var host = "http://api.meiduo.site:8000";
+var host = "http://192.168.88.129:80";

@@ -12,7 +12,7 @@ class CheckImageCodeSerialzier(serializers.Serializer):
     #验证是不是四位
     text=serializers.CharField(min_length=4,max_length=4)
 
-    def validate(self, attrs):
+    def validate(self, attrs):#attrs就是request
         """校验图片验证码是否正确"""
         #查询redis，获取真实验证码
         #从attrs字典中拿到图片验证码id
@@ -40,9 +40,12 @@ class CheckImageCodeSerialzier(serializers.Serializer):
             raise serializers.ValidationError('图片验证码错误')
         #redis中发送短信验证码的标志 send_flag_<mobile>:1,由redis维护60妙
         #该字段从对应视图函数中获取
+        #有可能别的视图也会用到图片验证码，get_serializer(data=request.query_params)会动
+        #态加入context属性字典，这个字典里面有view键，值是self
         mobile=self.context.get('view').kwargs.get('mobile')
-        #查看redis中是否有发送过短信的标志
-        send_flag=redis_conn.get('send_flag_%s'%mobile)
-        if send_flag:
-            raise serializers.ValidationError('发送短信过于频繁')
+        if mobile:
+            #查看redis中是否有发送过短信的标志
+            send_flag=redis_conn.get('send_flag_%s'%mobile)
+            if send_flag:
+                raise serializers.ValidationError('发送短信过于频繁')
         return attrs

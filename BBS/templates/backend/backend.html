@@ -1,0 +1,29 @@
+{% extends 'backend/backendbase.html' %}
+
+
+{% block content %}
+{#展示当前登录写的所有的文章#}
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>标题</th>
+                <th>评论数</th>
+                <th>点赞数</th>
+                <th>操作</th>
+                <th>操作</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for article in page_query %}
+                <tr>
+                    <td><a href="/{{ request.user.username }}/article/{{ article.pk }}">{{ article.title }}</a></td>
+                    <td>{{ article.comment_num }}</td>
+                    <td>{{ article.up_num }}</td>
+                    <td><a href="/edit_article/{{ article.pk }}/">编辑</a></td>
+                    <td><a href="">删除</a></td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    {{ page_obj.page_html|safe }}
+{% endblock %}

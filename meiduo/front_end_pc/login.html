@@ -13,16 +13,20 @@
     <div class="login_top clearfix">
         <a href="index.html" class="login_logo"><img src="images/logo02.png"></a>
     </div>
-    <div class="login_form_bg" id='app'>
+    <div class="login_form_bg" >
         <div class="login_form_wrap clearfix">
             <div class="login_banner fl"></div>
             <div class="slogan fl">商品美 · 种类多 · 欢迎光临</div>
-            <div class="login_form fr">
+
+            <div class="login_form fr" id="app">
+
                 <div class="login_title clearfix">
                     <a href="javascript:;" class="cur">账户登录</a>
                 </div>
+
                 <div class="form_con">
                     <div class="form_input cur">
+
                         <form id="login-form" @submit.prevent="on_submit">
                             <input type="text" v-model="username" @blur="check_username" name="" class="name_input" placeholder="请输入用户名或手机号">
                             <div v-show="error_username" class="user_error" v-cloak>请填写用户名或手机号</div>
@@ -35,6 +39,9 @@
                             </div>
                             <input type="submit" name="" value="登 录" class="input_submit">
                         </form>
+
+
+
                     </div>
                 </div>
                 <div class="third_party">
@@ -46,6 +53,10 @@
             </div>
         </div>
     </div>
+
+
+
+
 
     <div class="footer no-mp">
         <div class="foot_link">

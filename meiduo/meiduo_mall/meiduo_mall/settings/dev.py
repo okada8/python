@@ -27,7 +27,7 @@ SECRET_KEY = 'am$1pv^rs2(@*+$aq))hoq4b8p5n93cvm!@&g5bg7axs7xw9k7'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['api.meiduo.site', '127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['246856ih33.wicp.vip', '127.0.0.1', 'localhost','192.168.88.129','api.meiduo.site']
 
 
 # Application definition
@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     #因为已经把apps导入了，只需要从apps下面直接输入就好
     'users.apps.UsersConfig',#用户模块
     'verifications.apps.VerificationsConfig',#图片验证码
+    'oauth.apps.OauthConfig'#第三方登陆
 ]
 
 MIDDLEWARE = [
@@ -226,7 +227,7 @@ AUTH_USER_MODEL = 'users.User'
 CORS_ORIGIN_WHITELIST = (
     '127.0.0.1:8080',
     'localhost:8080',
-    'www.meiduo.site:8080',
+    '246856ih33.wicp.vip',
     'api.meiduo.site:8000',
 )
 CORS_ALLOW_CREDENTIALS = True  # 允许携带cookie
@@ -239,3 +240,14 @@ JWT_AUTH = {
     'JWT_RESPONSE_PAYLOAD_HANDLER': 'users.utils.jwt_response_payload_handler',
 
 }
+
+#要用自定义认证的方法
+AUTHENTICATION_BACKENDS = [
+    'users.utils.UsernameMobileAuthBackend',
+]
+
+# QQ登录参数
+QQ_APP_ID = '101571509' # 开发应用APPID
+QQ_APP_KEY = '47ad010542b83ff6afcf61993b8e81b6' # 开发应用APP_KEY
+QQ_REDIRECT_URL = 'http://246856ih33.wicp.vip/oauth_callback.html' # 设置回调网址
+QQ_STATE = '/' # 设置默认state

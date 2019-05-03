@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/static/bootstrap-3.3.7/css/bootstrap.min.css">
+    <script src="/static/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+            <h2 class="text-center">注册</h2>
+            <hr>
+            <form id="myform">
+            {% csrf_token %}
+                {% for foo in form_obj %}
+                    <div class="form-group">
+                        {#input框对象点auto_id能够直接获取input的id值#}
+                        <p><label for="{{ foo.auto_id }}">{{ foo.label }}</label>
+                            {{ foo }}
+                            <span class="errors pull-right" style="color: red"></span>
+                        </p>
+                    </div>
+                {% endfor %}
+                <div class="form-group">
+                    <label for="id_myfile">头像
+                        <img src="/static/img/default.jpg" alt="" width="80" style="margin-left: 20px" id="id_img">
+                    </label>
+                    <input type="file" name="myfile" id="id_myfile" style="display: none;">
+                </div>
+                <input type="button" class="btn btn-primary pull-right" id="id_button" value="提交">
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+    $('#id_myfile').change(function () {
+        // 获取当前用户上传到的文件对象
+        var myfileObj = $(this)[0].files[0];
+        // 需要用文件阅读器这个内置对象
+        var fileReader = new FileReader();
+        // 将文件对象丢给文件阅读器
+        fileReader.readAsDataURL(myfileObj);
+        // 将文件对象放入img标签的src属性中
+        // 当文件对象全部加载完毕再渲染
+        fileReader.onload = function(){
+             $('#id_img').attr('src',fileReader.result);
+        }
+    });
+    $('#id_button').click(function () {
+        var formData = new FormData();
+        {#console.log($('#myform').serializeArray());  自动获取form表单中所有input框键值对#}
+        $.each($('#myform').serializeArray(),function (index,obj) {
+            {#console.log(index,obj)  知识添加了普通的键值对,文件对象需要你手动添加#}
+            formData.append(obj.name,obj.value)
+        });
+        {#手动添加文件对象#}
+        formData.append('myfile',$('#id_myfile')[0].files[0]);
+        $.ajax({
+            url:'',
+            type:'post',
+            data:formData,
+            // 用formdata传数据的时候需要指定两个参数
+            processData:false,
+            contentType:false,
+            success:function (data) {
+                if(data.code == 100){
+                    location.href = data.url
+                }else{
+                    $.each(data.msg,function (index,obj) {
+                        // 手动拼接处forms组件渲染的input的id值     id_字段的特点
+                        var targetId = '#id_' + index;
+                        $(targetId).next().html(obj[0]).parent().parent().addClass('has-error')
+                    })
+                }
+            }
+        })
+    });
+    $('input').focus(function () {
+        $(this).next().html('').parent().parent().removeClass('has-error')
+    })
+</script>
+</body>
+</html>
