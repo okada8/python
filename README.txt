@@ -1,15 +1,43 @@
-每一个项目都在每一个文件夹里
-atm_shopcar_payment：可以支持信用卡组合支付的购物车加ATM
-BBS：Django框架的论坛BS架构
-class_choice：一个用于创建学校，班级课程老师和学生注册的系统
-daydayshop：Django框架的天天生鲜电商购物网站BS架构
-IO_tcp_subproess：IO多路复用，CS架构的CMD终端
-meiduo：Django框架的美多电商购物网站BS架构
-myftp：仿FTP，CS架构
-mysql_sql：IO多路复用，CS架构的SQL终端
-ORM：原生ORM和对象关系映射模板
-see_new：Flask框架的新闻浏览器BS架构
-see_news：终端版新闻浏览器
-socket_chat：CS架构的终端聊天程序
-youku：CS架构仿优酷版本一
-youku2：CS架构仿优酷版本二
+每一个项目都在每一个文件夹里,每一个文件夹下还有介绍
+
+一.Atm_Shopcar_Payment：
+   终端程序，登录注册，模拟ATM终端，购物结算系统，信用卡系统等功能
+
+2.BBS：
+   Django框架的论坛，BS架构，模仿博客园，登录注册，个人中心，文章评论点赞等功能
+   	
+3.Class_Choice：
+  终端程序，一个用于创建学校，班级，课程，老师和学生注册的系统
+
+4.Day_Day_Shop：
+  Django框架的天天生鲜电商购物网站BS架构，登录注册，购物车，支付，历史浏览等功能
+
+5.IO_Tcp_Subproess：
+  终端程序，利用IO多路复用，CS架构，可以执行命令
+
+6.MeiDuo：
+  Django框架的美多电商购物网站，BS架构，登录注册，qq登录，邮件激活，购物车，支付，历史浏览等功能
+
+7.MyFtp：
+  终端程序，仿FTP，CS架构，登录注册，上传下载，执行命令
+
+8.Mysql_SQL：
+  终端程序，利用IO多路复用，CS架构，执行SQL语句
+
+9.ORM：
+  原生ORM和对象关系映射模板
+
+10.Informations：
+  Flask框架的新闻浏览器，BS架构，新闻分类，登录注册，点赞评论等功能
+
+11.See_News：
+  终端程序，新闻浏览器，CS架构，登录注册，查看新闻，新闻录入，搜索新闻等功能
+
+12.Socket_Chat：
+  终端程序，CS架构，登录注册，聊天
+
+13.YouKu版本一：
+  终端程序，CS架构，仿优酷，登录注册，文件上传下载，会员支付等功能
+
+14.YouKu2版本二：
+  终端程序，CS架构，仿优酷，登录注册，文件上传下载，会员支付等功能
