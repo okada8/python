@@ -1,9 +1,0 @@
-# 发送短信token有效期: s
-SEND_SMS_CODE_TOKEN_EXPIRES = 300
-#生成修改密码token的有效期
-SET_PASSWORD_TOKEN_EXPIRES= 300
-#生成邮件验证链接的有效时间
-VERIFY_EMAIL_TOKEN_EXPIRES=60 * 60 * 24
-
-
-
