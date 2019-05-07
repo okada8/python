@@ -1,6 +1,6 @@
 每一个项目都在每一个文件夹里,每一个文件夹下还有介绍
 
-一.Atm_Shopcar_Payment：
+1.Atm_Shopcar_Payment：
    终端程序，登录注册，模拟ATM终端，购物结算系统，信用卡系统等功能
 
 2.BBS：
