@@ -1,0 +1,10 @@
+用到django 1.11.11做的天天生鲜电商项目  FBV +CBV
+celery分布式任务和FASTDFS分布式存储 redis
+auth认证
+itsdangerous 生成TOKEN
+haystack+whoosh+jieba全文搜索
+django自带admin管理系统
+
+
+
+
