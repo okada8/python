@@ -6,6 +6,8 @@ from rest_framework import status
 from .exceptions import QQAPIException
 from .models import OAuthQQUser
 from rest_framework_jwt.settings import api_settings
+from rest_framework.generics import GenericAPIView
+from .serializers import OAuthQQUserSerializer
 # Create your views here.
 
 #提供qq登陆的接口 /oauth/qq/authorization/?state=xxx
@@ -23,7 +25,8 @@ class OAuthQQURLView(APIView):
         return Response({"oauth_url":login_url})
 
 #提供qq登陆后，判断用户是否是第一次用qq登陆的接口
-class OAuthQQUserView(APIView):
+class OAuthQQUserView(GenericAPIView):
+    serializer_class = OAuthQQUserSerializer
     """
     获取qq用户对应的商城用户，当用户用qq登陆后，qq会把code传给我们
     """
@@ -61,6 +64,32 @@ class OAuthQQUserView(APIView):
                 'username':oauth_user.user.username,
                 'user_id':oauth_user.user.id
             })
+
+    """
+    处理第一次用qq登陆的用户的请求，会把的手机号，短信验证码，密码用post方式传过来
+    """
+    def post(self,request):
+        #调用序列化器校验数据并且保存数据
+        serializer=self.get_serializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        user=serializer.save()
+        #返回用户登陆的jwt token
+        # 由服务器签发一个jwt token，保存用户身份信息
+        jwt_payload_handler = api_settings.JWT_PAYLOAD_HANDLER
+        jwt_encode_handler = api_settings.JWT_ENCODE_HANDLER
+        # 生成载荷信息(payload)
+        payload = jwt_payload_handler(user)
+        # 生成jwt token
+        token = jwt_encode_handler(payload)
+        # 返回
+        return Response({
+            'token':token,
+            'username':user.username,
+            'user_id':user.id
+        })
+
+
+
 
 
 

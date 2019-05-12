@@ -9,7 +9,19 @@ Django 1.11.11 框架电商项目 CBV 前后端分离
 二.redis缓存
    01: 使用redis管道pipeline
    02: celery异步多任务处理
-   03: 
+三.django   
+   01: django-crontab定时任务生成首页静态化页面
+   02: django-admin管理后台
+四.存储
+   01: docker安装FASTDFS
+   02: nginx作为反向代理
+五.mysql
+   01: mysql5.6   
+
+
+
+
+
 
 
 

@@ -62,13 +62,13 @@ var vm = new Vue({
                     })
                     .catch(function(error){
                         if (error.response.status === 403) {
-                            location = '/index.html?next=/user_center_pass.html';
+                            location = '/index1.html?next=/user_center_pass.html';
                         } else {
                             alert(error.response.data.message);
                         }
                     })
             } else {
-                location.href = '/index.html?next=/user_center_pass.html';
+                location.href = '/index1.html?next=/user_center_pass.html';
             }
         },
         // 退出

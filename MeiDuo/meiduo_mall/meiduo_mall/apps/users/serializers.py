@@ -1,9 +1,9 @@
 import re
-
+from celery_tasks.email.tasks import send_verify_email
 from django_redis import get_redis_connection
 from rest_framework import serializers
 from rest_framework_jwt.settings import api_settings
-from users.models import User
+from users.models import User,Address
 from .utils import get_user_by_account
 
 #注册的时候用
@@ -124,9 +124,6 @@ class CreateUserSerializer(serializers.ModelSerializer):
         # 返回user
         return user
 
-
-
-
 #用户忘记密码当他把短信验证码发送到后段的时候需要校验
 class CheckSMSCodeSerializer(serializers.Serializer):
     #检验sms_code是否时6位
@@ -150,6 +147,7 @@ class CheckSMSCodeSerializer(serializers.Serializer):
         if value != real_sms_code.decode():
             raise serializers.ValidationError('短信验证码错误')
         return value
+
 #用户忘记密码后更改密码
 class RestePasswordSerializer(serializers.ModelSerializer):
     """重至密码序列花器"""
@@ -189,4 +187,75 @@ class RestePasswordSerializer(serializers.ModelSerializer):
         instance.set_password(validated_data['password'])
         instance.save()
         return instance
+
+#用户个人中心
+class UserDetailSerializer(serializers.ModelSerializer):
+    class Meta:
+        model=User
+        fields = ("id", "username", "mobile", "email","email_active")
+
+#用户绑定邮箱
+class EmailSerializer(serializers.ModelSerializer):
+    class Meta:
+        model=User
+        fields=('id','email')
+        extra_kwargs ={
+            'email':{
+            'required':True,
+            }
+        }
+
+    def update(self, instance, validated_data):#instance=user
+        """重写更新方法，添加发送邮件"""
+        #取出新的email
+        emial=validated_data['email']
+        #user对象的email重新设置
+        instance.email=emial
+        #保存至数据库
+        instance.save()
+        #发送邮件
+        verify_url=instance.generate_verify_email_url()#生成的链接
+        send_verify_email.delay(emial,verify_url)
+        return instance
+
+
+
+class UserAddressSerializer(serializers.ModelSerializer):
+    """
+    用户地址序列化器
+    """
+    province = serializers.StringRelatedField(read_only=True)
+    city = serializers.StringRelatedField(read_only=True)
+    district = serializers.StringRelatedField(read_only=True)
+    province_id = serializers.IntegerField(label='省ID', required=True)
+    city_id = serializers.IntegerField(label='市ID', required=True)
+    district_id = serializers.IntegerField(label='区ID', required=True)
+
+    class Meta:
+        model = Address
+        exclude = ('user', 'is_deleted', 'create_time', 'update_time')
+
+    def validate_mobile(self, value):
+        """
+        验证手机号
+        """
+        if not re.match(r'^1[3-9]\d{9}$', value):
+            raise serializers.ValidationError('手机号格式错误')
+        return value
+
+    def create(self, validated_data):
+        """
+        保存
+        """
+        validated_data['user'] = self.context['request'].user
+        return super().create(validated_data)
+
+
+class AddressTitleSerializer(serializers.ModelSerializer):
+    """
+    地址标题
+    """
+    class Meta:
+        model = Address
+        fields = ('title',)
 

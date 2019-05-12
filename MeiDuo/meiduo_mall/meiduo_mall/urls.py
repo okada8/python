@@ -18,7 +18,9 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^', include('verifications.urls')),
-    url(r'^', include('users.urls')),
-    url(r'^oauth/', include('oauth.urls')),
+    url(r'^', include('verifications.urls')),#图片验证码
+    url(r'^', include('users.urls')),#登陆注册
+    url(r'^oauth/', include('oauth.urls')),#第三方登陆
+    url(r'', include('areas.urls')),#地址管理
+    url(r'^ckeditor/', include('ckeditor_uploader.urls')),#富文本编辑器
 ]

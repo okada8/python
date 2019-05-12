@@ -27,6 +27,20 @@ class OAuthQQUser(BaseModel):
         token = serializer.dumps(data)  # type:bytes
         # 返回非二进制token
         return token.decode()
+    #校验access_token
+    @staticmethod
+    def check_save_user_token(token):
+        # 创建itsdangerous模型的转换工具
+        serializer = TJWSSerializer(settings.SECRET_KEY, expires_in=SAVE_QQ_USER_TOKEN_EXPIRES)
+        try:
+            # 检验token
+            data = serializer.loads(token)
+        except BadData:
+            return None
+        else:
+            # 取出openid
+            openid = data.get('openid')
+            return openid
 
 
 

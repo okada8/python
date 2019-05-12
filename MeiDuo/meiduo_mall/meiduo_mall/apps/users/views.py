@@ -1,13 +1,18 @@
 from django.shortcuts import render
 from rest_framework.response import Response
 from rest_framework.views import APIView
-from rest_framework.generics import GenericAPIView, CreateAPIView
+from rest_framework.generics import GenericAPIView, CreateAPIView,RetrieveAPIView,UpdateAPIView
 from users.models import User
 from users.serializers import CreateUserSerializer
-from .serializers import CheckSMSCodeSerializer,RestePasswordSerializer
+from .serializers import CheckSMSCodeSerializer,RestePasswordSerializer,UserDetailSerializer,EmailSerializer,\
+UserAddressSerializer,AddressTitleSerializer
+from rest_framework.viewsets import GenericViewSet
+from rest_framework.decorators import action
+from .constants import USER_ADDRESS_COUNTS_LIMIT
 from verifications.serializers import CheckImageCodeSerialzier
 from .utils import get_user_by_account
 from rest_framework import status,mixins
+from rest_framework.permissions import IsAuthenticated
 import re
 # Create your views here.
 
@@ -18,7 +23,7 @@ class UserView(CreateAPIView):
     serializer_class = CreateUserSerializer
 
 #用户注册时验证用户名是否以存在，regist.js会请求
-# url(r'^usernames/(?P<username>\w{5,20})/count/$', views.UsernameCountView.as_view()),
+# GET:/usernames/(?P<username>\w{5,20})/count/,
 class UsernameCountView(APIView):
     """
     用户名数量
@@ -37,7 +42,7 @@ class UsernameCountView(APIView):
         return Response(data)#前端js会根据count是否大于0来判断用户名是否可用
 
 #用户注册时验证手机号码是否以存在，regist.js会请求
-# url(r'^mobiles/(?P<mobile>1[3-9]\d{9})/count/$', views.MobileCountView.as_view()),
+# GET: /mobiles/(?P<mobile>1[3-9]\d{9})/count/,
 class MobileCountView(APIView):
     """
     手机号数量
@@ -57,6 +62,7 @@ class MobileCountView(APIView):
 
 
 #登陆时用户忘记了密码获取忘记密码部分用户发的短信秘钥，regist.js会请求
+#GET:/accounts/(?P<account>\w{4,20})/sms/token/
 class SMSCodeToKenView(GenericAPIView):
     #获取注册时的图片验证码序列化器，验证图片验证码
     serializer_class = CheckImageCodeSerialzier
@@ -80,10 +86,8 @@ class SMSCodeToKenView(GenericAPIView):
         })
 
 
-
-
-
 #用户忘记了密码然后设置用户密码的token
+#GET:/accounts/(?P<account>\w{4,20})/password/token/
 class PasswordTokenView(GenericAPIView):
     serializer_class = CheckSMSCodeSerializer
 
@@ -99,8 +103,8 @@ class PasswordTokenView(GenericAPIView):
 
         return Response({"user_id":user.id,"access_token":access_token})
 
-
 #忘记密码入口的修改密码
+#POST:/users/(?P<pk>\d+)/password/
 class PasswordView(mixins.UpdateModelMixin,GenericAPIView):
     """修改密码"""
     #要指出要更改的user来自于哪里
@@ -108,6 +112,149 @@ class PasswordView(mixins.UpdateModelMixin,GenericAPIView):
     serializer_class = RestePasswordSerializer
     def post(self,request,pk):
         return self.update(request,pk)
+
+#用户详情信息，个人中心
+#GET /user/
+class UserDetailView(RetrieveAPIView):
+
+    serializer_class =UserDetailSerializer
+    #只有登陆成功后才能查看用户中心
+    permission_classes = [IsAuthenticated]
+
+    #因为现访问路径是/user/，不是/users/(?P<pk>\d+)/，所以要重写get_object方法，
+    #类视图对象里有request对象
+    def get_object(self):
+        #返回请求用户对象user,self是类视图对象，里面有request属性,user是jwt机制先查询后然后加在request对象的属性
+        return self.request.user
+
+#邮箱验证，邮箱更新
+#POST /emails/
+class EmailView(UpdateAPIView):
+    serializer_class = EmailSerializer
+    permission_classes = [IsAuthenticated]
+    #1重写get_object，序列化器才能知道是哪个用户的邮箱
+    def get_object(self):
+        return self.request.user
+    #2重写get_serializer
+    # def get_serializer(self, *args, **kwargs):
+    #     return EmailSerializer(self.request.user,self.request.data)
+
+
+#邮箱验证接口
+class EmailVerifyView(APIView):
+    def get(self,request):
+        #获取token
+        token=request.query_params.get('token')
+        if not token:
+            return Response({"缺少的token"}, status=status.HTTP_400_BAD_REQUEST)
+        #校验token,保存
+        result=User.check_verify_email_token(token)
+        #返回
+        if result:
+            return Response({"message":"ok"})
+        else:
+            return Response({"非法的token"},status=status.HTTP_400_BAD_REQUEST)
+
+
+
+class AddressViewSet(mixins.CreateModelMixin, mixins.UpdateModelMixin, GenericViewSet):
+    """
+    用户地址新增与修改
+    """
+    serializer_class = UserAddressSerializer
+    permissions = [IsAuthenticated]
+
+    def get_queryset(self):
+        return self.request.user.addresses.filter(is_deleted=False)
+
+    # GET /addresses/
+    def list(self, request, *args, **kwargs):
+        """
+        用户地址列表数据
+        """
+        queryset = self.get_queryset()
+        serializer = self.get_serializer(queryset, many=True)
+        user = self.request.user
+        return Response({
+            'user_id': user.id,
+            'default_address_id': user.default_address_id,
+            'limit': USER_ADDRESS_COUNTS_LIMIT,
+            'addresses': serializer.data,
+        })
+
+    # POST /addresses/
+    def create(self, request, *args, **kwargs):
+        """
+        保存用户地址数据
+        """
+        # 检查用户地址数据数目不能超过上限
+        count = request.user.addresses.filter(is_deleted=False).count()
+        if count >= USER_ADDRESS_COUNTS_LIMIT:
+            return Response({'message': '保存地址数据已达到上限'}, status=status.HTTP_400_BAD_REQUEST)
+
+        return super().create(request, *args, **kwargs)
+
+    # delete /addresses/<pk>/
+    def destroy(self, request, *args, **kwargs):
+        """
+        处理删除
+        """
+        address = self.get_object()
+
+        # 进行逻辑删除
+        address.is_deleted = True
+        address.save()
+
+        return Response(status=status.HTTP_204_NO_CONTENT)
+
+    # put /addresses/pk/status/
+    @action(methods=['put'], detail=True)
+    def status(self, request, pk=None):
+        """
+        设置默认地址
+        """
+        address = self.get_object()
+        request.user.default_address = address
+        request.user.save()
+        return Response({'message': 'OK'}, status=status.HTTP_200_OK)
+
+    # put /addresses/pk/title/
+    # 需要请求体参数 title
+    @action(methods=['put'], detail=True)
+    def title(self, request, pk=None):
+        """
+        修改标题
+        """
+        address = self.get_object()
+        serializer = AddressTitleSerializer(instance=address, data=request.data)
+        serializer.is_valid(raise_exception=True)
+        serializer.save()
+        return Response(serializer.data)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

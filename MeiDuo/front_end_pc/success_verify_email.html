@@ -40,7 +40,7 @@
                 host,
                 success: true
             },
-            created: function(){
+            mounted: function(){
                 axios.get(this.host+'/emails/verification/'+ document.location.search)
                     .then(response => {
                         this.success = true;

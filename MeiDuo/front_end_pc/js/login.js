@@ -67,7 +67,7 @@ var vm = new Vue({
                         // 跳转页面
                         var return_url = this.get_query_string('next');
                         if (!return_url) {
-                            return_url = '/index.html';
+                            return_url = '/index1.html';
                         }
                         location.href = return_url;
                     })
