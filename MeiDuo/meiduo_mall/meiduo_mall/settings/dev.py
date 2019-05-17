@@ -27,7 +27,7 @@ SECRET_KEY = 'am$1pv^rs2(@*+$aq))hoq4b8p5n93cvm!@&g5bg7axs7xw9k7'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['246856ih33.wicp.vip', '127.0.0.1', 'localhost','192.168.88.129','api.meiduo.site','image.meiduo.site']
+ALLOWED_HOSTS = ['246856ih33.wicp.vip', '127.0.0.1', 'localhost','192.168.88.129','api.meiduo.site','image.meiduo.site','192.168.4.254']
 
 
 # Application definition
@@ -52,6 +52,8 @@ INSTALLED_APPS = [
     'ckeditor',  # 富文本编辑器
     'ckeditor_uploader',  # 富文本编辑器上传图片模块
     'django_crontab',  # 定时任务
+    'haystack',
+    'carts.apps.CartsConfig'#购物车
 
 ]
 
@@ -125,9 +127,22 @@ CACHES = {
         "OPTIONS": {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
         }
-    }
+    },
+    "history": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://192.168.4.1:6379/3",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
 }
-
+    },
+    "cart": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://192.168.4.1:6379/4",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+}
+    },
+}
 SESSION_ENGINE = "django.contrib.sessions.backends.cache"
 #在名字叫session的redis库里，只存放django的session
 SESSION_CACHE_ALIAS = "session"
@@ -225,6 +240,9 @@ REST_FRAMEWORK = {
         'rest_framework.authentication.SessionAuthentication',
         'rest_framework.authentication.BasicAuthentication',
     ),
+    # 分页
+    'DEFAULT_PAGINATION_CLASS': 'meiduo_mall.utils.paginations.StandarPageNumPagination',
+
 }
 
 # DRF扩展
@@ -253,6 +271,7 @@ CORS_ORIGIN_WHITELIST = (
     '246856ih33.wicp.vip',
     'api.meiduo.site:8000',
     'image.meiduo.site:8888',
+    '192.168.4.254'
 )
 CORS_ALLOW_CREDENTIALS = True  # 允许携带cookie
 
@@ -315,3 +334,17 @@ CRONJOBS = [
 
 # 解决crontab中文问题
 CRONTAB_COMMAND_PREFIX = 'LANG_ALL=zh_cn.UTF-8'
+
+
+
+# Haystack
+HAYSTACK_CONNECTIONS = {
+    'default': {
+        'ENGINE': 'haystack.backends.elasticsearch_backend.ElasticsearchSearchEngine',
+        'URL': 'http://192.168.4.6:9200/',  # 此处为elasticsearch运行的服务器ip地址，端口号固定为9200
+        'INDEX_NAME': 'meiduo',  # 指定elasticsearch建立的索引库的名称
+    },
+}
+
+# 当添加、修改、删除数据时，自动生成索引
+HAYSTACK_SIGNAL_PROCESSOR = 'haystack.signals.RealtimeSignalProcessor'

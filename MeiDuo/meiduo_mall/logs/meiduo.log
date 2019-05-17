@@ -2435,3 +2435,1945 @@ INFO 2019-05-12 19:03:11,713 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
 INFO 2019-05-12 19:03:13,732 basehttp 124 "POST /admin/goods/sku/15/change/ HTTP/1.1" 302 0
 INFO 2019-05-12 19:03:13,881 basehttp 124 "GET /admin/goods/sku/ HTTP/1.1" 200 8820
 INFO 2019-05-12 19:03:13,924 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2019-05-13 20:20:52,557 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.0" 200 465
+INFO 2019-05-13 20:26:49,142 basehttp 124 "OPTIONS /authorizations/ HTTP/1.0" 200 0
+INFO 2019-05-13 20:26:49,421 basehttp 124 "POST /authorizations/ HTTP/1.0" 200 241
+INFO 2019-05-13 20:26:52,701 basehttp 124 "OPTIONS /user/ HTTP/1.0" 200 0
+INFO 2019-05-13 20:26:53,153 basehttp 124 "GET /user/ HTTP/1.0" 200 104
+INFO 2019-05-13 21:28:45,500 basehttp 124 "OPTIONS /user/ HTTP/1.0" 200 0
+INFO 2019-05-13 21:28:45,765 basehttp 124 "GET /user/ HTTP/1.0" 200 104
+INFO 2019-05-13 21:29:10,684 basehttp 124 "OPTIONS /browse_histories/ HTTP/1.0" 200 0
+INFO 2019-05-13 21:29:10,932 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.0" 200 465
+INFO 2019-05-13 21:29:10,981 basehttp 124 "POST /browse_histories/ HTTP/1.0" 201 12
+INFO 2019-05-13 21:29:16,846 basehttp 124 "GET /categories/157/hotskus/ HTTP/1.0" 200 402
+INFO 2019-05-13 21:29:16,874 basehttp 124 "POST /browse_histories/ HTTP/1.0" 201 12
+INFO 2019-05-13 21:29:20,255 basehttp 124 "GET /categories/157/hotskus/ HTTP/1.0" 200 402
+INFO 2019-05-13 21:29:20,283 basehttp 124 "POST /browse_histories/ HTTP/1.0" 201 12
+INFO 2019-05-13 21:29:25,190 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.0" 200 465
+INFO 2019-05-13 21:29:25,258 basehttp 124 "POST /browse_histories/ HTTP/1.0" 201 12
+INFO 2019-05-13 21:29:29,451 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.0" 200 465
+INFO 2019-05-13 21:29:29,472 basehttp 124 "POST /browse_histories/ HTTP/1.0" 201 12
+INFO 2019-05-13 21:38:13,682 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.0" 200 465
+INFO 2019-05-13 21:38:13,705 basehttp 124 "POST /browse_histories/ HTTP/1.0" 201 12
+INFO 2019-05-13 21:38:20,101 basehttp 124 "POST /browse_histories/ HTTP/1.0" 201 12
+INFO 2019-05-13 21:38:22,276 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.0" 200 465
+INFO 2019-05-13 21:38:22,321 basehttp 124 "POST /browse_histories/ HTTP/1.0" 201 12
+INFO 2019-05-13 21:39:14,397 basehttp 124 "OPTIONS /user/ HTTP/1.0" 200 0
+INFO 2019-05-13 21:39:14,560 basehttp 124 "GET /user/ HTTP/1.0" 200 104
+INFO 2019-05-13 21:41:54,255 basehttp 124 "GET /user/ HTTP/1.0" 200 104
+INFO 2019-05-13 21:41:54,265 basehttp 124 "OPTIONS /browse_histories/ HTTP/1.0" 200 0
+INFO 2019-05-13 21:41:54,391 basehttp 124 "GET /browse_histories/ HTTP/1.0" 200 1064
+INFO 2019-05-13 21:42:23,442 basehttp 124 "GET /user/ HTTP/1.0" 200 104
+INFO 2019-05-13 21:42:23,627 basehttp 124 "GET /browse_histories/ HTTP/1.0" 200 1064
+INFO 2019-05-13 21:42:24,983 basehttp 124 "GET /user/ HTTP/1.0" 200 104
+INFO 2019-05-13 21:42:25,133 basehttp 124 "GET /user/ HTTP/1.0" 200 104
+INFO 2019-05-13 21:42:25,571 basehttp 124 "GET /user/ HTTP/1.0" 200 104
+INFO 2019-05-13 21:42:25,656 basehttp 124 "GET /user/ HTTP/1.0" 200 104
+INFO 2019-05-13 21:42:25,997 basehttp 124 "GET /browse_histories/ HTTP/1.0" 200 1064
+INFO 2019-05-13 21:42:44,878 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.0" 200 465
+INFO 2019-05-13 21:42:45,058 basehttp 124 "POST /browse_histories/ HTTP/1.0" 201 13
+INFO 2019-05-13 21:42:47,379 basehttp 124 "GET /user/ HTTP/1.0" 200 104
+INFO 2019-05-13 21:42:47,603 basehttp 124 "GET /browse_histories/ HTTP/1.0" 200 1080
+ERROR 2019-05-14 08:38:58,003 exception 80 Invalid HTTP_HOST header: '192.168.4.254'. You may need to add '192.168.4.254' to ALLOWED_HOSTS.
+WARNING 2019-05-14 08:38:58,245 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.0" 400 72159
+ERROR 2019-05-14 08:38:58,835 exception 80 Invalid HTTP_HOST header: '192.168.4.254'. You may need to add '192.168.4.254' to ALLOWED_HOSTS.
+WARNING 2019-05-14 08:38:58,889 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.0" 400 72159
+ERROR 2019-05-14 08:38:59,042 exception 80 Invalid HTTP_HOST header: '192.168.4.254'. You may need to add '192.168.4.254' to ALLOWED_HOSTS.
+WARNING 2019-05-14 08:38:59,090 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.0" 400 72159
+ERROR 2019-05-14 08:38:59,241 exception 80 Invalid HTTP_HOST header: '192.168.4.254'. You may need to add '192.168.4.254' to ALLOWED_HOSTS.
+WARNING 2019-05-14 08:38:59,362 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.0" 400 72159
+ERROR 2019-05-14 08:38:59,455 exception 80 Invalid HTTP_HOST header: '192.168.4.254'. You may need to add '192.168.4.254' to ALLOWED_HOSTS.
+WARNING 2019-05-14 08:38:59,509 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.0" 400 72159
+ERROR 2019-05-14 08:38:59,653 exception 80 Invalid HTTP_HOST header: '192.168.4.254'. You may need to add '192.168.4.254' to ALLOWED_HOSTS.
+WARNING 2019-05-14 08:38:59,717 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.0" 400 72159
+ERROR 2019-05-14 08:38:59,878 exception 80 Invalid HTTP_HOST header: '192.168.4.254'. You may need to add '192.168.4.254' to ALLOWED_HOSTS.
+WARNING 2019-05-14 08:38:59,915 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.0" 400 72159
+ERROR 2019-05-14 08:39:00,727 exception 80 Invalid HTTP_HOST header: '192.168.4.254'. You may need to add '192.168.4.254' to ALLOWED_HOSTS.
+WARNING 2019-05-14 08:39:00,795 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.0" 400 72159
+ERROR 2019-05-14 08:39:01,378 exception 80 Invalid HTTP_HOST header: '192.168.4.254'. You may need to add '192.168.4.254' to ALLOWED_HOSTS.
+WARNING 2019-05-14 08:39:01,429 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.0" 400 72159
+ERROR 2019-05-14 08:39:01,990 exception 80 Invalid HTTP_HOST header: '192.168.4.254'. You may need to add '192.168.4.254' to ALLOWED_HOSTS.
+WARNING 2019-05-14 08:39:02,060 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.0" 400 72159
+ERROR 2019-05-14 08:39:02,223 exception 80 Invalid HTTP_HOST header: '192.168.4.254'. You may need to add '192.168.4.254' to ALLOWED_HOSTS.
+WARNING 2019-05-14 08:39:02,279 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.0" 400 72159
+ERROR 2019-05-14 08:39:02,427 exception 80 Invalid HTTP_HOST header: '192.168.4.254'. You may need to add '192.168.4.254' to ALLOWED_HOSTS.
+WARNING 2019-05-14 08:39:02,471 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.0" 400 72159
+ERROR 2019-05-14 08:42:38,108 exception 80 Invalid HTTP_HOST header: '192.168.4.254'. You may need to add '192.168.4.254' to ALLOWED_HOSTS.
+WARNING 2019-05-14 08:42:38,173 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.0" 400 72159
+ERROR 2019-05-14 08:42:38,334 exception 80 Invalid HTTP_HOST header: '192.168.4.254'. You may need to add '192.168.4.254' to ALLOWED_HOSTS.
+WARNING 2019-05-14 08:42:38,384 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.0" 400 72159
+ERROR 2019-05-14 08:42:38,541 exception 80 Invalid HTTP_HOST header: '192.168.4.254'. You may need to add '192.168.4.254' to ALLOWED_HOSTS.
+WARNING 2019-05-14 08:42:38,591 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.0" 400 72159
+ERROR 2019-05-14 08:42:38,715 exception 80 Invalid HTTP_HOST header: '192.168.4.254'. You may need to add '192.168.4.254' to ALLOWED_HOSTS.
+WARNING 2019-05-14 08:42:38,777 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.0" 400 72159
+ERROR 2019-05-14 08:42:38,910 exception 80 Invalid HTTP_HOST header: '192.168.4.254'. You may need to add '192.168.4.254' to ALLOWED_HOSTS.
+WARNING 2019-05-14 08:42:38,955 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.0" 400 72159
+INFO 2019-05-14 08:44:11,777 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.0" 200 192
+INFO 2019-05-14 08:45:05,323 basehttp 124 "OPTIONS /authorizations/ HTTP/1.0" 200 0
+INFO 2019-05-14 08:45:07,400 basehttp 124 "OPTIONS /authorizations/ HTTP/1.0" 200 0
+INFO 2019-05-14 08:45:07,652 basehttp 124 "OPTIONS /authorizations/ HTTP/1.0" 200 0
+INFO 2019-05-14 08:45:07,856 basehttp 124 "OPTIONS /authorizations/ HTTP/1.0" 200 0
+INFO 2019-05-14 08:45:08,052 basehttp 124 "OPTIONS /authorizations/ HTTP/1.0" 200 0
+INFO 2019-05-14 08:45:08,244 basehttp 124 "OPTIONS /authorizations/ HTTP/1.0" 200 0
+INFO 2019-05-14 08:45:08,439 basehttp 124 "OPTIONS /authorizations/ HTTP/1.0" 200 0
+INFO 2019-05-14 08:45:08,640 basehttp 124 "OPTIONS /authorizations/ HTTP/1.0" 200 0
+INFO 2019-05-14 08:45:08,845 basehttp 124 "OPTIONS /authorizations/ HTTP/1.0" 200 0
+INFO 2019-05-14 08:45:09,056 basehttp 124 "OPTIONS /authorizations/ HTTP/1.0" 200 0
+INFO 2019-05-14 08:45:09,249 basehttp 124 "OPTIONS /authorizations/ HTTP/1.0" 200 0
+INFO 2019-05-14 08:45:09,445 basehttp 124 "OPTIONS /authorizations/ HTTP/1.0" 200 0
+INFO 2019-05-14 08:45:56,292 basehttp 124 "OPTIONS /authorizations/ HTTP/1.0" 200 0
+INFO 2019-05-14 08:46:35,422 basehttp 124 "OPTIONS /authorizations/ HTTP/1.0" 200 0
+INFO 2019-05-14 08:46:52,801 basehttp 124 "OPTIONS /authorizations/ HTTP/1.0" 200 0
+INFO 2019-05-14 08:47:14,481 views 31 图片验证码是1PUA
+INFO 2019-05-14 08:47:14,482 basehttp 124 "GET /image_codes/2f77f237-d303-44bd-af2d-6cdccad0e091/ HTTP/1.0" 200 3352
+INFO 2019-05-14 08:47:16,872 views 31 图片验证码是MEVW
+INFO 2019-05-14 08:47:16,872 basehttp 124 "GET /image_codes/7df843ff-10cf-4a22-9f47-36e9acd66220/ HTTP/1.0" 200 3515
+INFO 2019-05-14 08:47:30,879 basehttp 124 "OPTIONS /authorizations/ HTTP/1.0" 200 0
+INFO 2019-05-14 08:47:37,547 basehttp 124 "OPTIONS /authorizations/ HTTP/1.0" 200 0
+INFO 2019-05-14 08:47:43,376 basehttp 124 "OPTIONS /authorizations/ HTTP/1.0" 200 0
+INFO 2019-05-14 08:47:44,692 basehttp 124 "OPTIONS /authorizations/ HTTP/1.0" 200 0
+INFO 2019-05-14 08:47:44,909 basehttp 124 "OPTIONS /authorizations/ HTTP/1.0" 200 0
+INFO 2019-05-14 08:47:45,125 basehttp 124 "OPTIONS /authorizations/ HTTP/1.0" 200 0
+INFO 2019-05-14 08:47:57,231 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.0" 200 192
+INFO 2019-05-14 08:48:43,182 basehttp 124 "OPTIONS /authorizations/ HTTP/1.0" 200 0
+INFO 2019-05-14 08:48:57,066 basehttp 124 "OPTIONS /authorizations/ HTTP/1.0" 200 0
+INFO 2019-05-14 08:53:27,581 basehttp 124 "GET / HTTP/1.0" 200 5279
+INFO 2019-05-14 08:53:27,683 basehttp 124 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.0" 200 121457
+INFO 2019-05-14 08:53:27,691 basehttp 124 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.0" 200 3385
+INFO 2019-05-14 08:53:27,692 basehttp 124 "GET /static/rest_framework/css/prettify.css HTTP/1.0" 200 817
+INFO 2019-05-14 08:53:27,699 basehttp 124 "GET /static/rest_framework/css/default.css HTTP/1.0" 200 1131
+INFO 2019-05-14 08:53:27,716 basehttp 124 "GET /static/rest_framework/js/csrf.js HTTP/1.0" 200 1719
+INFO 2019-05-14 08:53:27,718 basehttp 124 "GET /static/rest_framework/js/prettify-min.js HTTP/1.0" 200 13632
+INFO 2019-05-14 08:53:27,719 basehttp 124 "GET /static/rest_framework/js/default.js HTTP/1.0" 200 1268
+INFO 2019-05-14 08:53:27,722 basehttp 124 "GET /static/rest_framework/js/jquery-3.3.1.min.js HTTP/1.0" 200 86927
+INFO 2019-05-14 08:53:27,738 basehttp 124 "GET /static/rest_framework/js/ajax-form.js HTTP/1.0" 200 3597
+INFO 2019-05-14 08:53:27,740 basehttp 124 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.0" 200 37608
+INFO 2019-05-14 08:53:27,760 basehttp 124 "GET /static/rest_framework/img/grid.png HTTP/1.0" 200 1458
+WARNING 2019-05-14 08:53:27,993 base 152 Not Found: /favicon.ico
+WARNING 2019-05-14 08:53:27,995 basehttp 124 "GET /favicon.ico HTTP/1.0" 404 8130
+INFO 2019-05-14 08:53:44,983 basehttp 124 "GET / HTTP/1.0" 200 5279
+INFO 2019-05-14 08:53:58,108 views 31 图片验证码是J5Z4
+INFO 2019-05-14 08:53:58,109 basehttp 124 "GET /image_codes/670f59c6-8622-42e0-92c7-56e71a8a0776/ HTTP/1.0" 200 2940
+INFO 2019-05-14 08:54:04,184 basehttp 124 "GET / HTTP/1.0" 200 5279
+INFO 2019-05-14 08:55:12,188 views 31 图片验证码是JQQB
+INFO 2019-05-14 08:55:12,189 basehttp 124 "GET /image_codes/2f8814db-97db-4852-8528-7b897bb32229/ HTTP/1.0" 200 2875
+INFO 2019-05-14 08:55:16,960 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.0" 200 192
+INFO 2019-05-14 08:55:28,732 basehttp 124 "OPTIONS /authorizations/ HTTP/1.0" 200 0
+INFO 2019-05-14 08:55:37,103 basehttp 124 "OPTIONS /authorizations/ HTTP/1.0" 200 0
+INFO 2019-05-14 08:55:43,481 basehttp 124 "OPTIONS /authorizations/ HTTP/1.0" 200 0
+INFO 2019-05-14 08:55:49,195 basehttp 124 "OPTIONS /authorizations/ HTTP/1.0" 200 0
+INFO 2019-05-14 08:56:41,533 basehttp 124 "OPTIONS /authorizations/ HTTP/1.0" 200 0
+INFO 2019-05-14 08:56:42,617 basehttp 124 "OPTIONS /authorizations/ HTTP/1.0" 200 0
+INFO 2019-05-14 08:56:42,817 basehttp 124 "OPTIONS /authorizations/ HTTP/1.0" 200 0
+INFO 2019-05-14 08:56:43,011 basehttp 124 "OPTIONS /authorizations/ HTTP/1.0" 200 0
+INFO 2019-05-14 08:57:31,168 basehttp 124 "OPTIONS /authorizations/ HTTP/1.0" 200 0
+INFO 2019-05-14 08:57:31,270 basehttp 124 "POST /authorizations/ HTTP/1.0" 200 241
+INFO 2019-05-14 08:57:46,729 basehttp 124 "OPTIONS /authorizations/ HTTP/1.0" 200 0
+INFO 2019-05-14 08:57:51,979 basehttp 124 "OPTIONS /user/ HTTP/1.0" 200 0
+INFO 2019-05-14 08:57:52,086 basehttp 124 "GET /user/ HTTP/1.0" 200 104
+INFO 2019-05-14 08:57:52,132 basehttp 124 "OPTIONS /browse_histories/ HTTP/1.0" 200 0
+INFO 2019-05-14 08:57:52,204 basehttp 124 "GET /browse_histories/ HTTP/1.0" 200 1080
+INFO 2019-05-14 15:36:38,185 basehttp 124 "GET /admin/ HTTP/1.1" 200 11836
+INFO 2019-05-14 15:36:38,234 basehttp 124 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2019-05-14 15:36:38,249 basehttp 124 "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2019-05-14 15:36:38,273 basehttp 124 "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2019-05-14 15:36:38,311 basehttp 124 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2019-05-14 15:36:38,317 basehttp 124 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2019-05-14 15:36:38,635 basehttp 124 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+INFO 2019-05-14 15:36:38,637 basehttp 124 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+INFO 2019-05-14 15:36:38,658 basehttp 124 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+WARNING 2019-05-14 15:36:38,662 base 152 Not Found: /favicon.ico
+WARNING 2019-05-14 15:36:38,665 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 8131
+INFO 2019-05-14 15:37:17,528 basehttp 124 "GET /admin/goods/goodscategory/ HTTP/1.1" 200 27851
+INFO 2019-05-14 15:37:17,584 basehttp 124 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2019-05-14 15:37:17,643 basehttp 124 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2019-05-14 15:37:17,658 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2019-05-14 15:37:17,675 basehttp 124 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2019-05-14 15:37:17,677 basehttp 124 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2019-05-14 15:37:17,683 basehttp 124 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2019-05-14 15:37:17,686 basehttp 124 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2019-05-14 15:37:17,687 basehttp 124 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2019-05-14 15:37:17,696 basehttp 124 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2019-05-14 15:37:17,697 basehttp 124 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2019-05-14 15:37:17,866 basehttp 124 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2019-05-14 15:37:21,961 basehttp 124 "GET /admin/goods/goodscategory/555/change/ HTTP/1.1" 200 27985
+INFO 2019-05-14 15:37:21,997 basehttp 124 "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2019-05-14 15:37:22,002 basehttp 124 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2019-05-14 15:37:22,008 basehttp 124 "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2019-05-14 15:37:22,009 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2019-05-14 15:37:22,017 basehttp 124 "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+INFO 2019-05-14 15:37:25,528 basehttp 124 "POST /admin/goods/goodscategory/555/change/ HTTP/1.1" 302 0
+INFO 2019-05-14 15:37:25,946 basehttp 124 "GET /admin/goods/goodscategory/ HTTP/1.1" 200 28037
+INFO 2019-05-14 15:37:25,988 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2019-05-14 15:37:26,056 basehttp 124 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2019-05-14 15:39:35,653 basehttp 124 "GET / HTTP/1.0" 200 5279
+WARNING 2019-05-14 15:44:00,633 base 152 Not Found: /categories/null/skus/
+WARNING 2019-05-14 15:44:00,636 basehttp 124 "GET /categories/null/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 404 8209
+INFO 2019-05-14 15:45:24,251 basehttp 124 "GET /admin/goods/goodscategory/554/change/ HTTP/1.1" 200 27973
+INFO 2019-05-14 15:45:24,291 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2019-05-14 15:45:25,584 basehttp 124 "POST /admin/goods/goodscategory/554/change/ HTTP/1.1" 302 0
+INFO 2019-05-14 15:45:25,971 basehttp 124 "GET /admin/goods/goodscategory/ HTTP/1.1" 200 28031
+INFO 2019-05-14 15:45:26,030 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+WARNING 2019-05-14 15:48:38,408 base 152 Not Found: /categories/null/skus/
+WARNING 2019-05-14 15:48:38,409 basehttp 124 "GET /categories/null/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 404 8210
+INFO 2019-05-14 16:24:53,334 basehttp 124 "OPTIONS /cart/ HTTP/1.0" 200 0
+WARNING 2019-05-14 16:24:53,368 base 152 Not Found: /cart/
+WARNING 2019-05-14 16:24:53,370 basehttp 124 "GET /cart/ HTTP/1.0" 404 8306
+WARNING 2019-05-14 16:25:01,519 base 152 Not Found: /categories/null/skus/
+WARNING 2019-05-14 16:25:01,519 basehttp 124 "GET /categories/null/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 8396
+WARNING 2019-05-14 16:25:03,055 base 152 Not Found: /categories/null/skus/
+WARNING 2019-05-14 16:25:03,055 basehttp 124 "GET /categories/null/skus/?page=1&page_size=5&ordering=-sales HTTP/1.0" 404 8397
+WARNING 2019-05-14 16:25:04,339 base 152 Not Found: /categories/null/skus/
+WARNING 2019-05-14 16:25:04,341 basehttp 124 "GET /categories/null/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 404 8403
+WARNING 2019-05-14 16:25:05,349 base 152 Not Found: /categories/null/skus/
+WARNING 2019-05-14 16:25:05,350 basehttp 124 "GET /categories/null/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 8396
+WARNING 2019-05-14 16:25:06,235 base 152 Not Found: /categories/null/skus/
+WARNING 2019-05-14 16:25:06,235 basehttp 124 "GET /categories/null/skus/?page=1&page_size=5&ordering=-sales HTTP/1.0" 404 8397
+WARNING 2019-05-14 16:25:36,087 base 152 Not Found: /categories/null/skus/
+WARNING 2019-05-14 16:25:36,087 basehttp 124 "GET /categories/null/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 404 8403
+WARNING 2019-05-14 16:25:39,066 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:25:39,068 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 404 28
+WARNING 2019-05-14 16:25:40,088 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:25:40,089 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 28
+WARNING 2019-05-14 16:25:40,576 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:25:40,576 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-sales HTTP/1.0" 404 28
+WARNING 2019-05-14 16:27:12,698 base 152 Not Found: /categories/null/skus/
+WARNING 2019-05-14 16:27:12,702 basehttp 124 "GET /categories/null/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 404 8402
+WARNING 2019-05-14 16:27:26,150 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:27:26,153 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 404 28
+WARNING 2019-05-14 16:28:29,247 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:28:29,248 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 404 5627
+WARNING 2019-05-14 16:29:15,680 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:29:15,681 basehttp 124 "GET /categories/115/skus/?page=6&page_size=5&ordering=-create_time HTTP/1.0" 404 5627
+WARNING 2019-05-14 16:29:36,933 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:29:36,934 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 404 5627
+WARNING 2019-05-14 16:29:47,975 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:29:47,976 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=create_time HTTP/1.0" 404 5622
+WARNING 2019-05-14 16:29:56,689 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:29:56,691 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=create_time HTTP/1.0" 404 5622
+WARNING 2019-05-14 16:29:57,829 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:29:57,830 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=create_time HTTP/1.0" 404 5622
+WARNING 2019-05-14 16:29:58,060 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:29:58,061 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=create_time HTTP/1.0" 404 5622
+WARNING 2019-05-14 16:29:58,279 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:29:58,281 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=create_time HTTP/1.0" 404 5622
+WARNING 2019-05-14 16:29:58,503 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:29:58,505 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=create_time HTTP/1.0" 404 5622
+WARNING 2019-05-14 16:30:08,273 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:30:08,274 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:30:41,396 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:30:41,399 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:30:42,605 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:30:42,607 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:30:46,559 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:30:46,560 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:31:45,069 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:31:45,072 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:31:45,815 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:31:45,816 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:31:46,207 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:31:46,208 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:31:46,505 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:31:46,505 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:31:46,638 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:31:46,639 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:31:46,835 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:31:46,837 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:31:47,023 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:31:47,024 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:32:36,054 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:32:36,055 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:32:36,977 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:32:36,977 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:32:37,192 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:32:37,192 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:32:37,449 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:32:37,452 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:32:37,595 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:32:37,596 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:32:37,839 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:32:37,841 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:32:37,986 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:32:37,987 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:32:38,194 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:32:38,195 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:32:38,402 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:32:38,403 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:32:38,626 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:32:38,627 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:32:38,833 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:32:38,834 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:32:39,062 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:32:39,063 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:32:39,304 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:32:39,306 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:32:39,504 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:32:39,505 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:32:39,731 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:32:39,735 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:32:39,946 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:32:39,946 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:32:40,135 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:32:40,137 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:32:40,358 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:32:40,359 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:32:40,597 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:32:40,598 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:32:40,872 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:32:40,877 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:32:41,081 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:32:41,082 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:32:41,268 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:32:41,270 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:32:41,478 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:32:41,479 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:32:41,711 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:32:41,712 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:32:41,927 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:32:41,928 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:32:42,142 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:32:42,142 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:32:42,377 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:32:42,377 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:32:42,606 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:32:42,607 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:32:42,811 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:32:42,813 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:32:43,026 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:32:43,028 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:33:21,961 base 152 Not Found: /categories/null/skus/
+WARNING 2019-05-14 16:33:21,968 basehttp 124 "GET /categories/null/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 404 8402
+WARNING 2019-05-14 16:33:24,634 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:33:24,635 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 404 28
+WARNING 2019-05-14 16:33:36,063 base 152 Not Found: /categories/null/skus/
+WARNING 2019-05-14 16:33:36,065 basehttp 124 "GET /categories/null/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 404 8402
+WARNING 2019-05-14 16:33:42,139 base 152 Not Found: /categories/157/skus/
+WARNING 2019-05-14 16:33:42,140 basehttp 124 "GET /categories/157/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 404 28
+WARNING 2019-05-14 16:33:50,497 base 152 Not Found: /categories/157/skus/
+WARNING 2019-05-14 16:33:50,498 basehttp 124 "GET /categories/157/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:34:26,811 base 152 Not Found: /categories/157/skus/
+WARNING 2019-05-14 16:34:26,812 basehttp 124 "GET /categories/157/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:34:27,855 base 152 Not Found: /categories/157/skus/
+WARNING 2019-05-14 16:34:27,857 basehttp 124 "GET /categories/157/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:34:28,256 base 152 Not Found: /categories/157/skus/
+WARNING 2019-05-14 16:34:28,257 basehttp 124 "GET /categories/157/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:34:28,442 base 152 Not Found: /categories/157/skus/
+WARNING 2019-05-14 16:34:28,443 basehttp 124 "GET /categories/157/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:34:28,642 base 152 Not Found: /categories/157/skus/
+WARNING 2019-05-14 16:34:28,642 basehttp 124 "GET /categories/157/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:35:06,042 base 152 Not Found: /categories/157/skus/
+WARNING 2019-05-14 16:35:06,048 basehttp 124 "GET /categories/157/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:39:01,115 base 152 Not Found: /categories/157/skus/
+WARNING 2019-05-14 16:39:01,118 basehttp 124 "GET /categories/157/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:39:18,460 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:39:18,461 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:39:20,534 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:39:20,535 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:39:20,781 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:39:20,782 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:39:21,015 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:39:21,016 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:39:21,153 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:39:21,154 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:39:21,368 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:39:21,369 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:39:21,548 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:39:21,549 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:39:21,729 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:39:21,729 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+INFO 2019-05-14 16:44:25,936 basehttp 124 "GET /categories/115/skus/ HTTP/1.0" 200 10620
+INFO 2019-05-14 16:44:26,135 basehttp 124 "GET /static/rest_framework/fonts/glyphicons-halflings-regular.woff2 HTTP/1.0" 200 18028
+INFO 2019-05-14 16:48:23,462 basehttp 124 "GET /categories/115/skus/?page_size=2&ordering=price&page=1 HTTP/1.0" 200 11562
+INFO 2019-05-14 16:48:30,928 basehttp 124 "GET /categories/115/skus/?page_size=2&ordering=price&page=1 HTTP/1.0" 200 11562
+INFO 2019-05-14 16:49:39,422 basehttp 124 "GET /categories/115/skus/?ordering=price&page_size=2&page=1 HTTP/1.0" 200 11562
+INFO 2019-05-14 16:50:33,452 basehttp 124 "GET /categories/115/skus/?page=1&page_size=2&ordering=price HTTP/1.0" 200 11562
+WARNING 2019-05-14 16:53:34,178 base 152 Not Found: /categories/null/skus/
+WARNING 2019-05-14 16:53:34,181 basehttp 124 "GET /categories/null/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 404 8403
+WARNING 2019-05-14 16:53:37,690 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:53:37,696 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 404 28
+WARNING 2019-05-14 16:53:52,946 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:53:52,948 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 404 28
+WARNING 2019-05-14 16:55:05,667 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:55:05,668 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 404 5627
+INFO 2019-05-14 16:55:05,707 basehttp 124 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.0" 200 3385
+INFO 2019-05-14 16:55:05,713 basehttp 124 "GET /static/rest_framework/css/default.css HTTP/1.0" 200 1131
+INFO 2019-05-14 16:55:05,716 basehttp 124 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.0" 200 121457
+INFO 2019-05-14 16:55:05,725 basehttp 124 "GET /static/rest_framework/js/ajax-form.js HTTP/1.0" 200 3597
+INFO 2019-05-14 16:55:05,726 basehttp 124 "GET /static/rest_framework/css/prettify.css HTTP/1.0" 200 817
+INFO 2019-05-14 16:55:05,740 basehttp 124 "GET /static/rest_framework/js/csrf.js HTTP/1.0" 200 1719
+INFO 2019-05-14 16:55:05,741 basehttp 124 "GET /static/rest_framework/js/default.js HTTP/1.0" 200 1268
+INFO 2019-05-14 16:55:05,742 basehttp 124 "GET /static/rest_framework/js/prettify-min.js HTTP/1.0" 200 13632
+INFO 2019-05-14 16:55:05,747 basehttp 124 "GET /static/rest_framework/js/jquery-3.3.1.min.js HTTP/1.0" 200 86927
+INFO 2019-05-14 16:55:05,759 basehttp 124 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.0" 200 37608
+INFO 2019-05-14 16:55:05,772 basehttp 124 "GET /static/rest_framework/img/grid.png HTTP/1.0" 200 1458
+WARNING 2019-05-14 16:55:06,030 base 152 Not Found: /favicon.ico
+WARNING 2019-05-14 16:55:06,032 basehttp 124 "GET /favicon.ico HTTP/1.0" 404 8324
+INFO 2019-05-14 16:55:14,697 basehttp 124 "GET /categories/115/skus/ HTTP/1.0" 200 10626
+INFO 2019-05-14 16:55:14,837 basehttp 124 "GET /static/rest_framework/fonts/glyphicons-halflings-regular.woff2 HTTP/1.0" 200 18028
+WARNING 2019-05-14 16:55:18,337 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:55:18,338 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 404 5627
+WARNING 2019-05-14 16:55:57,491 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:55:57,492 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 404 5627
+WARNING 2019-05-14 16:55:58,207 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:55:58,209 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 404 5627
+WARNING 2019-05-14 16:55:58,970 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:55:58,971 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 404 5627
+WARNING 2019-05-14 16:55:59,275 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:55:59,276 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 404 5627
+WARNING 2019-05-14 16:55:59,436 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:55:59,437 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 404 5627
+WARNING 2019-05-14 16:55:59,648 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:55:59,651 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 404 5627
+WARNING 2019-05-14 16:55:59,836 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:55:59,837 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 404 5627
+WARNING 2019-05-14 16:56:00,022 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:56:00,024 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 404 5627
+INFO 2019-05-14 16:56:03,217 basehttp 124 "GET /categories/115/skus/?page=1 HTTP/1.0" 200 10797
+WARNING 2019-05-14 16:56:09,882 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:56:09,885 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5 HTTP/1.0" 404 5497
+WARNING 2019-05-14 16:56:34,400 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:56:34,402 basehttp 124 "GET /categories/115/skus/?page=1&ordering=-create_time&page_size=5 HTTP/1.0" 404 5627
+WARNING 2019-05-14 16:56:45,927 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:56:45,929 basehttp 124 "GET /categories/115/skus/?page=1&ordering=price&page_size=5 HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:57:51,749 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:57:51,749 basehttp 124 "GET /categories/115/skus/?page=1&ordering=price&page_size=5 HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:57:54,040 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:57:54,041 basehttp 124 "GET /categories/115/skus/?page=1&ordering=price&page_size=5 HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:57:54,229 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:57:54,230 basehttp 124 "GET /categories/115/skus/?page=1&ordering=price&page_size=5 HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:57:54,413 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:57:54,414 basehttp 124 "GET /categories/115/skus/?page=1&ordering=price&page_size=5 HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:57:54,587 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:57:54,589 basehttp 124 "GET /categories/115/skus/?page=1&ordering=price&page_size=5 HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:57:54,755 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:57:54,756 basehttp 124 "GET /categories/115/skus/?page=1&ordering=price&page_size=5 HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:59:01,011 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:59:01,011 basehttp 124 "GET /categories/115/skus/?page=1&ordering=price&page_size=5 HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:59:01,628 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:59:01,629 basehttp 124 "GET /categories/115/skus/?page=1&ordering=price&page_size=5 HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:59:01,829 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:59:01,830 basehttp 124 "GET /categories/115/skus/?page=1&ordering=price&page_size=5 HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:59:02,029 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:59:02,030 basehttp 124 "GET /categories/115/skus/?page=1&ordering=price&page_size=5 HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:59:02,254 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:59:02,255 basehttp 124 "GET /categories/115/skus/?page=1&ordering=price&page_size=5 HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:59:02,463 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:59:02,463 basehttp 124 "GET /categories/115/skus/?page=1&ordering=price&page_size=5 HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:59:02,680 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:59:02,681 basehttp 124 "GET /categories/115/skus/?page=1&ordering=price&page_size=5 HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:59:02,857 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:59:02,858 basehttp 124 "GET /categories/115/skus/?page=1&ordering=price&page_size=5 HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:59:03,055 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:59:03,057 basehttp 124 "GET /categories/115/skus/?page=1&ordering=price&page_size=5 HTTP/1.0" 404 5592
+INFO 2019-05-14 16:59:05,114 basehttp 124 "GET /categories/115/skus/?page=1&page_size=2&ordering=price HTTP/1.0" 200 11562
+INFO 2019-05-14 16:59:05,542 basehttp 124 "GET /categories/115/skus/?page=1&page_size=2&ordering=price HTTP/1.0" 200 11562
+INFO 2019-05-14 16:59:05,766 basehttp 124 "GET /categories/115/skus/?page=1&page_size=2&ordering=price HTTP/1.0" 200 11562
+INFO 2019-05-14 16:59:05,940 basehttp 124 "GET /categories/115/skus/?page=1&page_size=2&ordering=price HTTP/1.0" 200 11562
+INFO 2019-05-14 16:59:07,682 basehttp 124 "GET /categories/115/skus/?page_size=2&ordering=price&page=1 HTTP/1.0" 200 11562
+INFO 2019-05-14 16:59:07,913 basehttp 124 "GET /categories/115/skus/?page_size=2&ordering=price&page=1 HTTP/1.0" 200 11562
+INFO 2019-05-14 16:59:08,104 basehttp 124 "GET /categories/115/skus/?page_size=2&ordering=price&page=1 HTTP/1.0" 200 11562
+INFO 2019-05-14 16:59:08,307 basehttp 124 "GET /categories/115/skus/?page_size=2&ordering=price&page=1 HTTP/1.0" 200 11562
+INFO 2019-05-14 16:59:08,496 basehttp 124 "GET /categories/115/skus/?page_size=2&ordering=price&page=1 HTTP/1.0" 200 11562
+INFO 2019-05-14 16:59:08,676 basehttp 124 "GET /categories/115/skus/?page_size=2&ordering=price&page=1 HTTP/1.0" 200 11562
+INFO 2019-05-14 16:59:08,897 basehttp 124 "GET /categories/115/skus/?page_size=2&ordering=price&page=1 HTTP/1.0" 200 11562
+INFO 2019-05-14 16:59:09,067 basehttp 124 "GET /categories/115/skus/?page_size=2&ordering=price&page=1 HTTP/1.0" 200 11562
+WARNING 2019-05-14 16:59:34,043 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:59:34,044 basehttp 124 "GET /categories/115/skus/?page=1&ordering=price&page_size=5 HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:59:34,255 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:59:34,256 basehttp 124 "GET /categories/115/skus/?page=1&ordering=price&page_size=5 HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:59:34,458 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:59:34,458 basehttp 124 "GET /categories/115/skus/?page=1&ordering=price&page_size=5 HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:59:34,667 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:59:34,669 basehttp 124 "GET /categories/115/skus/?page=1&ordering=price&page_size=5 HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:59:34,840 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:59:34,841 basehttp 124 "GET /categories/115/skus/?page=1&ordering=price&page_size=5 HTTP/1.0" 404 5592
+WARNING 2019-05-14 16:59:46,527 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:59:46,531 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 404 28
+WARNING 2019-05-14 16:59:47,079 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 16:59:47,081 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 404 28
+INFO 2019-05-14 16:59:54,661 basehttp 124 "OPTIONS /cart/ HTTP/1.0" 200 0
+WARNING 2019-05-14 16:59:54,700 base 152 Not Found: /cart/
+WARNING 2019-05-14 16:59:54,701 basehttp 124 "GET /cart/ HTTP/1.0" 404 8306
+WARNING 2019-05-14 17:00:08,785 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:00:08,792 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 404 28
+WARNING 2019-05-14 17:00:14,671 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:00:14,672 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 404 28
+WARNING 2019-05-14 17:00:15,481 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:00:15,493 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 404 28
+WARNING 2019-05-14 17:00:15,838 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:00:15,839 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 404 28
+WARNING 2019-05-14 17:00:16,271 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:00:16,274 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 404 28
+WARNING 2019-05-14 17:00:20,715 base 152 Not Found: /categories/115
+WARNING 2019-05-14 17:00:20,715 basehttp 124 "GET /categories/115 HTTP/1.0" 404 8333
+INFO 2019-05-14 17:00:27,874 basehttp 124 "GET /categories/115/skus HTTP/1.0" 301 0
+INFO 2019-05-14 17:00:27,944 basehttp 124 "GET /categories/115/skus/ HTTP/1.0" 200 10626
+WARNING 2019-05-14 17:00:47,730 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:00:47,731 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 17:00:51,027 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:00:51,028 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 17:00:51,446 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:00:51,448 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 17:00:51,661 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:00:51,661 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 17:00:51,856 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:00:51,857 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 17:00:52,057 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:00:52,059 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 17:00:52,272 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:00:52,273 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 17:00:52,476 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:00:52,477 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 17:00:52,700 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:00:52,702 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 17:00:52,895 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:00:52,896 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 17:00:53,163 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:00:53,165 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 17:00:53,599 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:00:53,600 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 17:00:53,837 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:00:53,838 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 17:00:54,021 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:00:54,022 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 17:00:54,208 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:00:54,209 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 17:00:54,397 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:00:54,398 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 17:00:54,591 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:00:54,592 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 17:00:54,803 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:00:54,803 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 17:00:54,994 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:00:54,995 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 17:00:55,216 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:00:55,218 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 17:00:55,424 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:00:55,425 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 17:00:55,624 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:00:55,625 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 17:00:55,838 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:00:55,839 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+WARNING 2019-05-14 17:00:56,051 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:00:56,052 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+INFO 2019-05-14 17:00:59,153 basehttp 124 "GET /categories/115/skus/?page=1 HTTP/1.0" 200 10797
+WARNING 2019-05-14 17:01:06,780 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:01:06,782 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5 HTTP/1.0" 404 5497
+WARNING 2019-05-14 17:01:10,908 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:01:10,909 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5 HTTP/1.0" 404 5497
+WARNING 2019-05-14 17:01:11,113 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:01:11,115 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5 HTTP/1.0" 404 5497
+WARNING 2019-05-14 17:01:11,332 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:01:11,334 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5 HTTP/1.0" 404 5497
+WARNING 2019-05-14 17:01:11,551 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:01:11,552 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5 HTTP/1.0" 404 5497
+WARNING 2019-05-14 17:01:11,733 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:01:11,734 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5 HTTP/1.0" 404 5497
+WARNING 2019-05-14 17:01:35,874 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:01:35,875 basehttp 124 "GET /categories/115/skus/?page_size=5&page=1 HTTP/1.0" 404 5497
+WARNING 2019-05-14 17:02:16,943 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:02:16,946 basehttp 124 "GET /categories/115/skus/?page_size=5&page=1 HTTP/1.0" 404 5497
+WARNING 2019-05-14 17:02:17,802 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:02:17,803 basehttp 124 "GET /categories/115/skus/?page_size=5&page=1 HTTP/1.0" 404 5497
+WARNING 2019-05-14 17:02:18,000 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:02:18,002 basehttp 124 "GET /categories/115/skus/?page_size=5&page=1 HTTP/1.0" 404 5497
+WARNING 2019-05-14 17:02:18,235 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:02:18,236 basehttp 124 "GET /categories/115/skus/?page_size=5&page=1 HTTP/1.0" 404 5497
+WARNING 2019-05-14 17:02:18,391 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:02:18,392 basehttp 124 "GET /categories/115/skus/?page_size=5&page=1 HTTP/1.0" 404 5497
+WARNING 2019-05-14 17:02:18,562 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:02:18,563 basehttp 124 "GET /categories/115/skus/?page_size=5&page=1 HTTP/1.0" 404 5497
+WARNING 2019-05-14 17:02:18,777 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:02:18,779 basehttp 124 "GET /categories/115/skus/?page_size=5&page=1 HTTP/1.0" 404 5497
+WARNING 2019-05-14 17:02:18,984 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:02:18,985 basehttp 124 "GET /categories/115/skus/?page_size=5&page=1 HTTP/1.0" 404 5497
+WARNING 2019-05-14 17:02:19,209 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:02:19,210 basehttp 124 "GET /categories/115/skus/?page_size=5&page=1 HTTP/1.0" 404 5497
+WARNING 2019-05-14 17:02:23,586 base 152 Not Found: /categories/157/skus/
+WARNING 2019-05-14 17:02:23,588 basehttp 124 "GET /categories/157/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 404 28
+WARNING 2019-05-14 17:02:24,097 base 152 Not Found: /categories/157/skus/
+WARNING 2019-05-14 17:02:24,098 basehttp 124 "GET /categories/157/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 404 28
+WARNING 2019-05-14 17:02:24,547 base 152 Not Found: /categories/157/skus/
+WARNING 2019-05-14 17:02:24,549 basehttp 124 "GET /categories/157/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 404 28
+WARNING 2019-05-14 17:02:25,497 base 152 Not Found: /categories/157/skus/
+WARNING 2019-05-14 17:02:25,500 basehttp 124 "GET /categories/157/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 28
+WARNING 2019-05-14 17:02:26,476 base 152 Not Found: /categories/157/skus/
+WARNING 2019-05-14 17:02:26,477 basehttp 124 "GET /categories/157/skus/?page=1&page_size=5&ordering=-sales HTTP/1.0" 404 28
+WARNING 2019-05-14 17:02:27,194 base 152 Not Found: /categories/157/skus/
+WARNING 2019-05-14 17:02:27,195 basehttp 124 "GET /categories/157/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 28
+WARNING 2019-05-14 17:02:31,452 base 152 Not Found: /categories/157/skus/
+WARNING 2019-05-14 17:02:31,452 basehttp 124 "GET /categories/157/skus/?page=1&page_size=5&ordering=-sales HTTP/1.0" 404 28
+WARNING 2019-05-14 17:02:35,380 base 152 Not Found: /categories/157/skus/
+WARNING 2019-05-14 17:02:35,380 basehttp 124 "GET /categories/157/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 28
+WARNING 2019-05-14 17:02:38,140 base 152 Not Found: /categories/157/skus/
+WARNING 2019-05-14 17:02:38,140 basehttp 124 "GET /categories/157/skus/?page=1&page_size=5&ordering=-sales HTTP/1.0" 404 5597
+INFO 2019-05-14 17:02:45,853 basehttp 124 "GET / HTTP/1.0" 200 5279
+INFO 2019-05-14 17:02:47,150 basehttp 124 "GET / HTTP/1.0" 200 5279
+WARNING 2019-05-14 17:02:52,297 base 152 Not Found: /categories/157/skus/
+WARNING 2019-05-14 17:02:52,298 basehttp 124 "GET /categories/157/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 404 28
+WARNING 2019-05-14 17:02:58,619 base 152 Not Found: /categories/157/skus/
+WARNING 2019-05-14 17:02:58,620 basehttp 124 "GET /categories/157/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 28
+WARNING 2019-05-14 17:03:07,783 base 152 Not Found: /categories/157/skus/
+WARNING 2019-05-14 17:03:07,783 basehttp 124 "GET /categories/157/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+INFO 2019-05-14 17:03:13,493 basehttp 124 "GET /categories/157/skus/ HTTP/1.0" 200 8041
+WARNING 2019-05-14 17:03:24,683 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:03:24,684 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 404 28
+WARNING 2019-05-14 17:03:25,782 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:03:25,782 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 28
+INFO 2019-05-14 17:03:31,956 basehttp 124 "OPTIONS /cart/ HTTP/1.0" 200 0
+WARNING 2019-05-14 17:03:34,719 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:03:34,720 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 5592
+INFO 2019-05-14 17:03:40,698 basehttp 124 "GET /categories/115/skus/ HTTP/1.0" 200 10620
+INFO 2019-05-14 17:03:48,382 basehttp 124 "GET /categories/115/skus/?page=1 HTTP/1.0" 200 10791
+WARNING 2019-05-14 17:03:54,708 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:03:54,709 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5 HTTP/1.0" 404 5497
+INFO 2019-05-14 17:04:04,820 basehttp 124 "GET /categories/115/skus/?page=1&ordering=price HTTP/1.0" 200 11188
+INFO 2019-05-14 17:04:19,473 basehttp 124 "OPTIONS /cart/ HTTP/1.0" 200 0
+INFO 2019-05-14 17:04:19,612 basehttp 124 "OPTIONS /cart/ HTTP/1.0" 200 0
+INFO 2019-05-14 17:04:19,848 basehttp 124 "OPTIONS /cart/ HTTP/1.0" 200 0
+WARNING 2019-05-14 17:04:27,166 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:04:27,167 basehttp 124 "GET /categories/115/skus/?page=1&ordering=price&page_size=5 HTTP/1.0" 404 5592
+WARNING 2019-05-14 17:04:29,211 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:04:29,212 basehttp 124 "GET /categories/115/skus/?page=1&ordering=price&page_size=5 HTTP/1.0" 404 5592
+WARNING 2019-05-14 17:04:29,414 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:04:29,415 basehttp 124 "GET /categories/115/skus/?page=1&ordering=price&page_size=5 HTTP/1.0" 404 5592
+WARNING 2019-05-14 17:04:29,611 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:04:29,613 basehttp 124 "GET /categories/115/skus/?page=1&ordering=price&page_size=5 HTTP/1.0" 404 5592
+WARNING 2019-05-14 17:04:29,812 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:04:29,813 basehttp 124 "GET /categories/115/skus/?page=1&ordering=price&page_size=5 HTTP/1.0" 404 5592
+WARNING 2019-05-14 17:04:29,991 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:04:29,991 basehttp 124 "GET /categories/115/skus/?page=1&ordering=price&page_size=5 HTTP/1.0" 404 5592
+WARNING 2019-05-14 17:04:31,570 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:04:31,570 basehttp 124 "GET /categories/115/skus/?page=1&ordering=price&page_size=5 HTTP/1.0" 404 5592
+WARNING 2019-05-14 17:04:31,802 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:04:31,803 basehttp 124 "GET /categories/115/skus/?page=1&ordering=price&page_size=5 HTTP/1.0" 404 5592
+WARNING 2019-05-14 17:04:31,989 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:04:31,989 basehttp 124 "GET /categories/115/skus/?page=1&ordering=price&page_size=5 HTTP/1.0" 404 5592
+WARNING 2019-05-14 17:04:32,186 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:04:32,186 basehttp 124 "GET /categories/115/skus/?page=1&ordering=price&page_size=5 HTTP/1.0" 404 5592
+WARNING 2019-05-14 17:04:32,371 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:04:32,372 basehttp 124 "GET /categories/115/skus/?page=1&ordering=price&page_size=5 HTTP/1.0" 404 5592
+WARNING 2019-05-14 17:04:32,554 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:04:32,554 basehttp 124 "GET /categories/115/skus/?page=1&ordering=price&page_size=5 HTTP/1.0" 404 5592
+WARNING 2019-05-14 17:04:48,848 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:04:48,849 basehttp 124 "GET /categories/115/skus/?page=1&ordering=price&page_size=5 HTTP/1.0" 404 5592
+INFO 2019-05-14 17:04:52,264 basehttp 124 "GET /categories/115/skus/?page=1&ordering=price&page_size=2 HTTP/1.0" 200 11562
+WARNING 2019-05-14 17:05:44,297 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:05:44,304 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 404 28
+WARNING 2019-05-14 17:05:53,830 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:05:53,831 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 28
+INFO 2019-05-14 17:06:07,263 basehttp 124 "OPTIONS /cart/ HTTP/1.0" 200 0
+INFO 2019-05-14 17:06:09,838 basehttp 124 "GET /categories/115/skus/?page=1&ordering=price&page_size=2 HTTP/1.0" 200 10582
+INFO 2019-05-14 17:06:10,327 basehttp 124 "GET /categories/115/skus/?page=1&ordering=price&page_size=2 HTTP/1.0" 200 10582
+INFO 2019-05-14 17:06:10,585 basehttp 124 "GET /categories/115/skus/?page=1&ordering=price&page_size=2 HTTP/1.0" 200 10582
+INFO 2019-05-14 17:06:10,737 basehttp 124 "GET /categories/115/skus/?page=1&ordering=price&page_size=2 HTTP/1.0" 200 10582
+INFO 2019-05-14 17:06:18,224 basehttp 124 "GET /categories/115/skus/?page=1&ordering=price&page_size=1 HTTP/1.0" 200 13752
+INFO 2019-05-14 17:06:26,784 basehttp 124 "GET /categories/115/skus/?page=1&ordering=price&page_size=2 HTTP/1.0" 200 10582
+WARNING 2019-05-14 17:07:18,170 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:07:18,172 basehttp 124 "GET /categories/115/skus/?page=1&ordering=price&page_size=5 HTTP/1.0" 404 5592
+WARNING 2019-05-14 17:32:44,355 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:32:44,356 basehttp 124 "GET /categories/115/skus/?page=1&ordering=price&page_size=5 HTTP/1.0" 404 5592
+INFO 2019-05-14 17:34:16,429 basehttp 124 "GET /categories/115/skus/?page=1&ordering=price&page_size=5 HTTP/1.0" 200 10508
+INFO 2019-05-14 17:34:25,957 basehttp 124 "GET /categories/115/skus/?ordering=price&page=1&page_size=4 HTTP/1.0" 200 10746
+INFO 2019-05-14 17:34:27,262 basehttp 124 "GET /categories/115/skus/?ordering=price&page=1&page_size=2 HTTP/1.0" 200 10322
+INFO 2019-05-14 17:34:28,558 basehttp 124 "GET /categories/115/skus/?ordering=price&page=1 HTTP/1.0" 200 9924
+INFO 2019-05-14 17:34:29,842 basehttp 124 "GET /categories/115/skus/?ordering=price&page=1&page_size=2 HTTP/1.0" 200 10322
+INFO 2019-05-14 17:34:31,358 basehttp 124 "GET /categories/115/skus/?ordering=price&page=1&page_size=3 HTTP/1.0" 200 10536
+INFO 2019-05-14 17:34:35,313 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 200 653
+INFO 2019-05-14 17:34:37,778 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 200 644
+INFO 2019-05-14 17:34:38,526 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-sales HTTP/1.0" 200 672
+INFO 2019-05-14 17:34:39,430 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 200 644
+INFO 2019-05-14 17:34:42,316 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 200 653
+INFO 2019-05-14 17:34:55,574 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 200 644
+INFO 2019-05-14 17:35:19,142 basehttp 124 "GET /categories/115/skus/?page=1&page_size=2&ordering=-create_time HTTP/1.0" 200 675
+INFO 2019-05-14 17:35:20,374 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 200 653
+INFO 2019-05-14 17:35:21,731 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 200 644
+INFO 2019-05-14 17:35:22,762 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-sales HTTP/1.0" 200 672
+INFO 2019-05-14 17:35:31,413 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 200 644
+INFO 2019-05-14 17:35:32,390 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 200 653
+INFO 2019-05-14 17:35:35,846 basehttp 124 "GET /categories/115/skus/?ordering=price&page=1&page_size=3 HTTP/1.0" 200 10536
+INFO 2019-05-14 17:35:43,425 basehttp 124 "GET /categories/115/skus/?ordering=price&page=1 HTTP/1.0" 200 9924
+INFO 2019-05-14 17:36:08,517 basehttp 124 "GET /categories/115/skus/?page_size=5&ordering=price&page=1 HTTP/1.0" 200 10508
+INFO 2019-05-14 17:36:10,686 basehttp 124 "GET /categories/115/skus/?ordering=price&page=1 HTTP/1.0" 200 9924
+INFO 2019-05-14 17:36:11,665 basehttp 124 "GET /categories/115/skus/?ordering=price&page=1&page_size=7 HTTP/1.0" 200 10077
+INFO 2019-05-14 17:36:23,398 basehttp 124 "GET /categories/115/skus/?ordering=price&page=1&page_size=5 HTTP/1.0" 200 10508
+INFO 2019-05-14 17:36:36,269 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 200 655
+INFO 2019-05-14 17:36:37,724 basehttp 124 "GET /categories/115/skus/?ordering=price&page=1&page_size=5 HTTP/1.0" 200 10508
+INFO 2019-05-14 17:36:38,644 basehttp 124 "GET /categories/115/skus/?ordering=price&page=1&page_size=5 HTTP/1.0" 200 10508
+INFO 2019-05-14 17:36:38,855 basehttp 124 "GET /categories/115/skus/?ordering=price&page=1&page_size=5 HTTP/1.0" 200 10508
+INFO 2019-05-14 17:36:39,077 basehttp 124 "GET /categories/115/skus/?ordering=price&page=1&page_size=5 HTTP/1.0" 200 10508
+INFO 2019-05-14 17:36:39,289 basehttp 124 "GET /categories/115/skus/?ordering=price&page=1&page_size=5 HTTP/1.0" 200 10508
+INFO 2019-05-14 17:36:39,495 basehttp 124 "GET /categories/115/skus/?ordering=price&page=1&page_size=5 HTTP/1.0" 200 10508
+INFO 2019-05-14 17:36:39,703 basehttp 124 "GET /categories/115/skus/?ordering=price&page=1&page_size=5 HTTP/1.0" 200 10508
+WARNING 2019-05-14 17:37:01,111 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:37:01,113 basehttp 124 "GET /categories/115/skus/?ordering=price&page=1&page_size=5 HTTP/1.0" 404 5592
+WARNING 2019-05-14 17:37:03,809 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:37:03,810 basehttp 124 "GET /categories/115/skus/?ordering=price&page=1&page_size=5 HTTP/1.0" 404 5592
+INFO 2019-05-14 17:37:07,340 basehttp 124 "GET /categories/115/skus/?ordering=price&page=1&page_size=1 HTTP/1.0" 200 11364
+WARNING 2019-05-14 17:37:13,782 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:37:13,784 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 404 28
+WARNING 2019-05-14 17:37:26,320 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:37:26,320 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 28
+WARNING 2019-05-14 17:37:27,969 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:37:27,971 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-sales HTTP/1.0" 404 28
+WARNING 2019-05-14 17:38:19,466 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:38:19,467 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-sales HTTP/1.0" 404 5597
+INFO 2019-05-14 17:38:27,866 basehttp 124 "GET /categories/115/skus/?page=1&page_size=1&ordering=-sales HTTP/1.0" 200 11337
+INFO 2019-05-14 17:38:48,034 basehttp 124 "GET /categories/115/skus/?ordering=-sales&page=1&page_size=2 HTTP/1.0" 200 11557
+INFO 2019-05-14 17:38:48,978 basehttp 124 "GET /categories/115/skus/?ordering=-sales&page=1&page_size=3 HTTP/1.0" 200 10862
+INFO 2019-05-14 17:38:50,401 basehttp 124 "GET /categories/115/skus/?ordering=-sales&page=1&page_size=2 HTTP/1.0" 200 11557
+INFO 2019-05-14 17:38:50,934 basehttp 124 "GET /categories/115/skus/?ordering=-sales&page=1 HTTP/1.0" 200 11161
+INFO 2019-05-14 17:38:51,959 basehttp 124 "GET /categories/115/skus/?ordering=-sales&page=1&page_size=2 HTTP/1.0" 200 11557
+INFO 2019-05-14 17:38:52,650 basehttp 124 "GET /categories/115/skus/?ordering=-sales&page=1&page_size=3 HTTP/1.0" 200 10862
+INFO 2019-05-14 17:38:54,396 basehttp 124 "GET /categories/115/skus/?ordering=-sales&page=1 HTTP/1.0" 200 11161
+INFO 2019-05-14 17:39:06,904 basehttp 124 "GET /categories/115/skus/?ordering=-sales&page=1 HTTP/1.0" 200 11161
+WARNING 2019-05-14 17:39:12,587 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:39:12,588 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-sales HTTP/1.0" 404 5597
+INFO 2019-05-14 17:39:18,589 basehttp 124 "GET /categories/115/skus/?page=1&page_size=2&ordering=-sales HTTP/1.0" 200 11557
+WARNING 2019-05-14 17:39:28,982 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:39:28,983 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-sales HTTP/1.0" 404 5597
+WARNING 2019-05-14 17:39:33,658 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:39:33,661 basehttp 124 "GET /categories/115/skus/?page=1&page_size=4&ordering=-sales HTTP/1.0" 404 5597
+INFO 2019-05-14 17:39:38,431 basehttp 124 "GET /categories/115/skus/?page=1&page_size=3&ordering=-sales HTTP/1.0" 200 10862
+INFO 2019-05-14 17:39:49,212 basehttp 124 "GET /categories/115/skus/?ordering=-sales&page=1 HTTP/1.0" 200 11161
+WARNING 2019-05-14 17:43:15,609 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:43:15,611 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 404 28
+WARNING 2019-05-14 17:43:57,851 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:43:57,852 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 28
+WARNING 2019-05-14 17:46:09,508 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:46:09,509 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 404 28
+WARNING 2019-05-14 17:46:11,044 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:46:11,046 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 404 28
+WARNING 2019-05-14 17:46:12,515 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:46:12,526 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 28
+WARNING 2019-05-14 17:46:13,441 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 17:46:13,443 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-sales HTTP/1.0" 404 28
+INFO 2019-05-14 17:49:30,511 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 200 653
+INFO 2019-05-14 17:49:31,526 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 200 653
+INFO 2019-05-14 17:49:32,029 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 200 653
+INFO 2019-05-14 17:49:33,324 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 200 653
+INFO 2019-05-14 17:49:34,220 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 200 644
+INFO 2019-05-14 17:49:35,050 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-sales HTTP/1.0" 200 672
+INFO 2019-05-14 17:49:48,815 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 200 644
+INFO 2019-05-14 18:10:03,159 basehttp 124 "OPTIONS /cart/ HTTP/1.0" 200 0
+INFO 2019-05-14 18:15:13,455 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 200 653
+INFO 2019-05-14 18:15:14,910 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 200 644
+INFO 2019-05-14 18:15:15,467 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-sales HTTP/1.0" 200 672
+INFO 2019-05-14 18:15:17,424 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 200 644
+INFO 2019-05-14 18:16:08,257 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 200 653
+INFO 2019-05-14 18:16:11,348 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 200 653
+INFO 2019-05-14 18:16:32,449 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 200 644
+INFO 2019-05-14 18:16:34,652 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-sales HTTP/1.0" 200 672
+INFO 2019-05-14 18:16:36,334 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 200 644
+INFO 2019-05-14 18:16:37,791 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 200 653
+WARNING 2019-05-14 18:17:08,458 base 152 Not Found: /categories/null/skus/
+WARNING 2019-05-14 18:17:08,464 basehttp 124 "GET /categories/null/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 404 8402
+WARNING 2019-05-14 18:20:38,635 base 152 Not Found: /categories/null/skus/
+WARNING 2019-05-14 18:20:38,642 basehttp 124 "GET /categories/null/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 404 8402
+WARNING 2019-05-14 18:20:39,626 base 152 Not Found: /categories/null/skus/
+WARNING 2019-05-14 18:20:39,628 basehttp 124 "GET /categories/null/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 404 8402
+WARNING 2019-05-14 18:20:40,105 base 152 Not Found: /categories/null/skus/
+WARNING 2019-05-14 18:20:40,106 basehttp 124 "GET /categories/null/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 404 8402
+WARNING 2019-05-14 18:20:41,937 base 152 Not Found: /categories/null/skus/
+WARNING 2019-05-14 18:20:41,938 basehttp 124 "GET /categories/null/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 8395
+WARNING 2019-05-14 18:20:42,711 base 152 Not Found: /categories/null/skus/
+WARNING 2019-05-14 18:20:42,712 basehttp 124 "GET /categories/null/skus/?page=1&page_size=5&ordering=-sales HTTP/1.0" 404 8396
+INFO 2019-05-14 18:22:07,854 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 200 655
+WARNING 2019-05-14 18:22:12,179 base 152 Not Found: /categories/null/skus/
+WARNING 2019-05-14 18:22:12,180 basehttp 124 "GET /categories/null/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 404 8402
+WARNING 2019-05-14 18:22:14,426 base 152 Not Found: /categories/null/skus/
+WARNING 2019-05-14 18:22:14,427 basehttp 124 "GET /categories/null/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 8395
+WARNING 2019-05-14 18:22:15,109 base 152 Not Found: /categories/null/skus/
+WARNING 2019-05-14 18:22:15,112 basehttp 124 "GET /categories/null/skus/?page=1&page_size=5&ordering=-sales HTTP/1.0" 404 8396
+WARNING 2019-05-14 18:22:17,964 base 152 Not Found: /categories/null/skus/
+WARNING 2019-05-14 18:22:17,965 basehttp 124 "GET /categories/null/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 8395
+INFO 2019-05-14 18:22:34,987 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 200 646
+INFO 2019-05-14 18:22:35,810 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-sales HTTP/1.0" 200 674
+INFO 2019-05-14 18:22:37,458 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 200 655
+INFO 2019-05-14 18:22:38,605 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 200 646
+INFO 2019-05-14 18:22:39,371 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-sales HTTP/1.0" 200 674
+WARNING 2019-05-14 18:22:43,589 base 152 Not Found: /categories/null/skus/
+WARNING 2019-05-14 18:22:43,589 basehttp 124 "GET /categories/null/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 404 8402
+INFO 2019-05-14 18:22:50,426 basehttp 124 "GET /categories/115/skus/?page=2&page_size=5&ordering=-sales HTTP/1.0" 200 674
+INFO 2019-05-14 18:22:51,530 basehttp 124 "GET /categories/115/skus/?page=3&page_size=5&ordering=-sales HTTP/1.0" 200 674
+INFO 2019-05-14 18:22:53,021 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-sales HTTP/1.0" 200 674
+INFO 2019-05-14 18:22:53,832 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 200 646
+INFO 2019-05-14 18:22:54,600 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 200 655
+WARNING 2019-05-14 18:23:17,216 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 18:23:17,222 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 404 28
+WARNING 2019-05-14 18:23:18,959 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 18:23:18,959 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 28
+WARNING 2019-05-14 18:23:34,370 base 152 Not Found: /categories/null/skus/
+WARNING 2019-05-14 18:23:34,371 basehttp 124 "GET /categories/null/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 404 8402
+WARNING 2019-05-14 18:23:43,763 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 18:23:43,769 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 404 28
+WARNING 2019-05-14 18:23:49,713 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 18:23:49,714 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 404 28
+WARNING 2019-05-14 18:23:50,799 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 18:23:50,800 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 28
+WARNING 2019-05-14 18:23:51,457 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 18:23:51,457 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-sales HTTP/1.0" 404 28
+WARNING 2019-05-14 18:23:52,476 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 18:23:52,477 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 404 28
+WARNING 2019-05-14 18:25:48,838 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 18:25:48,839 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-sales HTTP/1.0" 404 28
+WARNING 2019-05-14 18:25:49,696 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 18:25:49,697 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 28
+WARNING 2019-05-14 18:25:50,952 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 18:25:50,954 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 404 28
+WARNING 2019-05-14 18:25:51,350 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 18:25:51,351 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 28
+WARNING 2019-05-14 18:25:51,735 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 18:25:51,736 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-sales HTTP/1.0" 404 28
+INFO 2019-05-14 18:26:19,360 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 200 574
+INFO 2019-05-14 18:26:20,250 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 200 574
+INFO 2019-05-14 18:26:21,362 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-sales HTTP/1.0" 200 600
+INFO 2019-05-14 18:26:23,554 basehttp 124 "GET /categories/115/skus/?page=2&page_size=5&ordering=-sales HTTP/1.0" 200 600
+INFO 2019-05-14 18:26:25,232 basehttp 124 "GET /categories/115/skus/?page=3&page_size=5&ordering=-sales HTTP/1.0" 200 600
+INFO 2019-05-14 18:26:26,055 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-sales HTTP/1.0" 200 600
+INFO 2019-05-14 18:26:30,968 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 200 574
+INFO 2019-05-14 18:26:31,919 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 200 574
+INFO 2019-05-14 18:26:33,726 basehttp 124 "GET /categories/115/skus/?page=2&page_size=5&ordering=-create_time HTTP/1.0" 200 574
+INFO 2019-05-14 18:26:34,922 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 200 574
+INFO 2019-05-14 18:32:39,645 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 200 573
+INFO 2019-05-14 18:32:40,555 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 200 573
+INFO 2019-05-14 18:32:41,253 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-sales HTTP/1.0" 200 599
+INFO 2019-05-14 18:32:46,345 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 200 574
+INFO 2019-05-14 18:37:01,500 basehttp 124 "GET / HTTP/1.0" 200 5279
+INFO 2019-05-14 18:43:47,496 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 200 574
+INFO 2019-05-14 18:43:48,957 basehttp 124 "GET /categories/115/skus/?page=2&page_size=5&ordering=-create_time HTTP/1.0" 200 574
+INFO 2019-05-14 18:43:50,827 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 200 574
+INFO 2019-05-14 18:43:53,776 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-sales HTTP/1.0" 200 600
+INFO 2019-05-14 18:43:55,053 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 200 574
+INFO 2019-05-14 18:43:57,314 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 200 574
+WARNING 2019-05-14 18:44:07,364 base 152 Not Found: /categories/157/skus/
+WARNING 2019-05-14 18:44:07,366 basehttp 124 "GET /categories/157/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 404 28
+WARNING 2019-05-14 18:44:08,402 base 152 Not Found: /categories/157/skus/
+WARNING 2019-05-14 18:44:08,403 basehttp 124 "GET /categories/157/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 28
+WARNING 2019-05-14 18:44:08,993 base 152 Not Found: /categories/157/skus/
+WARNING 2019-05-14 18:44:08,994 basehttp 124 "GET /categories/157/skus/?page=1&page_size=5&ordering=-sales HTTP/1.0" 404 28
+WARNING 2019-05-14 18:44:09,544 base 152 Not Found: /categories/157/skus/
+WARNING 2019-05-14 18:44:09,545 basehttp 124 "GET /categories/157/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 404 28
+INFO 2019-05-14 18:45:09,773 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 200 655
+INFO 2019-05-14 18:45:10,760 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 200 655
+WARNING 2019-05-14 18:45:14,663 base 152 Not Found: /categories/157/skus/
+WARNING 2019-05-14 18:45:14,665 basehttp 124 "GET /categories/157/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 404 28
+WARNING 2019-05-14 18:45:15,542 base 152 Not Found: /categories/157/skus/
+WARNING 2019-05-14 18:45:15,543 basehttp 124 "GET /categories/157/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 28
+WARNING 2019-05-14 18:45:16,426 base 152 Not Found: /categories/157/skus/
+WARNING 2019-05-14 18:45:16,426 basehttp 124 "GET /categories/157/skus/?page=1&page_size=5&ordering=-sales HTTP/1.0" 404 28
+WARNING 2019-05-14 18:45:17,590 base 152 Not Found: /categories/157/skus/
+WARNING 2019-05-14 18:45:17,591 basehttp 124 "GET /categories/157/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 404 28
+WARNING 2019-05-14 18:46:06,192 base 152 Not Found: /categories/157/skus/
+WARNING 2019-05-14 18:46:06,194 basehttp 124 "GET /categories/157/skus/?page=1&page_size=0&ordering=-create_time HTTP/1.0" 404 28
+WARNING 2019-05-14 18:46:08,229 base 152 Not Found: /categories/157/skus/
+WARNING 2019-05-14 18:46:08,230 basehttp 124 "GET /categories/157/skus/?page=2&page_size=0&ordering=-create_time HTTP/1.0" 404 28
+WARNING 2019-05-14 18:46:09,534 base 152 Not Found: /categories/157/skus/
+WARNING 2019-05-14 18:46:09,535 basehttp 124 "GET /categories/157/skus/?page=3&page_size=0&ordering=-create_time HTTP/1.0" 404 28
+WARNING 2019-05-14 18:46:10,099 base 152 Not Found: /categories/157/skus/
+WARNING 2019-05-14 18:46:10,100 basehttp 124 "GET /categories/157/skus/?page=1&page_size=0&ordering=-create_time HTTP/1.0" 404 28
+WARNING 2019-05-14 18:46:12,907 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 18:46:12,908 basehttp 124 "GET /categories/115/skus/?page=1&page_size=0&ordering=-create_time HTTP/1.0" 404 28
+WARNING 2019-05-14 18:46:13,704 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 18:46:13,705 basehttp 124 "GET /categories/115/skus/?page=1&page_size=0&ordering=price HTTP/1.0" 404 28
+WARNING 2019-05-14 18:46:14,100 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 18:46:14,100 basehttp 124 "GET /categories/115/skus/?page=1&page_size=0&ordering=-sales HTTP/1.0" 404 28
+WARNING 2019-05-14 18:46:14,763 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 18:46:14,763 basehttp 124 "GET /categories/115/skus/?page=1&page_size=0&ordering=price HTTP/1.0" 404 28
+WARNING 2019-05-14 18:46:15,118 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 18:46:15,120 basehttp 124 "GET /categories/115/skus/?page=1&page_size=0&ordering=-create_time HTTP/1.0" 404 28
+WARNING 2019-05-14 18:46:42,551 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 18:46:42,552 basehttp 124 "GET /categories/115/skus/?page=1&page_size=0&ordering=-create_time HTTP/1.0" 404 28
+INFO 2019-05-14 18:46:53,082 basehttp 124 "GET /categories/115/skus/?page=1&ordering=-create_time HTTP/1.0" 200 1315
+INFO 2019-05-14 18:46:55,171 basehttp 124 "GET /categories/115/skus/?page=2&ordering=-create_time HTTP/1.0" 200 1315
+INFO 2019-05-14 18:46:56,630 basehttp 124 "GET /categories/115/skus/?page=3&ordering=-create_time HTTP/1.0" 200 1315
+INFO 2019-05-14 18:46:57,155 basehttp 124 "GET /categories/115/skus/?page=4&ordering=-create_time HTTP/1.0" 200 1315
+INFO 2019-05-14 18:46:57,838 basehttp 124 "GET /categories/115/skus/?page=6&ordering=-create_time HTTP/1.0" 200 1315
+INFO 2019-05-14 18:46:58,369 basehttp 124 "GET /categories/115/skus/?page=7&ordering=-create_time HTTP/1.0" 200 1315
+INFO 2019-05-14 18:46:58,810 basehttp 124 "GET /categories/115/skus/?page=8&ordering=-create_time HTTP/1.0" 200 1315
+INFO 2019-05-14 18:46:59,040 basehttp 124 "GET /categories/115/skus/?page=9&ordering=-create_time HTTP/1.0" 200 1315
+INFO 2019-05-14 18:46:59,236 basehttp 124 "GET /categories/115/skus/?page=10&ordering=-create_time HTTP/1.0" 200 1316
+INFO 2019-05-14 18:46:59,722 basehttp 124 "GET /categories/115/skus/?page=11&ordering=-create_time HTTP/1.0" 200 1316
+INFO 2019-05-14 18:46:59,976 basehttp 124 "GET /categories/115/skus/?page=12&ordering=-create_time HTTP/1.0" 200 1316
+INFO 2019-05-14 18:47:00,215 basehttp 124 "GET /categories/115/skus/?page=13&ordering=-create_time HTTP/1.0" 200 1316
+INFO 2019-05-14 18:47:01,039 basehttp 124 "GET /categories/115/skus/?page=12&ordering=-create_time HTTP/1.0" 200 1316
+INFO 2019-05-14 18:47:01,271 basehttp 124 "GET /categories/115/skus/?page=11&ordering=-create_time HTTP/1.0" 200 1316
+INFO 2019-05-14 18:47:01,478 basehttp 124 "GET /categories/115/skus/?page=10&ordering=-create_time HTTP/1.0" 200 1316
+INFO 2019-05-14 18:47:02,245 basehttp 124 "GET /categories/115/skus/?page=1&ordering=price HTTP/1.0" 200 1306
+INFO 2019-05-14 18:47:03,124 basehttp 124 "GET /categories/115/skus/?page=1&ordering=-sales HTTP/1.0" 200 1269
+INFO 2019-05-14 18:47:04,016 basehttp 124 "GET /categories/115/skus/?page=1&ordering=price HTTP/1.0" 200 1306
+INFO 2019-05-14 18:47:04,989 basehttp 124 "GET /categories/115/skus/?page=1&ordering=-create_time HTTP/1.0" 200 1315
+INFO 2019-05-14 18:47:13,229 basehttp 124 "GET /categories/157/skus/?page=1&ordering=-create_time HTTP/1.0" 200 452
+INFO 2019-05-14 18:47:14,582 basehttp 124 "GET /categories/157/skus/?page=2&ordering=-create_time HTTP/1.0" 200 452
+INFO 2019-05-14 18:47:15,645 basehttp 124 "GET /categories/157/skus/?page=3&ordering=-create_time HTTP/1.0" 200 452
+INFO 2019-05-14 18:47:16,308 basehttp 124 "GET /categories/157/skus/?page=4&ordering=-create_time HTTP/1.0" 200 452
+INFO 2019-05-14 18:47:17,119 basehttp 124 "GET /categories/157/skus/?page=2&ordering=-create_time HTTP/1.0" 200 452
+INFO 2019-05-14 18:47:17,962 basehttp 124 "GET /categories/157/skus/?page=1&ordering=-create_time HTTP/1.0" 200 452
+INFO 2019-05-14 18:47:26,235 basehttp 124 "GET /categories/115/skus/?page=1&ordering=-create_time HTTP/1.0" 200 1315
+INFO 2019-05-14 18:47:29,837 basehttp 124 "GET /categories/115/skus/?page=2&ordering=-create_time HTTP/1.0" 200 1315
+INFO 2019-05-14 18:47:31,404 basehttp 124 "GET /categories/115/skus/?page=1&ordering=-create_time HTTP/1.0" 200 1315
+INFO 2019-05-14 18:47:32,425 basehttp 124 "GET /categories/115/skus/?page=1&ordering=-sales HTTP/1.0" 200 1269
+INFO 2019-05-14 18:47:34,207 basehttp 124 "GET /categories/115/skus/?page=1&ordering=price HTTP/1.0" 200 1306
+WARNING 2019-05-14 18:48:52,010 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 18:48:52,011 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 404 28
+WARNING 2019-05-14 18:48:53,206 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 18:48:53,207 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 28
+WARNING 2019-05-14 18:48:53,615 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 18:48:53,616 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-sales HTTP/1.0" 404 28
+WARNING 2019-05-14 18:50:29,349 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 18:50:29,361 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 404 28
+WARNING 2019-05-14 18:50:31,672 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 18:50:31,673 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 404 28
+WARNING 2019-05-14 18:50:32,362 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 18:50:32,363 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 404 28
+WARNING 2019-05-14 18:50:32,564 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 18:50:32,565 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 404 28
+WARNING 2019-05-14 18:50:32,797 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 18:50:32,798 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 404 28
+WARNING 2019-05-14 18:50:33,013 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 18:50:33,014 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 404 28
+WARNING 2019-05-14 18:50:33,209 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 18:50:33,210 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 404 28
+WARNING 2019-05-14 18:50:34,362 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 18:50:34,363 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 28
+WARNING 2019-05-14 18:50:35,006 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 18:50:35,006 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=sales HTTP/1.0" 404 28
+WARNING 2019-05-14 18:50:35,692 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 18:50:35,693 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 404 28
+WARNING 2019-05-14 18:50:42,090 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 18:50:42,091 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 404 28
+INFO 2019-05-14 18:51:39,482 basehttp 124 "GET / HTTP/1.1" 200 5315
+INFO 2019-05-14 18:51:39,561 basehttp 124 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2019-05-14 18:51:39,563 basehttp 124 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+INFO 2019-05-14 18:51:39,565 basehttp 124 "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+INFO 2019-05-14 18:51:39,579 basehttp 124 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+INFO 2019-05-14 18:51:39,582 basehttp 124 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+INFO 2019-05-14 18:51:39,582 basehttp 124 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+INFO 2019-05-14 18:51:39,582 basehttp 124 "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+INFO 2019-05-14 18:51:39,633 basehttp 124 "GET /static/rest_framework/js/jquery-3.3.1.min.js HTTP/1.1" 304 0
+INFO 2019-05-14 18:51:39,647 basehttp 124 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2019-05-14 18:51:39,649 basehttp 124 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+INFO 2019-05-14 18:51:39,699 basehttp 124 "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+WARNING 2019-05-14 18:51:48,078 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 18:51:48,079 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 404 28
+WARNING 2019-05-14 18:52:00,395 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 18:52:00,403 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 404 28
+WARNING 2019-05-14 18:52:01,412 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 18:52:01,421 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 404 28
+WARNING 2019-05-14 18:52:03,314 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 18:52:03,315 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 404 28
+WARNING 2019-05-14 18:52:03,986 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 18:52:03,987 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-sales HTTP/1.0" 404 28
+INFO 2019-05-14 18:52:14,594 basehttp 124 "GET /categories/115/skus/?page=1&page_size=3&ordering=-create_time HTTP/1.0" 200 1027
+INFO 2019-05-14 18:52:18,728 basehttp 124 "GET /categories/115/skus/?page=2&page_size=3&ordering=-create_time HTTP/1.0" 200 1027
+INFO 2019-05-14 18:52:20,364 basehttp 124 "GET /categories/115/skus/?page=1&page_size=3&ordering=-create_time HTTP/1.0" 200 1027
+WARNING 2019-05-14 18:52:25,939 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 18:52:25,940 basehttp 124 "GET /categories/115/skus/?page=1&page_size=4&ordering=-create_time HTTP/1.0" 404 28
+WARNING 2019-05-14 18:52:27,779 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 18:52:27,781 basehttp 124 "GET /categories/115/skus/?page=1&page_size=4&ordering=price HTTP/1.0" 404 28
+WARNING 2019-05-14 18:52:28,436 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 18:52:28,437 basehttp 124 "GET /categories/115/skus/?page=1&page_size=4&ordering=-sales HTTP/1.0" 404 28
+INFO 2019-05-14 18:52:36,871 basehttp 124 "GET /categories/115/skus/?page=1&page_size=3&ordering=-create_time HTTP/1.0" 200 1027
+INFO 2019-05-14 18:52:45,593 basehttp 124 "GET /categories/115/skus/?page_size=3&ordering=-create_time HTTP/1.0" 200 1020
+INFO 2019-05-14 18:52:46,756 basehttp 124 "GET /categories/115/skus/?page=2&page_size=3&ordering=-create_time HTTP/1.0" 200 1027
+INFO 2019-05-14 18:52:47,416 basehttp 124 "GET /categories/115/skus/?page=3&page_size=3&ordering=-create_time HTTP/1.0" 200 1027
+INFO 2019-05-14 18:52:47,926 basehttp 124 "GET /categories/115/skus/?page=4&page_size=3&ordering=-create_time HTTP/1.0" 200 1027
+INFO 2019-05-14 18:52:48,460 basehttp 124 "GET /categories/115/skus/?page=5&page_size=3&ordering=-create_time HTTP/1.0" 200 1027
+WARNING 2019-05-14 18:53:00,351 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 18:53:00,357 basehttp 124 "GET /categories/115/skus/?page_size=5&ordering=-create_time HTTP/1.0" 404 28
+WARNING 2019-05-14 18:53:15,132 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 18:53:15,133 basehttp 124 "GET /categories/115/skus/?page=1&page_size=4&ordering=-create_time HTTP/1.0" 404 28
+WARNING 2019-05-14 18:53:16,512 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 18:53:16,513 basehttp 124 "GET /categories/115/skus/?page=1&page_size=4&ordering=price HTTP/1.0" 404 28
+WARNING 2019-05-14 18:53:17,091 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 18:53:17,092 basehttp 124 "GET /categories/115/skus/?page=1&page_size=4&ordering=-sales HTTP/1.0" 404 28
+WARNING 2019-05-14 18:53:17,835 base 152 Not Found: /categories/115/skus/
+WARNING 2019-05-14 18:53:17,836 basehttp 124 "GET /categories/115/skus/?page=1&page_size=4&ordering=-create_time HTTP/1.0" 404 28
+INFO 2019-05-14 18:53:23,019 basehttp 124 "GET /categories/115/skus/?page=1&page_size=3&ordering=-create_time HTTP/1.0" 200 1027
+INFO 2019-05-14 18:53:24,698 basehttp 124 "GET /categories/115/skus/?page=2&page_size=3&ordering=-create_time HTTP/1.0" 200 1027
+INFO 2019-05-14 18:53:26,096 basehttp 124 "GET /categories/115/skus/?page=3&page_size=3&ordering=-create_time HTTP/1.0" 200 1027
+INFO 2019-05-14 18:53:26,551 basehttp 124 "GET /categories/115/skus/?page=4&page_size=3&ordering=-create_time HTTP/1.0" 200 1027
+INFO 2019-05-14 18:53:27,051 basehttp 124 "GET /categories/115/skus/?page=5&page_size=3&ordering=-create_time HTTP/1.0" 200 1027
+INFO 2019-05-14 18:53:27,788 basehttp 124 "GET /categories/115/skus/?page=1&page_size=3&ordering=-create_time HTTP/1.0" 200 1027
+INFO 2019-05-14 18:53:29,453 basehttp 124 "GET /categories/115/skus/?page=1&page_size=3&ordering=price HTTP/1.0" 200 1015
+INFO 2019-05-14 18:53:30,673 basehttp 124 "GET /categories/115/skus/?page=1&page_size=3&ordering=-sales HTTP/1.0" 200 1073
+WARNING 2019-05-14 18:53:35,842 base 152 Not Found: /categories/157/skus/
+WARNING 2019-05-14 18:53:35,844 basehttp 124 "GET /categories/157/skus/?page=1&page_size=3&ordering=-create_time HTTP/1.0" 404 28
+WARNING 2019-05-14 18:53:36,973 base 152 Not Found: /categories/157/skus/
+WARNING 2019-05-14 18:53:36,974 basehttp 124 "GET /categories/157/skus/?page=1&page_size=3&ordering=price HTTP/1.0" 404 28
+INFO 2019-05-14 18:54:13,975 basehttp 124 "OPTIONS /cart/ HTTP/1.0" 200 0
+WARNING 2019-05-14 18:54:13,988 base 152 Not Found: /categories/157/
+WARNING 2019-05-14 18:54:14,015 base 152 Not Found: /cart/
+WARNING 2019-05-14 18:54:14,020 basehttp 124 "GET /cart/ HTTP/1.0" 404 8306
+WARNING 2019-05-14 18:54:14,021 basehttp 124 "GET /categories/157/ HTTP/1.0" 404 8336
+WARNING 2019-05-14 18:54:14,027 base 152 Not Found: /categories/157/skus/
+WARNING 2019-05-14 18:54:14,029 basehttp 124 "GET /categories/157/skus/?page=1&page_size=3&ordering=-create_time HTTP/1.0" 404 28
+INFO 2019-05-14 18:54:14,043 basehttp 124 "GET /categories/157/hotskus/ HTTP/1.0" 200 402
+WARNING 2019-05-14 18:54:15,358 base 152 Not Found: /categories/157/skus/
+WARNING 2019-05-14 18:54:15,359 basehttp 124 "GET /categories/157/skus/?page=1&page_size=3&ordering=price HTTP/1.0" 404 28
+WARNING 2019-05-14 18:54:16,061 base 152 Not Found: /categories/157/skus/
+WARNING 2019-05-14 18:54:16,062 basehttp 124 "GET /categories/157/skus/?page=1&page_size=3&ordering=-sales HTTP/1.0" 404 28
+WARNING 2019-05-14 18:54:19,172 base 152 Not Found: /cart/
+WARNING 2019-05-14 18:54:19,181 base 152 Not Found: /categories/115/
+WARNING 2019-05-14 18:54:19,182 basehttp 124 "GET /cart/ HTTP/1.0" 404 8306
+WARNING 2019-05-14 18:54:19,192 basehttp 124 "GET /categories/115/ HTTP/1.0" 404 8336
+INFO 2019-05-14 18:54:19,209 basehttp 124 "GET /categories/115/skus/?page=1&page_size=3&ordering=-create_time HTTP/1.0" 200 1027
+INFO 2019-05-14 18:54:19,218 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.0" 200 465
+INFO 2019-05-14 18:54:48,677 basehttp 124 "GET /categories/115/skus/?page=1&page_size=3&ordering=-create_time HTTP/1.0" 200 1027
+INFO 2019-05-14 18:55:13,771 basehttp 124 "GET /categories/115/skus/?page=1&ordering=-create_time HTTP/1.0" 200 1315
+INFO 2019-05-14 18:55:16,512 basehttp 124 "GET /categories/115/skus/?page=1&ordering=price HTTP/1.0" 200 1306
+INFO 2019-05-14 18:55:17,203 basehttp 124 "GET /categories/115/skus/?page=1&ordering=-sales HTTP/1.0" 200 1269
+INFO 2019-05-14 18:55:17,996 basehttp 124 "GET /categories/115/skus/?page=1&ordering=-create_time HTTP/1.0" 200 1315
+INFO 2019-05-14 18:55:20,863 basehttp 124 "GET /categories/157/skus/?page=1&ordering=-create_time HTTP/1.0" 200 452
+INFO 2019-05-14 18:55:22,404 basehttp 124 "GET /categories/157/skus/?page=1&ordering=price HTTP/1.0" 200 452
+INFO 2019-05-14 18:55:23,012 basehttp 124 "GET /categories/157/skus/?page=1&ordering=-sales HTTP/1.0" 200 452
+INFO 2019-05-15 19:55:12,298 basehttp 124 "GET / HTTP/1.1" 200 5315
+WARNING 2019-05-15 19:55:12,772 base 152 Not Found: /favicon.ico
+WARNING 2019-05-15 19:55:12,773 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 9543
+ERROR 2019-05-15 19:56:05,341 exception 135 Internal Server Error: /skus/search/
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/viewsets.py", line 116, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/mixins.py", line 45, in list
+    return self.get_paginated_response(serializer.data)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 768, in data
+    ret = super(ListSerializer, self).data
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 686, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 686, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/usr/local/python3/lib/python3.6/site-packages/drf_haystack/serializers.py", line 225, in to_representation
+    ret = super(HaystackSerializer, self).to_representation(instance)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 513, in to_representation
+    fields = self._readable_fields
+  File "/usr/local/python3/lib/python3.6/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 376, in _readable_fields
+    field for field in self.fields.values()
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "/usr/local/python3/lib/python3.6/site-packages/drf_haystack/serializers.py", line 206, in get_fields
+    field_mapping[field_name] = self._field_mapping[field_type](**kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/drf_haystack/fields.py", line 14, in __init__
+    super(DRFHaystackFieldMixin, self).__init__(**kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/fields.py", line 767, in __init__
+    super(CharField, self).__init__(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'max_digits'
+ERROR 2019-05-15 19:56:05,545 basehttp 124 "GET /skus/search/?text=%E5%8D%8E%E4%B8%BA HTTP/1.1" 500 155702
+ERROR 2019-05-15 19:57:10,188 exception 135 Internal Server Error: /skus/search/
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/viewsets.py", line 116, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/mixins.py", line 45, in list
+    return self.get_paginated_response(serializer.data)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 768, in data
+    ret = super(ListSerializer, self).data
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 686, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 686, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/usr/local/python3/lib/python3.6/site-packages/drf_haystack/serializers.py", line 225, in to_representation
+    ret = super(HaystackSerializer, self).to_representation(instance)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 513, in to_representation
+    fields = self._readable_fields
+  File "/usr/local/python3/lib/python3.6/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 376, in _readable_fields
+    field for field in self.fields.values()
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "/usr/local/python3/lib/python3.6/site-packages/drf_haystack/serializers.py", line 206, in get_fields
+    field_mapping[field_name] = self._field_mapping[field_type](**kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/drf_haystack/fields.py", line 14, in __init__
+    super(DRFHaystackFieldMixin, self).__init__(**kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/fields.py", line 767, in __init__
+    super(CharField, self).__init__(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'max_digits'
+ERROR 2019-05-15 19:57:10,333 basehttp 124 "GET /skus/search/?id=5 HTTP/1.1" 500 152672
+ERROR 2019-05-15 19:59:47,007 exception 135 Internal Server Error: /skus/search/
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/viewsets.py", line 116, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/mixins.py", line 45, in list
+    return self.get_paginated_response(serializer.data)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 768, in data
+    ret = super(ListSerializer, self).data
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 686, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 686, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/usr/local/python3/lib/python3.6/site-packages/drf_haystack/serializers.py", line 225, in to_representation
+    ret = super(HaystackSerializer, self).to_representation(instance)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 513, in to_representation
+    fields = self._readable_fields
+  File "/usr/local/python3/lib/python3.6/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 376, in _readable_fields
+    field for field in self.fields.values()
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "/usr/local/python3/lib/python3.6/site-packages/drf_haystack/serializers.py", line 206, in get_fields
+    field_mapping[field_name] = self._field_mapping[field_type](**kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/drf_haystack/fields.py", line 14, in __init__
+    super(DRFHaystackFieldMixin, self).__init__(**kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/fields.py", line 767, in __init__
+    super(CharField, self).__init__(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'max_digits'
+ERROR 2019-05-15 19:59:47,192 basehttp 124 "GET /skus/search/?id=5 HTTP/1.1" 500 152293
+ERROR 2019-05-15 20:04:28,597 exception 135 Internal Server Error: /skus/search/
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/viewsets.py", line 116, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/mixins.py", line 45, in list
+    return self.get_paginated_response(serializer.data)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 768, in data
+    ret = super(ListSerializer, self).data
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 686, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 686, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/usr/local/python3/lib/python3.6/site-packages/drf_haystack/serializers.py", line 225, in to_representation
+    ret = super(HaystackSerializer, self).to_representation(instance)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 513, in to_representation
+    fields = self._readable_fields
+  File "/usr/local/python3/lib/python3.6/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 376, in _readable_fields
+    field for field in self.fields.values()
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "/usr/local/python3/lib/python3.6/site-packages/drf_haystack/serializers.py", line 206, in get_fields
+    field_mapping[field_name] = self._field_mapping[field_type](**kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/drf_haystack/fields.py", line 14, in __init__
+    super(DRFHaystackFieldMixin, self).__init__(**kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/fields.py", line 767, in __init__
+    super(CharField, self).__init__(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'max_digits'
+ERROR 2019-05-15 20:04:28,780 basehttp 124 "GET /skus/search/?id=5 HTTP/1.1" 500 152293
+INFO 2019-05-15 20:05:48,094 basehttp 124 "GET /skus/search?id=5 HTTP/1.1" 301 0
+ERROR 2019-05-15 20:05:48,275 exception 135 Internal Server Error: /skus/search/
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/viewsets.py", line 116, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/mixins.py", line 45, in list
+    return self.get_paginated_response(serializer.data)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 768, in data
+    ret = super(ListSerializer, self).data
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 686, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 686, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/usr/local/python3/lib/python3.6/site-packages/drf_haystack/serializers.py", line 225, in to_representation
+    ret = super(HaystackSerializer, self).to_representation(instance)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 513, in to_representation
+    fields = self._readable_fields
+  File "/usr/local/python3/lib/python3.6/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 376, in _readable_fields
+    field for field in self.fields.values()
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "/usr/local/python3/lib/python3.6/site-packages/drf_haystack/serializers.py", line 206, in get_fields
+    field_mapping[field_name] = self._field_mapping[field_type](**kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/drf_haystack/fields.py", line 14, in __init__
+    super(DRFHaystackFieldMixin, self).__init__(**kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/fields.py", line 767, in __init__
+    super(CharField, self).__init__(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'max_digits'
+ERROR 2019-05-15 20:05:48,414 basehttp 124 "GET /skus/search/?id=5 HTTP/1.1" 500 152159
+ERROR 2019-05-15 20:05:57,656 exception 135 Internal Server Error: /skus/search/
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/viewsets.py", line 116, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/mixins.py", line 45, in list
+    return self.get_paginated_response(serializer.data)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 768, in data
+    ret = super(ListSerializer, self).data
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 686, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 686, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/usr/local/python3/lib/python3.6/site-packages/drf_haystack/serializers.py", line 225, in to_representation
+    ret = super(HaystackSerializer, self).to_representation(instance)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 513, in to_representation
+    fields = self._readable_fields
+  File "/usr/local/python3/lib/python3.6/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 376, in _readable_fields
+    field for field in self.fields.values()
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "/usr/local/python3/lib/python3.6/site-packages/drf_haystack/serializers.py", line 206, in get_fields
+    field_mapping[field_name] = self._field_mapping[field_type](**kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/drf_haystack/fields.py", line 14, in __init__
+    super(DRFHaystackFieldMixin, self).__init__(**kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/fields.py", line 767, in __init__
+    super(CharField, self).__init__(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'max_digits'
+ERROR 2019-05-15 20:05:57,739 basehttp 124 "GET /skus/search/?id=5 HTTP/1.1" 500 152158
+WARNING 2019-05-15 20:06:51,487 base 152 Not Found: /skus/search/
+WARNING 2019-05-15 20:06:51,489 basehttp 124 "GET /skus/search/?id=5 HTTP/1.1" 404 9554
+WARNING 2019-05-15 20:06:59,620 base 152 Not Found: /skus/search/
+WARNING 2019-05-15 20:06:59,621 basehttp 124 "GET /skus/search/?id=5 HTTP/1.1" 404 9554
+ERROR 2019-05-15 20:07:39,296 exception 135 Internal Server Error: /skus/search/
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/viewsets.py", line 116, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/mixins.py", line 45, in list
+    return self.get_paginated_response(serializer.data)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 768, in data
+    ret = super(ListSerializer, self).data
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 686, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 686, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/usr/local/python3/lib/python3.6/site-packages/drf_haystack/serializers.py", line 225, in to_representation
+    ret = super(HaystackSerializer, self).to_representation(instance)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 513, in to_representation
+    fields = self._readable_fields
+  File "/usr/local/python3/lib/python3.6/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 376, in _readable_fields
+    field for field in self.fields.values()
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "/usr/local/python3/lib/python3.6/site-packages/drf_haystack/serializers.py", line 206, in get_fields
+    field_mapping[field_name] = self._field_mapping[field_type](**kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/drf_haystack/fields.py", line 14, in __init__
+    super(DRFHaystackFieldMixin, self).__init__(**kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/fields.py", line 767, in __init__
+    super(CharField, self).__init__(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'max_digits'
+ERROR 2019-05-15 20:07:39,490 basehttp 124 "GET /skus/search/?id=5 HTTP/1.1" 500 152293
+INFO 2019-05-15 20:10:02,306 basehttp 124 "GET /skus/search/?id=5 HTTP/1.1" 200 6282
+INFO 2019-05-15 20:11:03,449 basehttp 124 "GET /skus/search/?id=5 HTTP/1.1" 200 10610
+INFO 2019-05-15 20:11:50,859 basehttp 124 "GET /skus/search/?text=4 HTTP/1.1" 200 6282
+INFO 2019-05-15 20:11:54,424 basehttp 124 "GET /skus/search/?text=5 HTTP/1.1" 200 6292
+INFO 2019-05-15 20:12:00,410 basehttp 124 "GET /skus/search/?id=5 HTTP/1.1" 200 10610
+INFO 2019-05-15 20:22:10,610 basehttp 124 "GET /skus/search/?id=5 HTTP/1.1" 200 10610
+INFO 2019-05-15 20:22:11,618 basehttp 124 "GET /skus/search/?id=5 HTTP/1.1" 200 10610
+INFO 2019-05-15 20:22:24,002 basehttp 124 "GET /skus/search/?id=5 HTTP/1.1" 200 10610
+WARNING 2019-05-15 20:23:47,277 base 152 Not Found: /skus/search/
+WARNING 2019-05-15 20:23:47,281 basehttp 124 "GET /skus/search/?text=%E6%89%8B%E6%9C%BA&page=1&page_size=6 HTTP/1.0" 404 5647
+WARNING 2019-05-15 20:23:47,711 base 152 Not Found: /favicon.ico
+WARNING 2019-05-15 20:23:47,712 basehttp 124 "GET /favicon.ico HTTP/1.0" 404 9543
+WARNING 2019-05-15 20:23:51,126 base 152 Not Found: /skus/search/
+WARNING 2019-05-15 20:23:51,127 basehttp 124 "GET /skus/search/?text=%E6%89%8B%E6%9C%BA&page=1&page_size=6 HTTP/1.0" 404 28
+WARNING 2019-05-15 20:23:54,322 base 152 Not Found: /skus/search/
+WARNING 2019-05-15 20:23:54,323 basehttp 124 "GET /skus/search/?text=%E6%89%8B%E6%9C%BA&page=1&page_size=6 HTTP/1.0" 404 28
+WARNING 2019-05-15 20:23:59,960 base 152 Not Found: /skus/search/
+WARNING 2019-05-15 20:23:59,961 basehttp 124 "GET /skus/search/?text=%E5%8D%8E&page=1&page_size=6 HTTP/1.0" 404 28
+WARNING 2019-05-15 20:24:14,561 base 152 Not Found: /skus/search/
+WARNING 2019-05-15 20:24:14,561 basehttp 124 "GET /skus/search/?text=%E6%89%8B%E6%9C%BA&page=1&page_size=5 HTTP/1.0" 404 5647
+INFO 2019-05-15 20:24:19,192 basehttp 124 "GET /skus/search/?text=%E6%89%8B%E6%9C%BA&page=1&page_size=1 HTTP/1.0" 200 10778
+WARNING 2019-05-15 20:24:40,658 base 152 Not Found: /skus/search/
+WARNING 2019-05-15 20:24:40,658 basehttp 124 "GET /skus/search/?text=%E5%8D%8E&page=1&page_size=3 HTTP/1.0" 404 28
+WARNING 2019-05-15 20:24:43,710 base 152 Not Found: /skus/search/
+WARNING 2019-05-15 20:24:43,712 basehttp 124 "GET /skus/search/?text=%E5%8D%8E&page=1&page_size=3 HTTP/1.0" 404 28
+INFO 2019-05-15 20:24:46,123 basehttp 124 "GET /skus/search/?text=%E6%89%8B%E6%9C%BA&page=1&page_size=3 HTTP/1.0" 200 1802
+INFO 2019-05-15 20:24:48,029 basehttp 124 "GET /skus/search/?text=%E6%89%8B%E6%9C%BA&page=2&page_size=3 HTTP/1.0" 200 1802
+INFO 2019-05-15 20:24:49,098 basehttp 124 "GET /skus/search/?text=%E6%89%8B%E6%9C%BA&page=4&page_size=3 HTTP/1.0" 200 1802
+INFO 2019-05-15 20:24:49,460 basehttp 124 "GET /skus/search/?text=%E6%89%8B%E6%9C%BA&page=3&page_size=3 HTTP/1.0" 200 1802
+WARNING 2019-05-15 20:24:53,000 base 152 Not Found: /skus/search/
+WARNING 2019-05-15 20:24:53,001 basehttp 124 "GET /skus/search/?text=%E5%8D%8E&page=1&page_size=3 HTTP/1.0" 404 28
+WARNING 2019-05-15 20:24:57,304 base 152 Not Found: /skus/search/
+WARNING 2019-05-15 20:24:57,305 basehttp 124 "GET /skus/search/?text=%E5%8D%8E&page=1&page_size=3 HTTP/1.0" 404 28
+INFO 2019-05-15 20:24:59,520 basehttp 124 "GET /skus/search/?text=%E6%89%8B%E6%9C%BA&page=1&page_size=3 HTTP/1.0" 200 1802
+WARNING 2019-05-15 20:25:29,485 base 152 Not Found: /skus/search/
+WARNING 2019-05-15 20:25:29,486 basehttp 124 "GET /skus/search/?text=%E5%8D%8E&page=1&page_size=6 HTTP/1.0" 404 28
+INFO 2019-05-15 20:25:32,978 basehttp 124 "GET /skus/search/?text=%E6%89%8B%E6%9C%BA&page=1&page_size=6 HTTP/1.0" 200 1019
+INFO 2019-05-15 20:25:34,659 basehttp 124 "GET /skus/search/?text=%E6%89%8B%E6%9C%BA&page=2&page_size=6 HTTP/1.0" 200 1019
+INFO 2019-05-15 20:25:35,136 basehttp 124 "GET /skus/search/?text=%E6%89%8B%E6%9C%BA&page=1&page_size=6 HTTP/1.0" 200 1019
+INFO 2019-05-15 20:25:35,416 basehttp 124 "GET /skus/search/?text=%E6%89%8B%E6%9C%BA&page=3&page_size=6 HTTP/1.0" 200 1019
+INFO 2019-05-15 20:25:35,675 basehttp 124 "GET /skus/search/?text=%E6%89%8B%E6%9C%BA&page=1&page_size=6 HTTP/1.0" 200 1019
+INFO 2019-05-15 20:25:35,885 basehttp 124 "GET /skus/search/?text=%E6%89%8B%E6%9C%BA&page=3&page_size=6 HTTP/1.0" 200 1019
+INFO 2019-05-15 20:25:36,129 basehttp 124 "GET /skus/search/?text=%E6%89%8B%E6%9C%BA&page=2&page_size=6 HTTP/1.0" 200 1019
+INFO 2019-05-15 20:25:36,968 basehttp 124 "GET /skus/search/?text=%E6%89%8B%E6%9C%BA&page=3&page_size=6 HTTP/1.0" 200 1019
+INFO 2019-05-15 20:27:03,661 basehttp 124 "GET /skus/search/?text=%E6%89%8B%E6%9C%BA&page=1&page_size=6 HTTP/1.0" 200 2559
+INFO 2019-05-15 20:27:06,750 basehttp 124 "GET /skus/search/?text=%E6%89%8B%E6%9C%BA&page=2&page_size=6 HTTP/1.0" 200 2701
+INFO 2019-05-15 20:27:07,723 basehttp 124 "GET /skus/search/?text=%E6%89%8B%E6%9C%BA&page=3&page_size=6 HTTP/1.0" 200 985
+INFO 2019-05-15 20:27:11,578 basehttp 124 "GET /skus/search/?text=%E6%89%8B%E6%9C%BA&page=1&page_size=6 HTTP/1.0" 200 2559
+INFO 2019-05-15 20:27:16,827 basehttp 124 "GET /skus/search/?text=%E5%8D%8E&page=1&page_size=6 HTTP/1.0" 200 2662
+INFO 2019-05-15 20:27:18,484 basehttp 124 "GET /skus/search/?text=%E5%8D%8E&page=2&page_size=6 HTTP/1.0" 200 1829
+INFO 2019-05-15 20:28:11,668 basehttp 124 "GET /skus/search/?text=%E5%8D%8E&page=1&page_size=6 HTTP/1.0" 200 2662
+INFO 2019-05-15 20:28:13,130 basehttp 124 "GET /skus/search/?text=%E5%8D%8E&page=1&page_size=6 HTTP/1.0" 200 2662
+INFO 2019-05-15 20:28:22,924 basehttp 124 "OPTIONS /authorizations/ HTTP/1.0" 200 0
+WARNING 2019-05-15 20:28:22,989 basehttp 124 "POST /authorizations/ HTTP/1.0" 400 67
+INFO 2019-05-15 20:28:27,135 basehttp 124 "POST /authorizations/ HTTP/1.0" 200 241
+INFO 2019-05-15 20:28:27,349 basehttp 124 "OPTIONS /user/ HTTP/1.0" 200 0
+INFO 2019-05-15 20:28:27,478 basehttp 124 "GET /user/ HTTP/1.0" 200 104
+INFO 2019-05-15 20:28:27,495 basehttp 124 "OPTIONS /browse_histories/ HTTP/1.0" 200 0
+INFO 2019-05-15 20:28:27,567 basehttp 124 "GET /browse_histories/ HTTP/1.0" 200 1080
+INFO 2019-05-15 20:28:31,488 basehttp 124 "POST /browse_histories/ HTTP/1.0" 201 12
+INFO 2019-05-15 20:28:31,522 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.0" 200 465
+INFO 2019-05-15 20:28:35,187 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 200 1315
+INFO 2019-05-15 20:28:36,471 basehttp 124 "GET /categories/115/skus/?page=2&page_size=5&ordering=-create_time HTTP/1.0" 200 1357
+INFO 2019-05-15 20:28:37,702 basehttp 124 "GET /categories/115/skus/?page=3&page_size=5&ordering=-create_time HTTP/1.0" 200 1027
+INFO 2019-05-15 20:28:41,997 basehttp 124 "GET /categories/157/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 200 452
+INFO 2019-05-15 20:39:46,692 basehttp 124 "GET /categories/157/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 200 452
+INFO 2019-05-15 20:39:50,857 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 200 1315
+INFO 2019-05-15 20:39:52,721 basehttp 124 "GET /categories/115/skus/?page=2&page_size=5&ordering=-create_time HTTP/1.0" 200 1357
+INFO 2019-05-15 20:39:53,690 basehttp 124 "GET /categories/115/skus/?page=3&page_size=5&ordering=-create_time HTTP/1.0" 200 1027
+INFO 2019-05-15 20:39:58,863 basehttp 124 "GET /skus/search/?text=%E5%8D%8E&page=1&page_size=6 HTTP/1.0" 200 1263
+INFO 2019-05-15 20:40:00,703 basehttp 124 "GET /skus/search/?text=%E5%8D%8E&page=2&page_size=6 HTTP/1.0" 200 846
+INFO 2019-05-15 20:40:01,747 basehttp 124 "GET /skus/search/?text=%E5%8D%8E&page=1&page_size=6 HTTP/1.0" 200 1263
+INFO 2019-05-15 20:40:13,230 basehttp 124 "GET /skus/search/?text=%E6%89%8B%E6%9C%BA&page=1&page_size=6 HTTP/1.0" 200 1144
+INFO 2019-05-15 20:40:14,815 basehttp 124 "GET /skus/search/?text=%E6%89%8B%E6%9C%BA&page=2&page_size=6 HTTP/1.0" 200 1256
+INFO 2019-05-15 20:40:15,734 basehttp 124 "GET /skus/search/?text=%E6%89%8B%E6%9C%BA&page=3&page_size=6 HTTP/1.0" 200 493
+INFO 2019-05-15 20:41:10,348 basehttp 124 "GET /skus/search/?text=%E6%89%8B%E6%9C%BA&page=1&page_size=6 HTTP/1.0" 200 1144
+INFO 2019-05-15 20:42:07,643 basehttp 124 "GET /skus/search/?text=%E6%89%8B%E6%9C%BA&page=1&page_size=6 HTTP/1.0" 200 2559
+INFO 2019-05-15 20:42:10,902 basehttp 124 "GET /skus/search/?text=%E6%89%8B%E6%9C%BA&page=2&page_size=6 HTTP/1.0" 200 2701
+INFO 2019-05-15 20:42:11,851 basehttp 124 "GET /skus/search/?text=%E6%89%8B%E6%9C%BA&page=3&page_size=6 HTTP/1.0" 200 985
+INFO 2019-05-15 20:42:17,023 basehttp 124 "GET /skus/search/?text=%E5%8D%8E&page=1&page_size=6 HTTP/1.0" 200 2662
+INFO 2019-05-15 20:42:20,282 basehttp 124 "GET /skus/search/?text=%E5%8D%8E&page=2&page_size=6 HTTP/1.0" 200 1829
+INFO 2019-05-15 20:43:15,123 basehttp 124 "GET /skus/search/?text=%E6%89%8B%E6%9C%BA&page=1&page_size=6 HTTP/1.0" 200 2559
+INFO 2019-05-15 20:43:18,312 basehttp 124 "GET /skus/search/?text=%E5%8D%8E&page=1&page_size=6 HTTP/1.0" 200 2662
+INFO 2019-05-15 20:43:20,780 basehttp 124 "GET /skus/search/?text=%E5%8D%8E&page=2&page_size=6 HTTP/1.0" 200 1829
+INFO 2019-05-15 20:43:22,027 basehttp 124 "GET /skus/search/?text=%E5%8D%8E&page=1&page_size=6 HTTP/1.0" 200 2662
+INFO 2019-05-15 20:43:28,715 basehttp 124 "GET /skus/search/?id=5 HTTP/1.1" 200 8342
+ERROR 2019-05-15 20:45:10,803 exception 135 Internal Server Error: /skus/search/
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/viewsets.py", line 116, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/mixins.py", line 45, in list
+    return self.get_paginated_response(serializer.data)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 768, in data
+    ret = super(ListSerializer, self).data
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 686, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 686, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/usr/local/python3/lib/python3.6/site-packages/drf_haystack/serializers.py", line 225, in to_representation
+    ret = super(HaystackSerializer, self).to_representation(instance)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 513, in to_representation
+    fields = self._readable_fields
+  File "/usr/local/python3/lib/python3.6/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 376, in _readable_fields
+    field for field in self.fields.values()
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "/usr/local/python3/lib/python3.6/site-packages/drf_haystack/serializers.py", line 206, in get_fields
+    field_mapping[field_name] = self._field_mapping[field_type](**kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/drf_haystack/fields.py", line 14, in __init__
+    super(DRFHaystackFieldMixin, self).__init__(**kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/fields.py", line 767, in __init__
+    super(CharField, self).__init__(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'max_digits'
+ERROR 2019-05-15 20:45:10,843 basehttp 124 "GET /skus/search/?text=%E6%89%8B%E6%9C%BA&page=1&page_size=6 HTTP/1.0" 500 21192
+ERROR 2019-05-15 20:45:13,940 exception 135 Internal Server Error: /skus/search/
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/viewsets.py", line 116, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/mixins.py", line 45, in list
+    return self.get_paginated_response(serializer.data)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 768, in data
+    ret = super(ListSerializer, self).data
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 686, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 686, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/usr/local/python3/lib/python3.6/site-packages/drf_haystack/serializers.py", line 225, in to_representation
+    ret = super(HaystackSerializer, self).to_representation(instance)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 513, in to_representation
+    fields = self._readable_fields
+  File "/usr/local/python3/lib/python3.6/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 376, in _readable_fields
+    field for field in self.fields.values()
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "/usr/local/python3/lib/python3.6/site-packages/drf_haystack/serializers.py", line 206, in get_fields
+    field_mapping[field_name] = self._field_mapping[field_type](**kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/drf_haystack/fields.py", line 14, in __init__
+    super(DRFHaystackFieldMixin, self).__init__(**kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/fields.py", line 767, in __init__
+    super(CharField, self).__init__(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'max_digits'
+ERROR 2019-05-15 20:45:13,990 basehttp 124 "GET /skus/search/?text=%E5%8D%8E&page=1&page_size=6 HTTP/1.0" 500 21162
+ERROR 2019-05-15 20:45:17,989 exception 135 Internal Server Error: /skus/search/
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/viewsets.py", line 116, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/mixins.py", line 45, in list
+    return self.get_paginated_response(serializer.data)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 768, in data
+    ret = super(ListSerializer, self).data
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 686, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 686, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/usr/local/python3/lib/python3.6/site-packages/drf_haystack/serializers.py", line 225, in to_representation
+    ret = super(HaystackSerializer, self).to_representation(instance)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 513, in to_representation
+    fields = self._readable_fields
+  File "/usr/local/python3/lib/python3.6/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 376, in _readable_fields
+    field for field in self.fields.values()
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "/usr/local/python3/lib/python3.6/site-packages/drf_haystack/serializers.py", line 206, in get_fields
+    field_mapping[field_name] = self._field_mapping[field_type](**kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/drf_haystack/fields.py", line 14, in __init__
+    super(DRFHaystackFieldMixin, self).__init__(**kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/fields.py", line 767, in __init__
+    super(CharField, self).__init__(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'max_digits'
+ERROR 2019-05-15 20:45:18,020 basehttp 124 "GET /skus/search/?text=%E6%89%8B%E6%9C%BA&page=1&page_size=6 HTTP/1.0" 500 21192
+ERROR 2019-05-15 20:45:21,209 exception 135 Internal Server Error: /skus/search/
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/viewsets.py", line 116, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/mixins.py", line 45, in list
+    return self.get_paginated_response(serializer.data)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 768, in data
+    ret = super(ListSerializer, self).data
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 686, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 686, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/usr/local/python3/lib/python3.6/site-packages/drf_haystack/serializers.py", line 225, in to_representation
+    ret = super(HaystackSerializer, self).to_representation(instance)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 513, in to_representation
+    fields = self._readable_fields
+  File "/usr/local/python3/lib/python3.6/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 376, in _readable_fields
+    field for field in self.fields.values()
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "/usr/local/python3/lib/python3.6/site-packages/drf_haystack/serializers.py", line 206, in get_fields
+    field_mapping[field_name] = self._field_mapping[field_type](**kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/drf_haystack/fields.py", line 14, in __init__
+    super(DRFHaystackFieldMixin, self).__init__(**kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/fields.py", line 767, in __init__
+    super(CharField, self).__init__(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'max_digits'
+ERROR 2019-05-15 20:45:21,245 basehttp 124 "GET /skus/search/?text=%E5%8D%8E&page=1&page_size=6 HTTP/1.0" 500 21162
+INFO 2019-05-15 20:46:04,114 basehttp 124 "OPTIONS /user/ HTTP/1.0" 200 0
+INFO 2019-05-15 20:46:04,185 basehttp 124 "GET /user/ HTTP/1.0" 200 104
+INFO 2019-05-15 20:46:04,203 basehttp 124 "OPTIONS /browse_histories/ HTTP/1.0" 200 0
+INFO 2019-05-15 20:46:04,276 basehttp 124 "GET /browse_histories/ HTTP/1.0" 200 1080
+INFO 2019-05-15 20:47:13,317 basehttp 124 "GET /user/ HTTP/1.0" 200 104
+INFO 2019-05-15 20:47:13,374 basehttp 124 "GET /browse_histories/ HTTP/1.0" 200 1080
+INFO 2019-05-15 20:47:17,243 basehttp 124 "OPTIONS /addresses/ HTTP/1.0" 200 0
+INFO 2019-05-15 20:47:17,343 basehttp 124 "GET /areas/ HTTP/1.0" 200 1204
+INFO 2019-05-15 20:47:17,344 basehttp 124 "GET /addresses/ HTTP/1.0" 200 65
+INFO 2019-05-15 20:47:20,651 basehttp 124 "GET /areas/ HTTP/1.0" 200 1204
+INFO 2019-05-15 20:47:20,685 basehttp 124 "GET /addresses/ HTTP/1.0" 200 65
+INFO 2019-05-15 20:47:23,560 basehttp 124 "GET /user/ HTTP/1.0" 200 104
+INFO 2019-05-15 20:47:23,621 basehttp 124 "GET /browse_histories/ HTTP/1.0" 200 1080
+INFO 2019-05-15 20:49:04,341 basehttp 124 "GET /browse_histories/ HTTP/1.0" 200 1080
+INFO 2019-05-15 20:49:10,741 basehttp 124 "GET /skus/search/?text=%E6%89%8B%E6%9C%BA&page=1&page_size=6 HTTP/1.0" 200 2559
+ERROR 2019-05-15 20:49:39,881 exception 135 Internal Server Error: /skus/search/
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/viewsets.py", line 116, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/mixins.py", line 45, in list
+    return self.get_paginated_response(serializer.data)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 768, in data
+    ret = super(ListSerializer, self).data
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 686, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 686, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/usr/local/python3/lib/python3.6/site-packages/drf_haystack/serializers.py", line 225, in to_representation
+    ret = super(HaystackSerializer, self).to_representation(instance)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 513, in to_representation
+    fields = self._readable_fields
+  File "/usr/local/python3/lib/python3.6/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 376, in _readable_fields
+    field for field in self.fields.values()
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "/usr/local/python3/lib/python3.6/site-packages/drf_haystack/serializers.py", line 206, in get_fields
+    field_mapping[field_name] = self._field_mapping[field_type](**kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/drf_haystack/fields.py", line 14, in __init__
+    super(DRFHaystackFieldMixin, self).__init__(**kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/fields.py", line 767, in __init__
+    super(CharField, self).__init__(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'max_digits'
+ERROR 2019-05-15 20:49:39,905 basehttp 124 "GET /skus/search/?text=%E6%89%8B%E6%9C%BA&page=1&page_size=6 HTTP/1.0" 500 21192
+ERROR 2019-05-15 20:49:44,232 exception 135 Internal Server Error: /skus/search/
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/viewsets.py", line 116, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/mixins.py", line 45, in list
+    return self.get_paginated_response(serializer.data)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 768, in data
+    ret = super(ListSerializer, self).data
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 686, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 686, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/usr/local/python3/lib/python3.6/site-packages/drf_haystack/serializers.py", line 225, in to_representation
+    ret = super(HaystackSerializer, self).to_representation(instance)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 513, in to_representation
+    fields = self._readable_fields
+  File "/usr/local/python3/lib/python3.6/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 376, in _readable_fields
+    field for field in self.fields.values()
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "/usr/local/python3/lib/python3.6/site-packages/drf_haystack/serializers.py", line 206, in get_fields
+    field_mapping[field_name] = self._field_mapping[field_type](**kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/drf_haystack/fields.py", line 14, in __init__
+    super(DRFHaystackFieldMixin, self).__init__(**kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/fields.py", line 767, in __init__
+    super(CharField, self).__init__(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'max_digits'
+ERROR 2019-05-15 20:49:44,323 basehttp 124 "GET /skus/search/?text=%E5%8D%8E&page=1&page_size=6 HTTP/1.0" 500 21162
+ERROR 2019-05-15 20:49:46,378 exception 135 Internal Server Error: /skus/search/
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/viewsets.py", line 116, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/mixins.py", line 45, in list
+    return self.get_paginated_response(serializer.data)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 768, in data
+    ret = super(ListSerializer, self).data
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 686, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 686, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/usr/local/python3/lib/python3.6/site-packages/drf_haystack/serializers.py", line 225, in to_representation
+    ret = super(HaystackSerializer, self).to_representation(instance)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 513, in to_representation
+    fields = self._readable_fields
+  File "/usr/local/python3/lib/python3.6/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 376, in _readable_fields
+    field for field in self.fields.values()
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "/usr/local/python3/lib/python3.6/site-packages/drf_haystack/serializers.py", line 206, in get_fields
+    field_mapping[field_name] = self._field_mapping[field_type](**kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/drf_haystack/fields.py", line 14, in __init__
+    super(DRFHaystackFieldMixin, self).__init__(**kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/fields.py", line 767, in __init__
+    super(CharField, self).__init__(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'max_digits'
+ERROR 2019-05-15 20:49:46,418 basehttp 124 "GET /skus/search/?text=%E5%8D%8E&page=1&page_size=6 HTTP/1.0" 500 21162
+ERROR 2019-05-15 20:49:51,322 exception 135 Internal Server Error: /skus/search/
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/viewsets.py", line 116, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/mixins.py", line 45, in list
+    return self.get_paginated_response(serializer.data)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 768, in data
+    ret = super(ListSerializer, self).data
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 686, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 686, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/usr/local/python3/lib/python3.6/site-packages/drf_haystack/serializers.py", line 225, in to_representation
+    ret = super(HaystackSerializer, self).to_representation(instance)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 513, in to_representation
+    fields = self._readable_fields
+  File "/usr/local/python3/lib/python3.6/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 376, in _readable_fields
+    field for field in self.fields.values()
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "/usr/local/python3/lib/python3.6/site-packages/drf_haystack/serializers.py", line 206, in get_fields
+    field_mapping[field_name] = self._field_mapping[field_type](**kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/drf_haystack/fields.py", line 14, in __init__
+    super(DRFHaystackFieldMixin, self).__init__(**kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/fields.py", line 767, in __init__
+    super(CharField, self).__init__(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'max_digits'
+ERROR 2019-05-15 20:49:51,365 basehttp 124 "GET /skus/search/?text=%E6%89%8B%E6%9C%BA&page=1&page_size=6 HTTP/1.0" 500 21192
+ERROR 2019-05-15 20:50:08,840 exception 135 Internal Server Error: /skus/search/
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/viewsets.py", line 116, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/mixins.py", line 45, in list
+    return self.get_paginated_response(serializer.data)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 768, in data
+    ret = super(ListSerializer, self).data
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 686, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 686, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/usr/local/python3/lib/python3.6/site-packages/drf_haystack/serializers.py", line 225, in to_representation
+    ret = super(HaystackSerializer, self).to_representation(instance)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 513, in to_representation
+    fields = self._readable_fields
+  File "/usr/local/python3/lib/python3.6/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 376, in _readable_fields
+    field for field in self.fields.values()
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "/usr/local/python3/lib/python3.6/site-packages/drf_haystack/serializers.py", line 206, in get_fields
+    field_mapping[field_name] = self._field_mapping[field_type](**kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/drf_haystack/fields.py", line 14, in __init__
+    super(DRFHaystackFieldMixin, self).__init__(**kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/fields.py", line 767, in __init__
+    super(CharField, self).__init__(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'max_digits'
+ERROR 2019-05-15 20:50:08,926 basehttp 124 "GET /skus/search/?text=%E6%89%8B%E6%9C%BA&page=1&page_size=6 HTTP/1.0" 500 21192
+ERROR 2019-05-15 20:50:11,305 exception 135 Internal Server Error: /skus/search/
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/viewsets.py", line 116, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/mixins.py", line 45, in list
+    return self.get_paginated_response(serializer.data)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 768, in data
+    ret = super(ListSerializer, self).data
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 686, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 686, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/usr/local/python3/lib/python3.6/site-packages/drf_haystack/serializers.py", line 225, in to_representation
+    ret = super(HaystackSerializer, self).to_representation(instance)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 513, in to_representation
+    fields = self._readable_fields
+  File "/usr/local/python3/lib/python3.6/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 376, in _readable_fields
+    field for field in self.fields.values()
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "/usr/local/python3/lib/python3.6/site-packages/drf_haystack/serializers.py", line 206, in get_fields
+    field_mapping[field_name] = self._field_mapping[field_type](**kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/drf_haystack/fields.py", line 14, in __init__
+    super(DRFHaystackFieldMixin, self).__init__(**kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/fields.py", line 767, in __init__
+    super(CharField, self).__init__(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'max_digits'
+ERROR 2019-05-15 20:50:11,340 basehttp 124 "GET /skus/search/?text=%E6%89%8B%E6%9C%BA&page=1&page_size=6 HTTP/1.0" 500 21192
+INFO 2019-05-15 20:50:26,396 basehttp 124 "GET /skus/search/?text=%E6%89%8B%E6%9C%BA&page=1&page_size=6 HTTP/1.0" 200 2559
+INFO 2019-05-15 20:50:28,489 basehttp 124 "GET /skus/search/?text=%E6%89%8B%E6%9C%BA&page=2&page_size=6 HTTP/1.0" 200 2701
+INFO 2019-05-15 20:50:29,333 basehttp 124 "GET /skus/search/?text=%E6%89%8B%E6%9C%BA&page=3&page_size=6 HTTP/1.0" 200 985
+ERROR 2019-05-15 20:50:58,196 exception 135 Internal Server Error: /skus/search/
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/viewsets.py", line 116, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/mixins.py", line 45, in list
+    return self.get_paginated_response(serializer.data)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 768, in data
+    ret = super(ListSerializer, self).data
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 686, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 686, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/usr/local/python3/lib/python3.6/site-packages/drf_haystack/serializers.py", line 225, in to_representation
+    ret = super(HaystackSerializer, self).to_representation(instance)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 513, in to_representation
+    fields = self._readable_fields
+  File "/usr/local/python3/lib/python3.6/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 376, in _readable_fields
+    field for field in self.fields.values()
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "/usr/local/python3/lib/python3.6/site-packages/drf_haystack/serializers.py", line 206, in get_fields
+    field_mapping[field_name] = self._field_mapping[field_type](**kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/drf_haystack/fields.py", line 14, in __init__
+    super(DRFHaystackFieldMixin, self).__init__(**kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/rest_framework/fields.py", line 767, in __init__
+    super(CharField, self).__init__(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'max_digits'
+ERROR 2019-05-15 20:50:58,271 basehttp 124 "GET /skus/search/?text=%E6%89%8B%E6%9C%BA&page=1&page_size=6 HTTP/1.0" 500 21192
+INFO 2019-05-15 20:51:23,467 basehttp 124 "GET /skus/search/?text=%E6%89%8B%E6%9C%BA&page=1&page_size=6 HTTP/1.0" 200 2559
+INFO 2019-05-15 20:51:25,846 basehttp 124 "GET /skus/search/?text=%E6%89%8B%E6%9C%BA&page=2&page_size=6 HTTP/1.0" 200 2701
+INFO 2019-05-15 20:51:27,197 basehttp 124 "GET /skus/search/?text=%E6%89%8B%E6%9C%BA&page=3&page_size=6 HTTP/1.0" 200 985
+INFO 2019-05-16 20:07:44,977 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-sales HTTP/1.0" 200 1269
+INFO 2019-05-16 20:07:45,857 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.0" 200 1306
+INFO 2019-05-16 20:07:46,869 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 200 1315
+INFO 2019-05-16 20:07:47,440 basehttp 124 "OPTIONS /cart/ HTTP/1.0" 200 0
+WARNING 2019-05-16 20:07:47,469 base 152 Not Found: /cart/
+WARNING 2019-05-16 20:07:47,471 basehttp 124 "GET /cart/ HTTP/1.0" 404 9525
+INFO 2019-05-16 22:12:09,823 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.0" 200 1315

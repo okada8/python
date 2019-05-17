@@ -5,7 +5,7 @@
       <sourceFolder url="file://$MODULE_DIR$/meiduo_mall/meiduo_mall/apps" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/meiduo_mall" isTestSource="false" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="Remote Python 3.6.8 (sftp://root@192.168.88.129:22/usr/bin/python)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="TestRunnerService">

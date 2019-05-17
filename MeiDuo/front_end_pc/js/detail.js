@@ -35,7 +35,7 @@ var vm = new Vue({
     },
     mounted: function(){
         // 添加用户浏览历史记录
-        this.get_sku_id();
+   this.get_sku_id();
         if (this.user_id) {
             axios.post(this.host+'/browse_histories/', {
                 sku_id: this.sku_id
@@ -106,9 +106,20 @@ var vm = new Vue({
         get_cart: function(){
 
         },
-        // 获取热销商品数据
+    // 获取热销商品数据
         get_hot_goods: function(){
-
+            axios.get(this.host+'/categories/'+this.cat+'/hotskus/', {
+                    responseType: 'json'
+                })
+                .then(response => {
+                    this.hots = response.data;
+                    for(var i=0; i<this.hots.length; i++){
+                        this.hots[i].url = '/goods/' + this.hots[i].id + '.html';
+                    }
+                })
+                .catch(error => {
+                    console.log(error.response.data);
+                })
         },
         // 获取商品评价信息
         get_comments: function(){

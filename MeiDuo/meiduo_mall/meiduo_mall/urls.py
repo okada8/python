@@ -23,4 +23,6 @@ urlpatterns = [
     url(r'^oauth/', include('oauth.urls')),#第三方登陆
     url(r'', include('areas.urls')),#地址管理
     url(r'^ckeditor/', include('ckeditor_uploader.urls')),#富文本编辑器
+    url(r'^', include('goods.urls')),#富文本编辑器
+    url(r'^', include('carts.urls')),#购物车
 ]

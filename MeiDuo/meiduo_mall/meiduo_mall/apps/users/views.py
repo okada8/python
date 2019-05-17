@@ -5,7 +5,7 @@ from rest_framework.generics import GenericAPIView, CreateAPIView,RetrieveAPIVie
 from users.models import User
 from users.serializers import CreateUserSerializer
 from .serializers import CheckSMSCodeSerializer,RestePasswordSerializer,UserDetailSerializer,EmailSerializer,\
-UserAddressSerializer,AddressTitleSerializer
+UserAddressSerializer,AddressTitleSerializer,AddUserBrowsingHistorySerializer
 from rest_framework.viewsets import GenericViewSet
 from rest_framework.decorators import action
 from .constants import USER_ADDRESS_COUNTS_LIMIT
@@ -13,6 +13,8 @@ from verifications.serializers import CheckImageCodeSerialzier
 from .utils import get_user_by_account
 from rest_framework import status,mixins
 from rest_framework.permissions import IsAuthenticated
+from django_redis import get_redis_connection
+from goods.serializers import SKU,SKUSerializers
 import re
 # Create your views here.
 
@@ -232,12 +234,32 @@ class AddressViewSet(mixins.CreateModelMixin, mixins.UpdateModelMixin, GenericVi
         return Response(serializer.data)
 
 
+class UserBrowsingHistoryView(mixins.CreateModelMixin,GenericAPIView):
+    """
+    用户浏览历史记录
+    """
+    serializer_class = AddUserBrowsingHistorySerializer
+    permission_classes = [IsAuthenticated]
 
+    def post(self, request):
+        return self.create(request)
 
+    def get(self, request):
+        """
+        获取
+        """
+        user_id = request.user.id
 
+        redis_conn = get_redis_connection("history")
+        history = redis_conn.lrange("history_%s" % user_id, 0, 4)
+        skus = []
+        # 为了保持查询出的顺序与用户的浏览历史保存顺序一致
+        for sku_id in history:
+            sku = SKU.objects.get(id=sku_id)
+            skus.append(sku)
 
-
-
+        s = SKUSerializers(skus, many=True)
+        return Response(s.data)
 
 
 
