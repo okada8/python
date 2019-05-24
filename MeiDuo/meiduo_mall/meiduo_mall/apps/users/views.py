@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from carts.utils import merge_cart_cookie_to_redis
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework.generics import GenericAPIView, CreateAPIView,RetrieveAPIView,UpdateAPIView
@@ -15,6 +16,7 @@ from rest_framework import status,mixins
 from rest_framework.permissions import IsAuthenticated
 from django_redis import get_redis_connection
 from goods.serializers import SKU,SKUSerializers
+from rest_framework_jwt.views import ObtainJSONWebToken
 import re
 # Create your views here.
 
@@ -264,8 +266,19 @@ class UserBrowsingHistoryView(mixins.CreateModelMixin,GenericAPIView):
 
 
 
+#登录的时候需要调取购物车,因为登录是用jwt验证机制，要调取购物车数据，要重写方法
+class UserAuthorizationView(ObtainJSONWebToken):
 
-
+    def post(self, request, *args, **kwargs):
+        #调用jwt扩展的方法，对用户登录数据进行验证
+        response=super().post(request)
+        #用户登录成功，进行购物车数据合并
+        serializer=self.get_serializer(data=request.data)
+        if serializer.is_valid():
+            user=serializer.validated_data.get('user')
+            #河滨购物车
+            response =merge_cart_cookie_to_redis(request,response,user)
+        return response
 
 
 

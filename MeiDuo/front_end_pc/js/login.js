@@ -46,7 +46,7 @@ var vm = new Vue({
                         password: this.password
                     }, {
                         responseType: 'json',
-                        //withCredentials: true
+                        withCredentials: true
                     })
                     .then(response => {
                         // 使用浏览器本地存储保存token
@@ -67,7 +67,7 @@ var vm = new Vue({
                         // 跳转页面
                         var return_url = this.get_query_string('next');
                         if (!return_url) {
-                            return_url = '/index1.html';
+                            return_url = '/index.html';
                         }
                         location.href = return_url;
                     })
