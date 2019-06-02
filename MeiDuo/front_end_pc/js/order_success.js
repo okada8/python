@@ -42,7 +42,7 @@ var vm = new Vue({
         // 去支付
         next_operate: function () {
             if (this.pay_method == 1) {
-                location.href = '/index1.html';
+                location.href = '/index.html';
             } else {
                 // 发起支付
                 axios.get(this.host + '/orders/' + this.order_id + '/payment/', {

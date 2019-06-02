@@ -54,7 +54,10 @@ INSTALLED_APPS = [
     'django_crontab',  # 定时任务
     'haystack',
     'carts.apps.CartsConfig',#购物车
-    'orders.apps.OrdersConfig'#订单模块
+    'orders.apps.OrdersConfig',#订单模块
+    'xadmin',
+    'crispy_forms',
+    'reversion',
 
 ]
 
