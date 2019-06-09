@@ -172,7 +172,7 @@ var vm = new Vue({
                         localStorage.token=response.data.token;
                         localStorage.username=response.data.username;
                         localStorage.user_id=response.data.user_id;
-                        location.href = '/index1.html';
+                        location.href = '/index.html';
 
 
                     })
