@@ -27,7 +27,7 @@ SECRET_KEY = 'am$1pv^rs2(@*+$aq))hoq4b8p5n93cvm!@&g5bg7axs7xw9k7'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['246856ih33.wicp.vip', '127.0.0.1', 'localhost','192.168.88.129','api.meiduo.site','image.meiduo.site','192.168.4.254']
+ALLOWED_HOSTS = ['246856ih33.wicp.vip', '127.0.0.1', 'localhost','192.168.4.254','192.168.88.129']
 
 
 # Application definition
@@ -52,17 +52,17 @@ INSTALLED_APPS = [
     'ckeditor',  # 富文本编辑器
     'ckeditor_uploader',  # 富文本编辑器上传图片模块
     'django_crontab',  # 定时任务
-    'haystack',
+    'haystack',#搜索引擎
     'carts.apps.CartsConfig',#购物车
     'orders.apps.OrdersConfig',#订单模块
-    'xadmin',
-    'crispy_forms',
-    'reversion',
+    'xadmin',#管理员
+    'crispy_forms',#管理员,
+    'reversion',#管理员,
 
 ]
 
 MIDDLEWARE = [
-    #解决跨域问题,要放在第一个
+     #解决跨域问题,要放在第一个
     'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -273,9 +273,9 @@ CORS_ORIGIN_WHITELIST = (
     '127.0.0.1:8080',
     'localhost:8080',
     '246856ih33.wicp.vip',
-    'api.meiduo.site:8000',
-    'image.meiduo.site:8888',
-    '192.168.4.254'
+    '192.168.4.254',
+    '192.168.88.129',
+
 )
 CORS_ALLOW_CREDENTIALS = True  # 允许携带cookie
 

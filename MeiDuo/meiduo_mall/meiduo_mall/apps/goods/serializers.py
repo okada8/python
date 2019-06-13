@@ -23,4 +23,6 @@ class SKUIndexSerializer(HaystackSerializer):
 
     class Meta:
         index_classes = [SKUIndex]
+        #前端传入的参数text，并且检索出数据后再使用这个序列化器返回给前端；
+        #object字段是用来向前端返回数据时序列化的字段
         fields = ('text', 'object')

@@ -5,8 +5,7 @@
       <paths name="root@192.168.88.129:22">
         <serverdata>
           <mappings>
-            <mapping deploy="/etc/my_object/meiduo" local="$PROJECT_DIR$" />
-            <mapping local="" />
+            <mapping deploy="/" local="$PROJECT_DIR$" />
           </mappings>
         </serverdata>
       </paths>

@@ -8,11 +8,11 @@ class SKUIndex(indexes.SearchIndex, indexes.Indexable):
     SKU索引数据模型类
     """
     text = indexes.CharField(document=True, use_template=True)
-    # id=indexes.IntegerField(model_attr='id')
-    # name=indexes.CharField(model_attr='name')
-    # price=indexes.CharField(model_attr='price')
-    # default_image_url=indexes.CharField(model_attr='default_image_url')
-    # comments=indexes.IntegerField(model_attr='comments')
+    id=indexes.IntegerField(model_attr='id')
+    name=indexes.CharField(model_attr='name')
+    price=indexes.CharField(model_attr='price')
+    default_image_url=indexes.CharField(model_attr='default_image_url')
+    comments=indexes.IntegerField(model_attr='comments')
 
     def get_model(self):
         """返回建立索引的模型类"""
