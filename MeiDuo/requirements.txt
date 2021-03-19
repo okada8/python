@@ -13,4 +13,4 @@ PyMySQL==0.9.3
 Pillow==6.0.0
 fdfs_client==4.0.7
 django_haystack==2.8.1
-djangorestframework==3.9.4
+djangorestframework==3.11.2
