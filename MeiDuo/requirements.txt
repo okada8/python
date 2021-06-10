@@ -7,7 +7,7 @@ djangorestframework_jwt==1.11.0
 redis==3.2.1
 xadmin==0.6.1
 django_redis==4.10.0
-Django==1.11.11
+Django==2.2.24
 drf_haystack==1.8.4
 PyMySQL==0.9.3
 Pillow==6.0.0
