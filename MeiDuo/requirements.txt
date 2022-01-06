@@ -1,7 +1,7 @@
 itsdangerous==1.1.0
 drf_extensions==0.4.0
 fdfs_client_py==1.2.6
-celery==4.3.0
+celery==5.2.2
 django_ckeditor==5.7.0
 djangorestframework_jwt==1.11.0
 redis==3.2.1
