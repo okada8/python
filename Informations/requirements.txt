@@ -2,7 +2,7 @@ Flask==1.0.3
 Flask_Session==0.3.1
 Werkzeug==0.15.4
 redis==3.2.1
-Pillow==6.0.0
+Pillow==9.0.0
 alembic==1.0.10
 flask_migrate==2.5.2
 flask_script==2.0.6
