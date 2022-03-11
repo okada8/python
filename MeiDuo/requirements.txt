@@ -10,7 +10,7 @@ django_redis==4.10.0
 Django==1.11.11
 drf_haystack==1.8.4
 PyMySQL==0.9.3
-Pillow==6.0.0
+Pillow==9.0.1
 fdfs_client==4.0.7
 django_haystack==2.8.1
 djangorestframework==3.9.4
